@@ -4,8 +4,8 @@ import os
 from github import Github
 
 # Configuration
-REPO_NAME = "Magisk-Modules-Alt-Repo"
-REPO_TITLE = "Magisk Modules Alt Repo"
+REPO_NAME = "Googlers-Magisk-Repo"
+REPO_TITLE = "Googlers Magisk Repo"
 
 # Skeleton for the repository
 meta = {
