@@ -8,6 +8,22 @@
             "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/module.prop",
             "stars": 0,
             "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip"
+        },
+        {
+            "id": "amtsmagisk",
+            "last_update": 1650811837000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/module.prop",
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip"
+        },
+        {
+            "id": "fake-shell-android-charger",
+            "last_update": 1650811895000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/module.prop",
+            "stars": 1,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
         }
     ],
     "name": "Googlers Magisk Repo"
