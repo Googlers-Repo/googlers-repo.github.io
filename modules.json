@@ -2,6 +2,13 @@
     "last_update": 1650824144000,
     "modules": [
         {
+            "details": {
+                "author": "Der_Googler",
+                "description": "Spoof your device to RAVEN pixel prop (April 2022) with an generared overlay for Samsung Galaxy A70 (GSI's only). Prop original made by Tesla",
+                "name": "Samsung Galaxy A70 Overlay",
+                "version": "2022-04-24",
+                "versionCode": "220424"
+            },
             "id": "samsung_a70_raven_prop_overlay",
             "last_update": 1650808190000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
@@ -10,6 +17,13 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip"
         },
         {
+            "details": {
+                "author": "Der_Googler & Sierra Community",
+                "description": "AntiAMTS ist ein kostenloser AdBlocker, der von SierraDevoplers bereitgestellt wird.",
+                "name": "AntiAMTS for Magisk",
+                "version": "v1.2",
+                "versionCode": "12"
+            },
             "id": "amtsmagisk",
             "last_update": 1650811837000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
@@ -18,6 +32,13 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip"
         },
         {
+            "details": {
+                "author": "Der_Googler",
+                "description": "Battery view from 1 to 100 in under one minute (Fun tool)",
+                "name": "Fake Shell Charger",
+                "version": "v1.3",
+                "versionCode": "13"
+            },
             "id": "fake-shell-android-charger",
             "last_update": 1650811895000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
@@ -26,6 +47,13 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
         },
         {
+            "details": {
+                "author": "Der_Googler",
+                "description": "Brings the Node.js environment to the Android system without Termux",
+                "name": "Node.js on Android",
+                "version": "v1.4",
+                "versionCode": "14"
+            },
             "id": "nodejs",
             "last_update": 1650813226000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/node-on-android/master/README.md",
