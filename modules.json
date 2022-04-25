@@ -45,21 +45,6 @@
             "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/module.prop",
             "stars": 1,
             "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
-        },
-        {
-            "details": {
-                "author": "Der_Googler",
-                "description": "Brings the Node.js environment to the Android system without Termux",
-                "name": "Node.js on Android",
-                "version": "v1.4",
-                "versionCode": "14"
-            },
-            "id": "nodejs",
-            "last_update": 1650813226000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/node-on-android/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/node-on-android/master/module.prop",
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/node-on-android/archive/master.zip"
         }
     ],
     "name": "Googlers Magisk Repo"
