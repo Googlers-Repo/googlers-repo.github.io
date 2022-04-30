@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 4427:
+/***/ 7023:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -106,7 +106,8 @@ var MDIcon = /*#__PURE__*/function (_React$Component) {
           size = _this$props.size,
           disabled = _this$props.disabled,
           isInList = _this$props.isInList,
-          theme = _this$props.ignoreDarkmode,
+          isInToolbar = _this$props.isInToolbar,
+          theme = _this$props.theme,
           style = _this$props.style;
       return /*#__PURE__*/react.createElement("span", {
         style: style
@@ -114,7 +115,7 @@ var MDIcon = /*#__PURE__*/function (_React$Component) {
         className: "material-icons-round " + this.typeIF(isInList, "list-item__icon", "") + " ons-icon " + "material-icons md-" + size + " md-" + theme + " " + this.typeIF(disabled, "md-inactive ", ""),
         style: {
           textAlign: "center",
-          height: "100%",
+          height: this.typeIF(isInToolbar, "56px", "100%"),
           width: "100%",
           display: "flex",
           flexDirection: "column",
@@ -129,28 +130,30 @@ var MDIcon = /*#__PURE__*/function (_React$Component) {
 }(react.Component);
 
 /* harmony default export */ const components_MDIcon = (MDIcon);
-;// CONCATENATED MODULE: ./src/MainActivity.jsx
-function MainActivity_typeof(obj) { "@babel/helpers - typeof"; return MainActivity_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, MainActivity_typeof(obj); }
+// EXTERNAL MODULE: ./node_modules/markdown-to-jsx/dist/index.modern.js
+var index_modern = __webpack_require__(6243);
+;// CONCATENATED MODULE: ./src/activitys/ViewModuleActivity.jsx
+function ViewModuleActivity_typeof(obj) { "@babel/helpers - typeof"; return ViewModuleActivity_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, ViewModuleActivity_typeof(obj); }
 
-function MainActivity_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function ViewModuleActivity_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function MainActivity_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+function ViewModuleActivity_createClass(Constructor, protoProps, staticProps) { if (protoProps) ViewModuleActivity_defineProperties(Constructor.prototype, protoProps); if (staticProps) ViewModuleActivity_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 
-function MainActivity_createClass(Constructor, protoProps, staticProps) { if (protoProps) MainActivity_defineProperties(Constructor.prototype, protoProps); if (staticProps) MainActivity_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function ViewModuleActivity_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function MainActivity_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) MainActivity_setPrototypeOf(subClass, superClass); }
+function ViewModuleActivity_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) ViewModuleActivity_setPrototypeOf(subClass, superClass); }
 
-function MainActivity_setPrototypeOf(o, p) { MainActivity_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return MainActivity_setPrototypeOf(o, p); }
+function ViewModuleActivity_setPrototypeOf(o, p) { ViewModuleActivity_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return ViewModuleActivity_setPrototypeOf(o, p); }
 
-function MainActivity_createSuper(Derived) { var hasNativeReflectConstruct = MainActivity_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = MainActivity_getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = MainActivity_getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return MainActivity_possibleConstructorReturn(this, result); }; }
+function ViewModuleActivity_createSuper(Derived) { var hasNativeReflectConstruct = ViewModuleActivity_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = ViewModuleActivity_getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = ViewModuleActivity_getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return ViewModuleActivity_possibleConstructorReturn(this, result); }; }
 
-function MainActivity_possibleConstructorReturn(self, call) { if (call && (MainActivity_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return MainActivity_assertThisInitialized(self); }
+function ViewModuleActivity_possibleConstructorReturn(self, call) { if (call && (ViewModuleActivity_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return ViewModuleActivity_assertThisInitialized(self); }
 
-function MainActivity_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function ViewModuleActivity_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
-function MainActivity_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function ViewModuleActivity_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
-function MainActivity_getPrototypeOf(o) { MainActivity_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return MainActivity_getPrototypeOf(o); }
+function ViewModuleActivity_getPrototypeOf(o) { ViewModuleActivity_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return ViewModuleActivity_getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -160,26 +163,122 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+var ViewModuleActivity = /*#__PURE__*/function (_React$Component) {
+  ViewModuleActivity_inherits(ViewModuleActivity, _React$Component);
 
-var MainActivity = /*#__PURE__*/function (_React$Component) {
-  MainActivity_inherits(MainActivity, _React$Component);
+  var _super = ViewModuleActivity_createSuper(ViewModuleActivity);
 
-  var _super = MainActivity_createSuper(MainActivity);
-
-  function MainActivity(props) {
+  function ViewModuleActivity(props) {
     var _this;
 
-    MainActivity_classCallCheck(this, MainActivity);
+    ViewModuleActivity_classCallCheck(this, ViewModuleActivity);
 
     _this = _super.call(this, props);
 
-    _defineProperty(MainActivity_assertThisInitialized(_this), "filter", function (e) {
+    _defineProperty(ViewModuleActivity_assertThisInitialized(_this), "componentDidMount", function () {
+      axios_default().get(_this.props.extra.notes).then(function (response) {
+        _this.setState({
+          notes: response.data
+        });
+      })["catch"](function (error) {// when error
+      }).then(function () {// always executed
+      });
+    });
+
+    _defineProperty(ViewModuleActivity_assertThisInitialized(_this), "renderToolbar", function () {
+      return /*#__PURE__*/react.createElement(react_onsenui.Toolbar, null, /*#__PURE__*/react.createElement("div", {
+        className: "center"
+      }, _this.props.extra.name), /*#__PURE__*/react.createElement("div", {
+        className: "right"
+      }, /*#__PURE__*/react.createElement(react_onsenui.ToolbarButton, {
+        style: {
+          padding: "0px 10px"
+        },
+        onClick: function onClick() {
+          window.open(_this.props.extra.download, "_parent");
+        }
+      }, /*#__PURE__*/react.createElement(components_MDIcon, {
+        icon: "file_download",
+        isInToolbar: true,
+        theme: "white",
+        size: "24"
+      }))));
+    });
+
+    _defineProperty(ViewModuleActivity_assertThisInitialized(_this), "render", function () {
+      return /*#__PURE__*/react.createElement(react_onsenui.Page, {
+        renderToolbar: _this.renderToolbar
+      }, /*#__PURE__*/react.createElement("div", {
+        style: {
+          height: "calc(100vh - 72px)",
+          padding: "8px"
+        },
+        className: "markdown-body-light"
+      }, /*#__PURE__*/react.createElement(index_modern/* default */.Z, null, _this.state.notes)));
+    });
+
+    _this.state = {
+      notes: ""
+    };
+    return _this;
+  }
+
+  return ViewModuleActivity_createClass(ViewModuleActivity);
+}(react.Component);
+
+/* harmony default export */ const activitys_ViewModuleActivity = (ViewModuleActivity);
+;// CONCATENATED MODULE: ./src/activitys/MainApplication.jsx
+function MainApplication_typeof(obj) { "@babel/helpers - typeof"; return MainApplication_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, MainApplication_typeof(obj); }
+
+function MainApplication_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function MainApplication_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function MainApplication_createClass(Constructor, protoProps, staticProps) { if (protoProps) MainApplication_defineProperties(Constructor.prototype, protoProps); if (staticProps) MainApplication_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+
+function MainApplication_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) MainApplication_setPrototypeOf(subClass, superClass); }
+
+function MainApplication_setPrototypeOf(o, p) { MainApplication_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return MainApplication_setPrototypeOf(o, p); }
+
+function MainApplication_createSuper(Derived) { var hasNativeReflectConstruct = MainApplication_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = MainApplication_getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = MainApplication_getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return MainApplication_possibleConstructorReturn(this, result); }; }
+
+function MainApplication_possibleConstructorReturn(self, call) { if (call && (MainApplication_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return MainApplication_assertThisInitialized(self); }
+
+function MainApplication_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function MainApplication_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function MainApplication_getPrototypeOf(o) { MainApplication_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return MainApplication_getPrototypeOf(o); }
+
+function MainApplication_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+
+
+
+var MainApplication = /*#__PURE__*/function (_React$Component) {
+  MainApplication_inherits(MainApplication, _React$Component);
+
+  var _super = MainApplication_createSuper(MainApplication);
+
+  function MainApplication(props) {
+    var _this;
+
+    MainApplication_classCallCheck(this, MainApplication);
+
+    _this = _super.call(this, props);
+
+    MainApplication_defineProperty(MainApplication_assertThisInitialized(_this), "filter", function (e) {
       _this.setState({
         search: e.target.value.toLowerCase()
       });
     });
 
-    _defineProperty(MainActivity_assertThisInitialized(_this), "triggerSearch", function () {
+    MainApplication_defineProperty(MainApplication_assertThisInitialized(_this), "triggerSearch", function () {
       var currentSerachText = _this.state.currentSerachText;
 
       _this.setState({
@@ -196,7 +295,7 @@ var MainActivity = /*#__PURE__*/function (_React$Component) {
     return _this;
   }
 
-  MainActivity_createClass(MainActivity, [{
+  MainApplication_createClass(MainApplication, [{
     key: "getSubPath",
     value: function getSubPath(url) {
       return window.location.href.replace(/(\?(.*?)=(.*)|\?)/gm, "") + url;
@@ -304,10 +403,25 @@ var MainActivity = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
+      var _this3 = this;
+
       var modules = this.state.modulesIndex.map(function (item) {
         return /*#__PURE__*/react.createElement(react_onsenui.ListItem, {
           id: item.id,
-          key: item.id
+          key: item.id,
+          onClick: function onClick() {
+            _this3.props.pushPage({
+              key: "view_".concat(item.id),
+              page: activitys_ViewModuleActivity,
+              extra: {
+                name: item.details.name,
+                download: item.zip_url,
+                id: item.id,
+                author: item.details.author,
+                notes: item.notes_url
+              }
+            });
+          }
         }, /*#__PURE__*/react.createElement("div", {
           "class": "center"
         }, /*#__PURE__*/react.createElement(src/* default */.Z, {
@@ -322,13 +436,7 @@ var MainActivity = /*#__PURE__*/function (_React$Component) {
           tagClass: 'list-item__subtitle',
           ellipsisChars: '...',
           debounceTimeoutOnResize: 200
-        }, item.details.description)), /*#__PURE__*/react.createElement("div", {
-          "class": "right"
-        }, /*#__PURE__*/react.createElement(react_onsenui.Button, {
-          onClick: function onClick() {
-            window.open(item.zip_url, "_parent");
-          }
-        }, "Download")));
+        }, item.details.description)));
       });
       return /*#__PURE__*/react.createElement(react_onsenui.Page, {
         renderToolbar: this.renderToolbar
@@ -375,10 +483,219 @@ var MainActivity = /*#__PURE__*/function (_React$Component) {
     }
   }]);
 
+  return MainApplication;
+}(react.Component);
+
+/* harmony default export */ const activitys_MainApplication = (MainApplication);
+;// CONCATENATED MODULE: ./src/activitys/MainActivity.jsx
+function MainActivity_typeof(obj) { "@babel/helpers - typeof"; return MainActivity_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, MainActivity_typeof(obj); }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { MainActivity_defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+function MainActivity_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function MainActivity_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function MainActivity_createClass(Constructor, protoProps, staticProps) { if (protoProps) MainActivity_defineProperties(Constructor.prototype, protoProps); if (staticProps) MainActivity_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+
+function MainActivity_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) MainActivity_setPrototypeOf(subClass, superClass); }
+
+function MainActivity_setPrototypeOf(o, p) { MainActivity_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return MainActivity_setPrototypeOf(o, p); }
+
+function MainActivity_createSuper(Derived) { var hasNativeReflectConstruct = MainActivity_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = MainActivity_getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = MainActivity_getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return MainActivity_possibleConstructorReturn(this, result); }; }
+
+function MainActivity_possibleConstructorReturn(self, call) { if (call && (MainActivity_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return MainActivity_assertThisInitialized(self); }
+
+function MainActivity_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function MainActivity_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function MainActivity_getPrototypeOf(o) { MainActivity_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return MainActivity_getPrototypeOf(o); }
+
+function MainActivity_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+var MainActivity = /*#__PURE__*/function (_Component) {
+  MainActivity_inherits(MainActivity, _Component);
+
+  var _super = MainActivity_createSuper(MainActivity);
+
+  function MainActivity(props) {
+    var _this;
+
+    MainActivity_classCallCheck(this, MainActivity);
+
+    _this = _super.call(this, props);
+
+    MainActivity_defineProperty(MainActivity_assertThisInitialized(_this), "componentDidMount", function () {
+      window.addEventListener("load", _this.windowLoadPush);
+    });
+
+    MainActivity_defineProperty(MainActivity_assertThisInitialized(_this), "componentWillUnmount", function () {
+      window.removeEventListener("load", _this.windowLoadPush);
+    });
+
+    MainActivity_defineProperty(MainActivity_assertThisInitialized(_this), "windowLoadPush", function () {
+      if (typeof history.pushState === "function") {
+        history.pushState("jibberish", null, null);
+
+        window.onpopstate = function () {
+          history.pushState("newjibberish", null, null);
+
+          if (_this.state.currentPage === "main") {
+            if (window, navigator.userAgent === "FPL") {
+              window.Android.close();
+            } else {
+              window.close();
+            }
+          } else {
+            _this.popPage();
+          }
+        };
+      } else {
+        var ignoreHashChange = true;
+
+        window.onhashchange = function () {
+          if (!ignoreHashChange) {
+            ignoreHashChange = true;
+            window.location.hash = Math.random();
+          } else {
+            ignoreHashChange = false;
+          }
+        };
+      }
+    });
+
+    var routeConfig = react_onsenui.RouterUtil.init([{
+      component: activitys_MainApplication,
+      props: {
+        key: "main",
+        pushPage: function pushPage() {
+          var _this2;
+
+          return (_this2 = _this).pushPage.apply(_this2, arguments);
+        }
+      }
+    }]);
+    _this.state = {
+      routeConfig: routeConfig,
+      currentPage: "main"
+    };
+    return _this;
+  }
+
+  MainActivity_createClass(MainActivity, [{
+    key: "pushPage",
+    value: function pushPage(props) {
+      var _this3 = this;
+
+      var route = {
+        component: props.page,
+        props: {
+          key: props.key,
+          extra: props.extra,
+          popPage: function popPage() {
+            return _this3.popPage();
+          },
+          pushPage: function pushPage() {
+            return _this3.pushPage.apply(_this3, arguments);
+          }
+        }
+      };
+      var routeConfig = this.state.routeConfig;
+      routeConfig = react_onsenui.RouterUtil.push({
+        routeConfig: routeConfig,
+        route: route
+      });
+      this.setState({
+        routeConfig: routeConfig,
+        currentPage: props.key
+      });
+    }
+  }, {
+    key: "popPage",
+    value: function popPage() {
+      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      var routeConfig = this.state.routeConfig;
+      routeConfig = react_onsenui.RouterUtil.pop({
+        routeConfig: routeConfig,
+        options: _objectSpread(_objectSpread({}, options), {}, {
+          animationOptions: {
+            duration: 0.2,
+            timing: "ease-in",
+            animation: "fade-md"
+          }
+        })
+      });
+      this.setState({
+        routeConfig: routeConfig
+      });
+      this.setState({
+        currentPage: "main"
+      });
+    }
+  }, {
+    key: "onPostPush",
+    value: function onPostPush() {
+      var routeConfig = react_onsenui.RouterUtil.postPush(this.state.routeConfig);
+      this.setState({
+        routeConfig: routeConfig
+      });
+    }
+  }, {
+    key: "onPostPop",
+    value: function onPostPop() {
+      var routeConfig = react_onsenui.RouterUtil.postPop(this.state.routeConfig);
+      this.setState({
+        routeConfig: routeConfig
+      });
+    }
+  }, {
+    key: "renderPage",
+    value: function renderPage(route) {
+      var props = route.props || {};
+      return /*#__PURE__*/react.createElement(route.component, props);
+    }
+  }, {
+    key: "renderToolbar",
+    value: function renderToolbar() {
+      return /*#__PURE__*/react.createElement(react_onsenui.Toolbar, null, /*#__PURE__*/react.createElement("div", {
+        className: "left"
+      }, /*#__PURE__*/react.createElement(react_onsenui.BackButton, null)), /*#__PURE__*/react.createElement("div", {
+        className: "center"
+      }, "Stateless Navigator"));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this4 = this;
+
+      return /*#__PURE__*/react.createElement(react_onsenui.Page, null, /*#__PURE__*/react.createElement(react_onsenui.RouterNavigator, {
+        swipeable: true,
+        swipePop: function swipePop(options) {
+          return _this4.popPage(options);
+        },
+        routeConfig: this.state.routeConfig,
+        renderPage: this.renderPage,
+        onPostPush: function onPostPush() {
+          return _this4.onPostPush();
+        },
+        onPostPop: function onPostPop() {
+          return _this4.onPostPop();
+        }
+      }));
+    }
+  }]);
+
   return MainActivity;
 }(react.Component);
 
-/* harmony default export */ const src_MainActivity = (MainActivity);
+/* harmony default export */ const activitys_MainActivity = (MainActivity);
 // EXTERNAL MODULE: ./node_modules/onsenui/esm/index.js + 9 modules
 var esm = __webpack_require__(6566);
 ;// CONCATENATED MODULE: ./src/styles/theme.js
@@ -5817,6 +6134,8 @@ function src_defineProperty(obj, key, value) { if (key in obj) { Object.definePr
 
 
 
+
+
 var Bootloader = /*#__PURE__*/function () {
   function Bootloader() {
     src_classCallCheck(this, Bootloader);
@@ -5835,7 +6154,7 @@ var Bootloader = /*#__PURE__*/function () {
   }, {
     key: "loadActivity",
     value: function loadActivity() {
-      react_dom.render( /*#__PURE__*/react.createElement(src_MainActivity, null), this.mountNode);
+      react_dom.render( /*#__PURE__*/react.createElement(activitys_MainActivity, null), this.mountNode);
     }
   }, {
     key: "init",
@@ -6057,7 +6376,7 @@ new Bootloader().init();
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(4427)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(7023)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
