@@ -45,6 +45,21 @@
             "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/module.prop",
             "stars": 1,
             "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
+        },
+        {
+            "details": {
+                "author": "Der_Googler",
+                "description": "Easy file sharing from the command line",
+                "name": "Transfer on Android",
+                "version": "2022-04-30",
+                "versionCode": "20220430"
+            },
+            "id": "transfer_on_android",
+            "last_update": 1651340860000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/transfer-on-android/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/transfer-on-android/master/module.prop",
+            "stars": 1,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/transfer-on-android/archive/master.zip"
         }
     ],
     "name": "Googlers Magisk Repo"
