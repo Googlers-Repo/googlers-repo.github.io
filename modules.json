@@ -49,6 +49,21 @@
         {
             "details": {
                 "author": "Der_Googler",
+                "description": "Systemlessly mksh.rc for better Terminal experience. Termux environment is also useable.",
+                "name": "Systemless mksh.rc",
+                "version": "1.0",
+                "versionCode": "1"
+            },
+            "id": "mkshrc",
+            "last_update": 1651854270000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/module.prop",
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip"
+        },
+        {
+            "details": {
+                "author": "Der_Googler",
                 "description": "Easy file sharing from the command line",
                 "name": "Transfer on Android",
                 "version": "2022-04-30",
