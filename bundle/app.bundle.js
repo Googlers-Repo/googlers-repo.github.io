@@ -373,7 +373,6 @@ class Item extends react.Component {
         ref: this.searchedCard,
         tappable: true,
         id: props.id,
-        disabled: true,
         key: props.id,
         onClick: () => {
           pushPage({
