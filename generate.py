@@ -35,18 +35,8 @@ for repo in repos:
             lhs, rhs = line.split("=", 1)
             moduleprop[lhs] = rhs
         
-        # Create meta module information
-        details = {
-            "name": moduleprop["name"],
-            "version": moduleprop["version"],
-            "versionCode": moduleprop["versionCode"],
-            "author": moduleprop["author"],
-            "description": moduleprop["description"]
-        }
-        
         module = {
             "id": moduleprop["id"],
-            "details": details,
             "last_update": int(repo.updated_at.timestamp() * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
             "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
