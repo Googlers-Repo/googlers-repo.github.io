@@ -2,13 +2,6 @@
     "last_update": 1651330455000,
     "modules": [
         {
-            "details": {
-                "author": "Der_Googler",
-                "description": "Spoof your device to RAVEN pixel prop (April 2022) with an generared overlay for Samsung Galaxy A70 (GSI's only). Prop original made by Tesla",
-                "name": "Samsung Galaxy A70 Overlay",
-                "version": "2022-04-24",
-                "versionCode": "220424"
-            },
             "id": "samsung_a70_raven_prop_overlay",
             "last_update": 1650808190000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
@@ -17,13 +10,6 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip"
         },
         {
-            "details": {
-                "author": "Der_Googler & Sierra Community",
-                "description": "AntiAMTS ist ein kostenloser AdBlocker, der von SierraDevoplers bereitgestellt wird.",
-                "name": "AntiAMTS for Magisk",
-                "version": "v1.2",
-                "versionCode": "12"
-            },
             "id": "amtsmagisk",
             "last_update": 1650811837000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
@@ -32,13 +18,6 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip"
         },
         {
-            "details": {
-                "author": "Der_Googler",
-                "description": "Battery view from 1 to 100 in under one minute (Fun tool)",
-                "name": "Fake Shell Charger",
-                "version": "v1.3",
-                "versionCode": "13"
-            },
             "id": "fake-shell-android-charger",
             "last_update": 1652591245000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
@@ -47,13 +26,6 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
         },
         {
-            "details": {
-                "author": "Der_Googler",
-                "description": "Systemlessly mksh.rc for better Terminal experience. Termux environment is also useable.",
-                "name": "Systemless mksh.rc",
-                "version": "2022-05-08",
-                "versionCode": "20220508"
-            },
             "id": "mkshrc",
             "last_update": 1651943112000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
@@ -62,13 +34,6 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip"
         },
         {
-            "details": {
-                "author": "Der_Googler",
-                "description": "Easy file sharing from the command line",
-                "name": "Transfer on Android",
-                "version": "2022-04-30",
-                "versionCode": "20220430"
-            },
             "id": "transfer_on_android",
             "last_update": 1651340860000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/transfer-on-android/master/README.md",
