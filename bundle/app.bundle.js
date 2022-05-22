@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 4491:
+/***/ 995:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -96,6 +96,18 @@ class MDIcon extends react.Component {
 }
 
 /* harmony default export */ const components_MDIcon = (MDIcon);
+// EXTERNAL MODULE: ./node_modules/react-toastify/dist/react-toastify.esm.js
+var react_toastify_esm = __webpack_require__(2132);
+;// CONCATENATED MODULE: ./src/utils/getUrlPrarm.js
+function getUrlParam(param) {
+  param = param.replace(/([\[\](){}*?+^$.\\|])/g, "\\$1");
+  var regex = new RegExp("[?&]" + param + "=([^&#]*)");
+  var url = decodeURIComponent(window.location.href);
+  var match = regex.exec(url);
+  return match ? match[1] : "";
+}
+
+/* harmony default export */ const getUrlPrarm = (getUrlParam);
 ;// CONCATENATED MODULE: ./src/utils/getSubPath.js
 function getSubPath(url) {
   return window.location.href.replace(/(\?(.*?)=(.*)|\?)/gm, "") + url;
@@ -115,12 +127,168 @@ function validURL(str) {
 }
 
 /* harmony default export */ const validUrl = (validURL);
-// EXTERNAL MODULE: ./node_modules/react-scroll-horizontal/dist/index.es.js
-var index_es = __webpack_require__(5422);
 // EXTERNAL MODULE: ./node_modules/markdown-to-jsx/dist/index.modern.js
 var index_modern = __webpack_require__(6243);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Alert.js + 46 modules
+var Alert = __webpack_require__(6224);
+;// CONCATENATED MODULE: ./src/components/icons/VerfifiedIcon.jsx
+
+
+class VerifiedIcon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      "aria-hidden": "true",
+      height: size,
+      viewBox: "0 0 16 16",
+      version: "1.1",
+      width: size,
+      "data-view-component": "true",
+      className: "octicon octicon-verified ml-1 " + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      d: "M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z"
+    }));
+  }
+
+}
+
+VerifiedIcon.defaultProps = {
+  size: "16"
+};
+/* harmony default export */ const VerfifiedIcon = (VerifiedIcon);
+;// CONCATENATED MODULE: ./src/components/icons/WarningIcon.jsx
+
+
+class Warningicon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      "aria-hidden": "true",
+      height: size,
+      viewBox: "0 0 16 16",
+      version: "1.1",
+      width: size,
+      "data-view-component": "true",
+      className: "octicon octicon-report " + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      "fill-rule": "evenodd",
+      d: "M1.75 1.5a.25.25 0 00-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h6.5a.25.25 0 00.25-.25v-9.5a.25.25 0 00-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0114.25 13H8.06l-2.573 2.573A1.457 1.457 0 013 14.543V13H1.75A1.75 1.75 0 010 11.25v-9.5zM9 9a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"
+    }));
+  }
+
+}
+
+Warningicon.defaultProps = {
+  size: "16"
+};
+/* harmony default export */ const WarningIcon = (Warningicon);
+// EXTERNAL MODULE: ./node_modules/@mui/material/Accordion/Accordion.js + 7 modules
+var Accordion = __webpack_require__(3731);
+// EXTERNAL MODULE: ./node_modules/@mui/material/AccordionSummary/AccordionSummary.js + 1 modules
+var AccordionSummary = __webpack_require__(7425);
+// EXTERNAL MODULE: ./node_modules/@mui/material/AccordionDetails/AccordionDetails.js + 1 modules
+var AccordionDetails = __webpack_require__(5092);
+// EXTERNAL MODULE: ./node_modules/@mui/icons-material/ExpandMore.js
+var ExpandMore = __webpack_require__(3508);
+;// CONCATENATED MODULE: ./src/components/Changelog.jsx
+
+
+
+
+
+
+class Changelog extends react.Component {
+  render() {
+    var {
+      version,
+      children
+    } = this.props;
+    return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(Accordion/* default */.Z, null, /*#__PURE__*/react.createElement(AccordionSummary/* default */.Z, {
+      expandIcon: /*#__PURE__*/react.createElement(ExpandMore/* default */.Z, null),
+      "aria-controls": "panel1a-content",
+      id: version
+    }, /*#__PURE__*/react.createElement("span", null, version)), /*#__PURE__*/react.createElement(AccordionDetails/* default */.Z, null, /*#__PURE__*/react.createElement("span", null, children))));
+  }
+
+}
+
+/* harmony default export */ const components_Changelog = (Changelog);
+;// CONCATENATED MODULE: ./src/components/icons/CheckIcon.jsx
+
+
+class CheckIcon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      width: size,
+      viewBox: "0 0 16 16",
+      version: "1.1",
+      height: size,
+      "aria-hidden": "true",
+      className: "octicon octicon-check color-fg-success ml-n3 v-align-middle " + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      "fill-rule": "evenodd",
+      d: "M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"
+    }));
+  }
+
+}
+
+CheckIcon.defaultProps = {
+  size: "13"
+};
+/* harmony default export */ const icons_CheckIcon = (CheckIcon);
+;// CONCATENATED MODULE: ./src/components/icons/DangerIcon.jsx
+
+
+class DangerIcon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      width: size,
+      viewBox: "0 0 16 16",
+      version: "1.1",
+      height: size,
+      "aria-hidden": "true",
+      className: "octicon octicon-x color-fg-danger ml-n3 v-align-middle " + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      "fill-rule": "evenodd",
+      d: "M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"
+    }));
+  }
+
+}
+
+DangerIcon.defaultProps = {
+  size: "13"
+};
+/* harmony default export */ const icons_DangerIcon = (DangerIcon);
 ;// CONCATENATED MODULE: ./src/activitys/ViewModuleActivity.jsx
 function ViewModuleActivity_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
 
 
 
@@ -143,7 +311,7 @@ class ViewModuleActivity extends react.Component {
       }).catch(error => {
         if (error.response.status === 404) {
           this.setState({
-            notes: "# 404: Not Found\n\n The author doesn't have created or uploaded an `README.md`, please try again later."
+            notes: "# 404: Not Found\n\n The author doesn't have created or uploaded an `README.md`, please try again later.\n\n\n## About Readme's\n\n- <dangericon color=\"#cf222e\" size=\"16\"/> readme.md\n- <checkicon color=\"#1a7f37\" size=\"16\"/> README.md"
           });
         }
       }).then(() => {// always executed
@@ -151,6 +319,13 @@ class ViewModuleActivity extends react.Component {
     });
 
     ViewModuleActivity_defineProperty(this, "renderToolbar", () => {
+      var {
+        minMagisk,
+        minApi,
+        maxApi,
+        needsRamdisk,
+        changeBoot
+      } = this.props.extra.moduleProps;
       return /*#__PURE__*/react.createElement(react_onsenui.Toolbar, null, /*#__PURE__*/react.createElement("div", {
         className: "left"
       }, /*#__PURE__*/react.createElement(react_onsenui.BackButton // @ts-ignore
@@ -158,9 +333,38 @@ class ViewModuleActivity extends react.Component {
         onClick: () => {
           this.props.popPage();
         }
-      })), /*#__PURE__*/react.createElement("div", {
+      })), (() => {
+        // Don't show up if nothing ot these exists
+        if ((minMagisk || minApi || maxApi || needsRamdisk || changeBoot) != ( false || undefined)) {
+          return /*#__PURE__*/react.createElement("div", {
+            className: "right"
+          }, /*#__PURE__*/react.createElement(react_onsenui.ToolbarButton, {
+            style: {
+              padding: "0px 10px"
+            },
+            onClick: this.showDialog
+          }, /*#__PURE__*/react.createElement(components_MDIcon, {
+            icon: "info",
+            isInToolbar: true,
+            theme: "white",
+            size: "24"
+          })));
+        }
+      })(), /*#__PURE__*/react.createElement("div", {
         className: "center"
       }, this.props.extra.name));
+    });
+
+    ViewModuleActivity_defineProperty(this, "showDialog", () => {
+      this.setState({
+        dialogShown: true
+      });
+    });
+
+    ViewModuleActivity_defineProperty(this, "hideDialog", () => {
+      this.setState({
+        dialogShown: false
+      });
     });
 
     ViewModuleActivity_defineProperty(this, "render", () => {
@@ -169,8 +373,14 @@ class ViewModuleActivity extends react.Component {
         minApi,
         maxApi,
         needsRamdisk,
-        changeBoot
+        changeBoot,
+        name,
+        stars
       } = this.props.extra.moduleProps;
+      var {
+        verified,
+        low
+      } = this.props.extra.moduleOptions;
       return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(react_onsenui.Page, {
         renderToolbar: this.renderToolbar
       }, /*#__PURE__*/react.createElement("div", {
@@ -180,55 +390,38 @@ class ViewModuleActivity extends react.Component {
         },
         className: "markdown-body-light"
       }, (() => {
-        // Don't show up if nothing ot these exists
-        if ((minMagisk || minApi || maxApi || needsRamdisk || changeBoot) != ( false || undefined)) {
-          return /*#__PURE__*/react.createElement("table", {
-            style: {
-              width: "100%"
-            }
-          }, (() => {
-            if (minMagisk != ( false || undefined)) {
-              return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
-                style: {
-                  width: "100%"
-                }
-              }, "Min. Magisk"), /*#__PURE__*/react.createElement("td", null, minMagisk));
-            }
-          })(), (() => {
-            if (minApi != ( false || undefined)) {
-              return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
-                style: {
-                  width: "100%"
-                }
-              }, "Min. Android"), /*#__PURE__*/react.createElement("td", null, minApi));
-            }
-          })(), (() => {
-            if (maxApi != ( false || undefined)) {
-              return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
-                style: {
-                  width: "100%"
-                }
-              }, "Max. Android"), /*#__PURE__*/react.createElement("td", null, maxApi));
-            }
-          })(), (() => {
-            if (needsRamdisk != ( false || undefined)) {
-              return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
-                style: {
-                  width: "100%"
-                }
-              }, "needsRamdisk"), /*#__PURE__*/react.createElement("td", null, needsRamdisk));
-            }
-          })(), (() => {
-            if (changeBoot != ( false || undefined)) {
-              return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
-                style: {
-                  width: "100%"
-                }
-              }, "changeBoot"), /*#__PURE__*/react.createElement("td", null, changeBoot));
-            }
-          })());
+        if (verified) {
+          return /*#__PURE__*/react.createElement(Alert/* default */.Z, {
+            key: "verified-module",
+            variant: "success"
+          }, /*#__PURE__*/react.createElement("strong", null, /*#__PURE__*/react.createElement(VerfifiedIcon, {
+            color: "#0f5132"
+          })), " ", "This module has been verified!");
         }
-      })(), /*#__PURE__*/react.createElement(index_modern/* default */.Z, null, this.state.notes)), /*#__PURE__*/react.createElement("div", {
+      })(), (() => {
+        if (low) {
+          return /*#__PURE__*/react.createElement(Alert/* default */.Z, {
+            key: "low-module",
+            variant: "warning"
+          }, /*#__PURE__*/react.createElement("strong", null, /*#__PURE__*/react.createElement(WarningIcon, {
+            color: "#664d03"
+          })), " ", "This is an low-quality module!");
+        }
+      })(), /*#__PURE__*/react.createElement(index_modern/* default */.Z, {
+        options: {
+          overrides: {
+            changelog: {
+              component: components_Changelog
+            },
+            checkicon: {
+              component: icons_CheckIcon
+            },
+            dangericon: {
+              component: icons_DangerIcon
+            }
+          }
+        }
+      }, this.state.notes)), /*#__PURE__*/react.createElement("div", {
         style: {
           position: "fixed",
           display: "flex",
@@ -249,19 +442,70 @@ class ViewModuleActivity extends react.Component {
           padding: "4px"
         }
       }), /*#__PURE__*/react.createElement(react_onsenui.Button, {
-        style: {
-          zIndex: 999999999
-        },
         modifier: "large",
+        disabled: true,
         onClick: () => {
           esm["default"].notification.alert("The option will be available in the future");
         }
-      }, "Install"))));
+      }, "Install")), /*#__PURE__*/react.createElement(react_onsenui.Dialog, {
+        visible: this.state.dialogShown,
+        cancelable: true,
+        onDialogCancel: this.hideDialog
+      }, /*#__PURE__*/react.createElement("div", {
+        style: {
+          margin: "20px"
+        },
+        className: "markdown-body-light"
+      }, /*#__PURE__*/react.createElement("table", {
+        style: {
+          width: "100%"
+        }
+      }, /*#__PURE__*/react.createElement("th", null, "Informations"), (() => {
+        if (minMagisk != ( false || undefined)) {
+          return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
+            style: {
+              width: "100%"
+            }
+          }, "Min. Magisk"), /*#__PURE__*/react.createElement("td", null, minMagisk));
+        }
+      })(), (() => {
+        if (minApi != ( false || undefined)) {
+          return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
+            style: {
+              width: "100%"
+            }
+          }, "Min. Android"), /*#__PURE__*/react.createElement("td", null, minApi));
+        }
+      })(), (() => {
+        if (maxApi != ( false || undefined)) {
+          return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
+            style: {
+              width: "100%"
+            }
+          }, "Max. Android"), /*#__PURE__*/react.createElement("td", null, maxApi));
+        }
+      })(), (() => {
+        if (needsRamdisk != ( false || undefined)) {
+          return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
+            style: {
+              width: "100%"
+            }
+          }, "needsRamdisk"), /*#__PURE__*/react.createElement("td", null, needsRamdisk));
+        }
+      })(), (() => {
+        if (changeBoot != ( false || undefined)) {
+          return /*#__PURE__*/react.createElement("tr", null, /*#__PURE__*/react.createElement("td", {
+            style: {
+              width: "100%"
+            }
+          }, "changeBoot"), /*#__PURE__*/react.createElement("td", null, changeBoot));
+        }
+      })())))));
     });
 
     this.state = {
       notes: "",
-      toastShown: false
+      dialogShown: false
     };
   }
 
@@ -321,8 +565,57 @@ ref(id
 }
 
 /* harmony default export */ const utils_ref = (ref);
-// EXTERNAL MODULE: ./node_modules/@mui/material/Chip/Chip.js + 99 modules
-var Chip = __webpack_require__(153);
+// EXTERNAL MODULE: ./node_modules/@mui/material/Chip/Chip.js + 2 modules
+var Chip = __webpack_require__(461);
+;// CONCATENATED MODULE: ./src/utils/Logger.js
+class Logger {
+  constructor(tag) {
+    this.tag = tag;
+  }
+
+  log() {
+    for (var _len = arguments.length, message = new Array(_len), _key = 0; _key < _len; _key++) {
+      message[_key] = arguments[_key];
+    }
+
+    console.log("[" + this.tag + "]", ...message);
+  }
+
+  info() {
+    for (var _len2 = arguments.length, message = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+      message[_key2] = arguments[_key2];
+    }
+
+    console.info("[" + this.tag + "]", ...message);
+  }
+
+  warn() {
+    for (var _len3 = arguments.length, message = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+      message[_key3] = arguments[_key3];
+    }
+
+    console.warn("[" + this.tag + "]", ...message);
+  }
+
+  error() {
+    for (var _len4 = arguments.length, message = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
+      message[_key4] = arguments[_key4];
+    }
+
+    console.error("[" + this.tag + "]", ...message);
+  }
+
+  debug() {
+    for (var _len5 = arguments.length, message = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
+      message[_key5] = arguments[_key5];
+    }
+
+    console.debug("[" + this.tag + "]", ...message);
+  }
+
+}
+
+/* harmony default export */ const utils_Logger = (Logger);
 ;// CONCATENATED MODULE: ./src/components/Item.jsx
 function Item_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -331,6 +624,8 @@ function Item_defineProperty(obj, key, value) { if (key in obj) { Object.defineP
 
 
 var Properties = __webpack_require__(8759);
+
+
 
 
 
@@ -353,37 +648,60 @@ class Item extends react.Component {
       });
     });
 
+    Item_defineProperty(this, "openReadmeFromParam", e => {
+      this.componentDidMount;
+      var {
+        getId
+      } = this.props;
+
+      try {
+        var modul = getUrlPrarm("module");
+
+        if (modul == getId) {
+          setTimeout(() => {
+            this.log.info("Module found! Open ".concat(this.state.props.name));
+            e.click();
+          }, 2000);
+        }
+      } catch (error) {
+        this.log.warn("Failed to open given module");
+      }
+    });
+
     Item_defineProperty(this, "render", () => {
-      var _moduleOptions$props$;
+      var _moduleOptions$getId3;
 
       var {
         notesUrl,
         downloadUrl,
         pushPage,
-        moduleOptions
+        moduleOptions,
+        stars,
+        last_update,
+        getId
       } = this.props;
       var {
         props
       } = this.state;
       return /*#__PURE__*/react.createElement("div", {
-        style: {
-          display: (_moduleOptions$props$ = moduleOptions[props.id]) === null || _moduleOptions$props$ === void 0 ? void 0 : _moduleOptions$props$.display
-        }
-      }, /*#__PURE__*/react.createElement(react_onsenui.ListItem, {
-        ref: this.searchedCard,
-        tappable: true,
-        id: props.id,
-        key: props.id,
+        ref: this.openReadmeFromParam,
         onClick: () => {
+          var _moduleOptions$getId, _moduleOptions$getId2;
+
           pushPage({
             key: "view_".concat(props.id),
             page: activitys_ViewModuleActivity,
             extra: {
               name: props.name,
               download: downloadUrl,
-              id: props.id,
+              id: getId,
               author: props.author,
               notes: notesUrl,
+              stars: stars,
+              moduleOptions: {
+                verified: (_moduleOptions$getId = moduleOptions[getId]) === null || _moduleOptions$getId === void 0 ? void 0 : _moduleOptions$getId.verified,
+                low: (_moduleOptions$getId2 = moduleOptions[getId]) === null || _moduleOptions$getId2 === void 0 ? void 0 : _moduleOptions$getId2.low
+              },
               moduleProps: {
                 minMagisk: props.minMagisk,
                 minApi: props.minApi,
@@ -394,18 +712,23 @@ class Item extends react.Component {
             }
           });
         }
+      }, /*#__PURE__*/react.createElement(react_onsenui.Card, {
+        id: getId,
+        key: getId,
+        style: {
+          display: (_moduleOptions$getId3 = moduleOptions[getId]) === null || _moduleOptions$getId3 === void 0 ? void 0 : _moduleOptions$getId3.display,
+          marginTop: "4px",
+          marginBottom: "4px"
+        }
       }, /*#__PURE__*/react.createElement("div", {
-        class: "center"
-      }, /*#__PURE__*/react.createElement(src/* default */.Z, {
-        lines: 1,
-        tag: "span",
-        tagClass: "list-item__title",
-        ellipsisChars: "...",
-        debounceTimeoutOnResize: 200
+        className: "item-card-wrapper",
+        ref: this.searchedCard
+      }, /*#__PURE__*/react.createElement("div", {
+        className: "title item-title"
       }, (() => {
-        var _moduleOptions$props$2;
+        var _moduleOptions$getId4;
 
-        if ((_moduleOptions$props$2 = moduleOptions[props.id]) !== null && _moduleOptions$props$2 !== void 0 && _moduleOptions$props$2.low) {
+        if ((_moduleOptions$getId4 = moduleOptions[getId]) !== null && _moduleOptions$getId4 !== void 0 && _moduleOptions$getId4.low) {
           return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(Chip/* default */.Z, {
             onClick: () => {
               esm["default"].notification.alert("This module has a bad module.prop");
@@ -419,40 +742,22 @@ class Item extends react.Component {
       })(), /*#__PURE__*/react.createElement("span", {
         ref: this.cardName
       }, props.name), (() => {
-        var _moduleOptions$props$3;
+        var _moduleOptions$getId5;
 
-        if ((_moduleOptions$props$3 = moduleOptions[props.id]) !== null && _moduleOptions$props$3 !== void 0 && _moduleOptions$props$3.verified) {
-          return /*#__PURE__*/react.createElement(react.Fragment, null, " ", /*#__PURE__*/react.createElement("svg", {
-            "aria-hidden": "true",
-            height: "16",
-            viewBox: "0 0 16 16",
-            version: "1.1",
-            width: "16",
-            "data-view-component": "true"
-          }, /*#__PURE__*/react.createElement("path", {
-            "fill-rule": "evenodd",
-            fill: "#4a148c",
-            d: "M9.585.52a2.678 2.678 0 00-3.17 0l-.928.68a1.178 1.178 0 01-.518.215L3.83 1.59a2.678 2.678 0 00-2.24 2.24l-.175 1.14a1.178 1.178 0 01-.215.518l-.68.928a2.678 2.678 0 000 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 002.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 003.17 0l.928-.68a1.17 1.17 0 01.518-.215l1.138-.175a2.678 2.678 0 002.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 000-3.17l-.68-.928a1.179 1.179 0 01-.215-.518L14.41 3.83a2.678 2.678 0 00-2.24-2.24l-1.138-.175a1.179 1.179 0 01-.518-.215L9.585.52zM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 00-.489 1.18l-.174 1.136a1.178 1.178 0 01-.987.987l-1.137.174a2.678 2.678 0 00-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 00-1.18-.489l-1.136-.174a1.178 1.178 0 01-.987-.987l-.174-1.137a2.678 2.678 0 00-.489-1.18l-.68-.927a1.178 1.178 0 010-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 001.18-.489l.927-.68zM11.28 6.78a.75.75 0 00-1.06-1.06L7 8.94 5.78 7.72a.75.75 0 00-1.06 1.06l1.75 1.75a.75.75 0 001.06 0l3.75-3.75z"
-          })));
+        if ((_moduleOptions$getId5 = moduleOptions[getId]) !== null && _moduleOptions$getId5 !== void 0 && _moduleOptions$getId5.verified) {
+          return /*#__PURE__*/react.createElement(react.Fragment, null, " ", /*#__PURE__*/react.createElement(VerfifiedIcon, {
+            color: "#4a148c"
+          }));
         }
-      })()), /*#__PURE__*/react.createElement(src/* default */.Z, {
-        lines: 1,
-        tag: "span",
-        tagClass: "list-item__subtitle",
-        ellipsisChars: "...",
-        debounceTimeoutOnResize: 200,
-        style: {
-          fontSize: "12px",
-          marginBottom: "3px",
-          matginTop: "0px"
-        }
-      }, props.version + " / " + props.author), /*#__PURE__*/react.createElement(src/* default */.Z, {
-        lines: 3,
-        tag: "span",
-        tagClass: "list-item__subtitle",
-        ellipsisChars: "...",
-        debounceTimeoutOnResize: 200
-      }, props.description))));
+      })()), /*#__PURE__*/react.createElement("div", {
+        class: "content"
+      }, /*#__PURE__*/react.createElement("span", {
+        className: "item-version-author"
+      }, props.version + " / " + props.author), /*#__PURE__*/react.createElement("span", {
+        className: "item-description"
+      }, props.description), /*#__PURE__*/react.createElement("span", {
+        className: "item-last-update"
+      }, "Last update: ", this.formatDate(new Date(last_update)))))));
     });
 
     this.state = {
@@ -460,6 +765,7 @@ class Item extends react.Component {
     };
     this.searchedCard = /*#__PURE__*/react.createRef();
     this.cardName = /*#__PURE__*/react.createRef();
+    this.log = new utils_Logger(this.constructor.name);
   }
 
   componentDidUpdate() {
@@ -487,13 +793,120 @@ class Item extends react.Component {
     });
   }
 
-  checkLow() {}
+  formatDate(date) {
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hours >= 12 ? "pm" : "am";
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    var strTime = hours + ":" + minutes + " " + ampm;
+    return date.getMonth() + 1 + "/" + date.getDate() + "/" + date.getFullYear() + " " + strTime;
+  }
 
 }
 
 /* harmony default export */ const components_Item = (Item);
+;// CONCATENATED MODULE: ./src/components/icons/ForkIcon.jsx
+
+
+class ForkIcon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      "aria-hidden": "true",
+      height: size,
+      viewBox: "0 0 16 16",
+      version: "1.1",
+      width: size,
+      "data-view-component": "true",
+      className: "" + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      "fill-rule": "evenodd",
+      d: "M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z"
+    }));
+  }
+
+}
+
+ForkIcon.defaultProps = {
+  size: "16"
+};
+/* harmony default export */ const icons_ForkIcon = ((/* unused pure expression or super */ null && (ForkIcon)));
+;// CONCATENATED MODULE: ./src/components/icons/RepoIcon.jsx
+
+
+class RepoIcon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      "aria-hidden": "true",
+      height: size,
+      viewBox: "0 0 16 16",
+      version: "1.1",
+      width: size,
+      "data-view-component": "true",
+      className: "octicon octicon-repo color-fg-muted mr-2 " + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      "fill-rule": "evenodd",
+      d: "M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
+    }));
+  }
+
+}
+
+RepoIcon.defaultProps = {
+  size: "16"
+};
+/* harmony default export */ const icons_RepoIcon = (RepoIcon);
+;// CONCATENATED MODULE: ./src/components/icons/IssuesIscon.jsx
+
+
+class IssuesIcon extends react.Component {
+  render() {
+    var {
+      color,
+      size,
+      className
+    } = this.props;
+    return /*#__PURE__*/react.createElement("svg", {
+      "aria-hidden": "true",
+      height: size,
+      viewBox: "0 0 24 24",
+      version: "1.1",
+      width: size,
+      "data-view-component": "true",
+      className: "octicon octicon-issue-opened blankslate-icon " + className
+    }, /*#__PURE__*/react.createElement("path", {
+      fill: color,
+      "fill-rule": "evenodd",
+      d: "M2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0zM12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm0 13a2 2 0 100-4 2 2 0 000 4z"
+    }));
+  }
+
+}
+
+IssuesIcon.defaultProps = {
+  size: "16"
+};
+/* harmony default export */ const IssuesIscon = (IssuesIcon);
 ;// CONCATENATED MODULE: ./src/activitys/MainApplication.jsx
 function MainApplication_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
 
 
 
@@ -509,6 +922,25 @@ class MainApplication extends react.Component {
     super(props);
 
     MainApplication_defineProperty(this, "componentDidMount", () => {
+      var moduels = getUrlPrarm("module");
+
+      if (moduels != ( false || "")) {
+        react_toastify_esm/* toast.info */.Am.info("Please wait 2 seconds after the loading screen is gone", {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: true,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined
+        });
+      }
+
+      setTimeout(() => {
+        this.setState({
+          loading: false
+        });
+      }, 2000);
       axios_default().get(localStorage.getItem("repo")).then(response => {
         var modules = response.data.modules;
         this.setState({
@@ -531,6 +963,24 @@ class MainApplication extends react.Component {
 
     MainApplication_defineProperty(this, "componentDidCatch", () => {});
 
+    MainApplication_defineProperty(this, "renderToolbar", () => {
+      return /*#__PURE__*/react.createElement(react_onsenui.Toolbar, null, /*#__PURE__*/react.createElement("div", {
+        className: "center"
+      }, "Magisk Module Repo Loader"), /*#__PURE__*/react.createElement("div", {
+        className: "right"
+      }, /*#__PURE__*/react.createElement(react_onsenui.ToolbarButton, {
+        style: {
+          padding: "0px 10px"
+        },
+        onClick: this.showDialog
+      }, /*#__PURE__*/react.createElement(components_MDIcon, {
+        icon: "more_vert",
+        isInToolbar: true,
+        theme: "white",
+        size: "24"
+      }))));
+    });
+
     MainApplication_defineProperty(this, "filter", e => {
       this.setState({
         currentSerachText: e.target.value.toLowerCase()
@@ -546,24 +996,39 @@ class MainApplication extends react.Component {
       });
     });
 
+    MainApplication_defineProperty(this, "showDialog", () => {
+      this.setState({
+        dialogShown: true
+      });
+    });
+
+    MainApplication_defineProperty(this, "hideDialog", () => {
+      this.setState({
+        dialogShown: false
+      });
+    });
+
     MainApplication_defineProperty(this, "render", () => {
       var {
-        search
+        search,
+        loading
       } = this.state;
       var modules = this.state.modulesIndex.map(item => {
         return /*#__PURE__*/react.createElement(components_Item, {
           key: item.id,
+          getId: item.id,
           propsUrl: item.prop_url,
           notesUrl: item.notes_url,
           downloadUrl: item.zip_url,
           pushPage: this.props.pushPage,
           searchState: search,
-          moduleOptions: this.state.moduleOptions
+          moduleOptions: this.state.moduleOptions,
+          last_update: item.last_update
         });
       });
       return /*#__PURE__*/react.createElement(react_onsenui.Page, {
         renderToolbar: this.renderToolbar
-      }, /*#__PURE__*/react.createElement(lib/* BrowserView */.I3, null, /*#__PURE__*/react.createElement("h1", null, "So sorry, but we're don't offer desktop support")), /*#__PURE__*/react.createElement(lib/* MobileView */.$, null, /*#__PURE__*/react.createElement("div", {
+      }, /*#__PURE__*/react.createElement(lib/* BrowserView */.I3, null, /*#__PURE__*/react.createElement("h1", null, "So sorry, but we don't offer desktop support")), /*#__PURE__*/react.createElement(lib/* MobileView */.$, null, /*#__PURE__*/react.createElement("div", {
         style: {
           textAlign: "center",
           display: "flex",
@@ -577,8 +1042,7 @@ class MainApplication extends react.Component {
           textAlign: "center",
           display: "inline-flex",
           justifyContent: "center",
-          padding: "8px",
-          paddingBottom: "0px"
+          padding: "8px 8px 4px"
         }
       }, /*#__PURE__*/react.createElement(react_onsenui.SearchInput, {
         placeholder: "Search modules",
@@ -602,43 +1066,72 @@ class MainApplication extends react.Component {
         icon: "search",
         size: "24",
         ignoreDarkmode: true
-      }))), /*#__PURE__*/react.createElement(react_onsenui.List, null, modules))));
+      }))), (() => {
+        if (loading) {
+          return /*#__PURE__*/react.createElement(react_onsenui.ProgressCircular, {
+            indeterminate: true,
+            style: {
+              position: "absolute",
+              left: "50%",
+              top: "50%",
+              WebkitTransform: "translate(-50%, -50%)",
+              transform: "translate(-50%, -50%)"
+            }
+          });
+        } else {
+          return modules;
+        }
+      })()), " ", /*#__PURE__*/react.createElement(react_onsenui.Dialog, {
+        visible: this.state.dialogShown,
+        cancelable: true,
+        onDialogCancel: this.hideDialog
+      }, /*#__PURE__*/react.createElement(react_onsenui.List, {
+        style: {
+          margin: "20px"
+        }
+      }, /*#__PURE__*/react.createElement(react_onsenui.ListItem, {
+        onClick: () => {
+          esm["default"].notification.prompt("Custom Repo").then(input => {
+            this.hideDialog();
+
+            if (validUrl(input)) {
+              localStorage.setItem("repo", input);
+              esm["default"].notification.alert("Repo changed, please refresh the app");
+            } else {
+              esm["default"].notification.alert("Invalid input");
+            }
+          });
+        }
+      }, /*#__PURE__*/react.createElement("div", {
+        class: "left"
+      }, /*#__PURE__*/react.createElement(icons_RepoIcon, {
+        size: "24"
+      })), /*#__PURE__*/react.createElement("div", {
+        class: "center"
+      }, "Custom repo")), /*#__PURE__*/react.createElement(react_onsenui.ListItem, {
+        onClick: () => {
+          window.open("https://github.com/DerGoogler/DG-Repo/issues", "_blank");
+          this.hideDialog();
+        }
+      }, /*#__PURE__*/react.createElement("div", {
+        class: "left"
+      }, /*#__PURE__*/react.createElement(IssuesIscon, {
+        size: "24"
+      })), /*#__PURE__*/react.createElement("div", {
+        class: "center"
+      }, "Issues"))))));
     });
 
     this.state = {
       modulesIndex: [],
+      dialogShown: false,
       status: "success",
       currentSerachText: "",
       search: "",
-      moduleOptions: {}
+      moduleOptions: {},
+      loading: true
     };
-  }
-
-  renderToolbar() {
-    return /*#__PURE__*/react.createElement(react_onsenui.Toolbar, null, /*#__PURE__*/react.createElement("div", {
-      className: "center"
-    }, "Googlers Magisk Repo"), /*#__PURE__*/react.createElement("div", {
-      className: "right"
-    }, /*#__PURE__*/react.createElement(react_onsenui.ToolbarButton, {
-      style: {
-        padding: "0px 10px"
-      },
-      onClick: () => {
-        esm["default"].notification.prompt("Custom Repo").then(function (input) {
-          if (validUrl(input)) {
-            localStorage.setItem("repo", input);
-            esm["default"].notification.alert("Repo changed, please refresh the app");
-          } else {
-            esm["default"].notification.alert("Invalid input");
-          }
-        });
-      }
-    }, /*#__PURE__*/react.createElement(components_MDIcon, {
-      icon: "extension",
-      isInToolbar: true,
-      theme: "white",
-      size: "24"
-    }))));
+    this.clickCard = /*#__PURE__*/react.createRef();
   }
 
 }
@@ -2300,7 +2793,7 @@ var theme = {
     ".button--material:disabled, .button--material[disabled]": {
       transition: "none",
       boxShadow: "none",
-      backgroundColor: "color-mod(#4f4f4f a(26%))",
+      backgroundColor: "#330f5e",
       color: "color-mod(black a(26%))",
       opacity: "1"
     },
@@ -4582,7 +5075,7 @@ var theme = {
       boxShadow: "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12),\r\n    0 8px 10px -5px rgba(0, 0, 0, 0.4)"
     },
     ".dialog-container--material": {
-      borderRadius: "2px",
+      borderRadius: "8px",
       backgroundColor: "#ffffff",
       color: "#1f1f21"
     },
@@ -5866,7 +6359,7 @@ var theme = {
     },
     ".card--material": {
       backgroundColor: "white",
-      borderRadius: "2px",
+      borderRadius: "8px",
       boxShadow: "0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),\r\n    0 3px 1px -2px rgba(0, 0, 0, 0.2)",
       fontFamily: '"Roboto", "Noto", sans-serif',
       webkitFontSmoothing: "antialiased",
@@ -6218,6 +6711,8 @@ var theme = {
   }
 };
 /* harmony default export */ const styles_theme = (theme);
+// EXTERNAL MODULE: ./node_modules/react-toastify/dist/ReactToastify.css
+var ReactToastify = __webpack_require__(7302);
 ;// CONCATENATED MODULE: ./src/index.jsx
 function src_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -6227,7 +6722,9 @@ function src_defineProperty(obj, key, value) { if (key in obj) { Object.definePr
 
 
 
+
  // Webpack CSS import
+
 
 
 
@@ -6248,7 +6745,7 @@ class Bootloader {
   }
 
   loadActivity() {
-    react_dom.render( /*#__PURE__*/react.createElement(activitys_MainActivity, null), this.mountNode);
+    react_dom.render( /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(activitys_MainActivity, null), /*#__PURE__*/react.createElement(react_toastify_esm/* ToastContainer */.Ix, null)), this.mountNode);
   }
 
   init() {
@@ -6501,7 +6998,7 @@ new Bootloader().init();
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(4491)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], () => (__webpack_require__(995)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
