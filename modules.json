@@ -34,6 +34,14 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip"
         },
         {
+            "id": "samsung_a70_overlay",
+            "last_update": 1653249678000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/module.prop",
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip"
+        },
+        {
             "id": "transfer_on_android",
             "last_update": 1651340860000,
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/transfer-on-android/master/README.md",
