@@ -23,6 +23,12 @@
   "zram-swap-manager": {
     "low": true
   },
+  "fake-shell-android-charger": {
+    "verified": true
+  },
+  "samsung_a70_raven_prop_overlay": {
+    "verified": true
+  },
   "fdgbvfdthgbdytjhdvhtbdtyh": {
     "verified": true,
     "display": "none",
