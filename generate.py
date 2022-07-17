@@ -18,8 +18,8 @@ meta = {
     "support": REPO_SUPPORT,
     "donate": REPO_DONATE, 
     "submitModule": REPO_SUBMIT_MODULE,
-    "modules": []
-    "last_update": "",
+    "modules": [],
+    "last_update": ""
 }
 
 # Initialize the GitHub objects
