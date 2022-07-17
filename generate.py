@@ -6,12 +6,20 @@ from github import Github
 # Configuration
 REPO_NAME = "Googlers-Magisk-Repo"
 REPO_TITLE = "Googlers Magisk Repo"
+REPO_WEBSITE = "https://dergoogler.com/repo"
+REPO_SUPPORT = "https://t.me/The_Googler"
+REPO_DONATE = null
+REPO_SUBMIT_MODULE = null
 
 # Skeleton for the repository
 meta = {
     "name": REPO_TITLE,
-    "last_update": "",
+    "website": REPO_WEBSITE,
+    "support": REPO_SUPPORT,
+    "donate": REPO_DONATE, 
+    "submitModule": REPO_SUBMIT_MODULE,
     "modules": []
+    "last_update": "",
 }
 
 # Initialize the GitHub objects
