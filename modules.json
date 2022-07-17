@@ -1,4 +1,5 @@
 {
+    "donate": "null",
     "last_update": 1654183046000,
     "modules": [
         {
@@ -50,5 +51,8 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip"
         }
     ],
-    "name": "Googlers Magisk Repo"
+    "name": "Googlers Magisk Repo",
+    "submitModule": "null",
+    "support": "https://t.me/The_Googler",
+    "website": "https://dergoogler.com/repo"
 }
