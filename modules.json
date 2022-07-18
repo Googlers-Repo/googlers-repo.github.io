@@ -1,56 +1,7 @@
 {
     "donate": "null",
     "last_update": 1658146279000,
-    "modules": [
-        {
-            "id": "samsung_a70_raven_prop_overlay",
-            "last_update": 1654181061000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/module.prop",
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip"
-        },
-        {
-            "id": "amtsmagisk",
-            "last_update": 1650811837000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/module.prop",
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip"
-        },
-        {
-            "id": "common_on_android",
-            "last_update": 1654186830000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/module.prop",
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/common-on-android/archive/master.zip"
-        },
-        {
-            "id": "fake-shell-android-charger",
-            "last_update": 1652591245000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/module.prop",
-            "stars": 2,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
-        },
-        {
-            "id": "mkshrc",
-            "last_update": 1651943112000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/module.prop",
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip"
-        },
-        {
-            "id": "samsung_a70_overlay",
-            "last_update": 1653249678000,
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/README.md",
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/module.prop",
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip"
-        }
-    ],
+    "modules": [],
     "name": "Googlers Magisk Repo",
     "submitModule": "null",
     "support": "https://t.me/The_Googler",
