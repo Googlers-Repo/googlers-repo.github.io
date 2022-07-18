@@ -1,7 +1,86 @@
 {
     "donate": "null",
     "last_update": 1658146279000,
-    "modules": [],
+    "modules": [
+        {
+            "id": "samsung_a70_raven_prop_overlay",
+            "last_update": 1654181061000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
+            "prop_url": {
+                "author": "Der_Googler",
+                "name": "Samsung Galaxy A70 Overlay",
+                "version": "2022-05-22",
+                "versionCode": "2205-22"
+            },
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip"
+        },
+        {
+            "id": "amtsmagisk",
+            "last_update": 1650811837000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
+            "prop_url": {
+                "author": "Der_Googler & Sierra Community",
+                "name": "AntiAMTS for Magisk",
+                "version": "v1.2",
+                "versionCode": "12"
+            },
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip"
+        },
+        {
+            "id": "common_on_android",
+            "last_update": 1654186830000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/README.md",
+            "prop_url": {
+                "author": "Der_Googler",
+                "name": "Common on Android",
+                "version": "1.0",
+                "versionCode": "10"
+            },
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/common-on-android/archive/master.zip"
+        },
+        {
+            "id": "fake-shell-android-charger",
+            "last_update": 1652591245000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
+            "prop_url": {
+                "author": "Der_Googler",
+                "name": "Fake Shell Charger",
+                "version": "v1.5",
+                "versionCode": "15"
+            },
+            "stars": 2,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
+        },
+        {
+            "id": "mkshrc",
+            "last_update": 1651943112000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
+            "prop_url": {
+                "author": "Der_Googler",
+                "name": "Systemless mksh.rc",
+                "version": "2022-07-18",
+                "versionCode": "20220718"
+            },
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip"
+        },
+        {
+            "id": "samsung_a70_overlay",
+            "last_update": 1653249678000,
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/README.md",
+            "prop_url": {
+                "author": "Der_Googler",
+                "name": "Samsung Galaxy A70 Overlay",
+                "version": "15",
+                "versionCode": "150"
+            },
+            "stars": 0,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip"
+        }
+    ],
     "name": "Googlers Magisk Repo",
     "submitModule": "null",
     "support": "https://t.me/The_Googler",
