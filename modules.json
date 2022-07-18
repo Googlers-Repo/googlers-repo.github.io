@@ -1,88 +1,148 @@
 {
-    "donate": "null",
     "last_update": 1658146279000,
+    "name": "Googlers Magisk Repo",
+    "website": "https://dergoogler.com/repo",
+    "support": "https://t.me/The_Googler",
+    "donate": null,
+    "submitModule": null,
     "modules": [
         {
             "id": "samsung_a70_raven_prop_overlay",
             "last_update": 1654181061000,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
             "prop_url": {
-                "author": "Der_Googler",
                 "name": "Samsung Galaxy A70 Overlay",
+                "author": "Der_Googler",
                 "version": "2022-05-22",
-                "versionCode": "2205-22"
-            },
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip"
+                "versionCode": "2205-22",
+                "description": "Spoof your device to RAVEN pixel prop (April 2022) with an generared overlay for Samsung Galaxy A70 (GSI's only). Prop original made by Tesla",
+                "foxprops": {
+                    "minApi": "31",
+                    "maxApi": "31",
+                    "minMagisk": "18000",
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         },
         {
             "id": "amtsmagisk",
             "last_update": 1650811837000,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
             "prop_url": {
-                "author": "Der_Googler & Sierra Community",
                 "name": "AntiAMTS for Magisk",
+                "author": "Der_Googler & Sierra Community",
                 "version": "v1.2",
-                "versionCode": "12"
-            },
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip"
+                "versionCode": "12",
+                "description": "AntiAMTS ist ein kostenloser AdBlocker, der von SierraDevoplers bereitgestellt wird.",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": null,
+                    "support": "https://github.com/DerGoogler/AntiAMTS-Magisk",
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         },
         {
             "id": "common_on_android",
             "last_update": 1654186830000,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/common-on-android/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/README.md",
             "prop_url": {
-                "author": "Der_Googler",
                 "name": "Common on Android",
+                "author": "Der_Googler",
                 "version": "1.0",
-                "versionCode": "10"
-            },
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/common-on-android/archive/master.zip"
+                "versionCode": "10",
+                "description": "Including many binarys for usage",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": "18000",
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         },
         {
             "id": "fake-shell-android-charger",
             "last_update": 1652591245000,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
             "prop_url": {
-                "author": "Der_Googler",
                 "name": "Fake Shell Charger",
+                "author": "Der_Googler",
                 "version": "v1.5",
-                "versionCode": "15"
-            },
-            "stars": 2,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip"
+                "versionCode": "15",
+                "description": "Battery view from 1 to 100 in under one minute (Fun tool)",
+                "foxprops": {
+                    "minApi": "21",
+                    "maxApi": null,
+                    "minMagisk": "12000",
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         },
         {
             "id": "mkshrc",
             "last_update": 1651943112000,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
             "prop_url": {
-                "author": "Der_Googler",
                 "name": "Systemless mksh.rc",
+                "author": "Der_Googler",
                 "version": "2022-07-18",
-                "versionCode": "20220718"
-            },
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip"
+                "versionCode": "20220718",
+                "description": "Systemlessly mksh.rc for better Terminal experience. Termux environment is also useable.",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         },
         {
             "id": "samsung_a70_overlay",
             "last_update": 1653249678000,
+            "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/README.md",
             "prop_url": {
-                "author": "Der_Googler",
                 "name": "Samsung Galaxy A70 Overlay",
+                "author": "Der_Googler",
                 "version": "15",
-                "versionCode": "150"
-            },
-            "stars": 0,
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip"
+                "versionCode": "150",
+                "description": "Fixed Overlay for Samsung Galaxy A70. This is only for Android 12! Supports Pixel 6 Pro spoof.",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         }
-    ],
-    "name": "Googlers Magisk Repo",
-    "submitModule": "null",
-    "support": "https://t.me/The_Googler",
-    "website": "https://dergoogler.com/repo"
+    ]
 }
