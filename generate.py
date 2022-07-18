@@ -49,14 +49,14 @@ for repo in repos:
             "version": moduleprop["version"],
             "versionCode": moduleprop["versionCode"],
             "author": moduleprop["author"],
-            "minApi": moduleprop["minApi"],
-            "maxApi": moduleprop["maxApi"],
-            "minMagisk": moduleprop["minMagisk"],
-            "needRamdisk": moduleprop["needRamdisk"],
-            "support": moduleprop["support"],
-            "donate": moduleprop["donate"],
-            "config": moduleprop["config"],
-            "changeBoot": moduleprop["changeBoot"]
+            #"minApi": moduleprop["minApi"],
+            #"maxApi": moduleprop["maxApi"],
+            #"minMagisk": moduleprop["minMagisk"],
+            #"needRamdisk": moduleprop["needRamdisk"],
+            #"support": moduleprop["support"],
+            #"donate": moduleprop["donate"],
+            #"config": moduleprop["config"],
+            #"changeBoot": moduleprop["changeBoot"]
         }
 
         module = {
