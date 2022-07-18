@@ -52,6 +52,7 @@ for repo in repos:
 
         # Isn't that way better?
         details = {
+            "id": getProp("id"),
             "name": getProp("name"),
             "author": getProp("author"),
             "version": getProp("version"),
