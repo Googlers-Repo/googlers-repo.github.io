@@ -12,6 +12,7 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
             "prop_url": {
+                "id": "samsung_a70_raven_prop_overlay",
                 "name": "Samsung Galaxy A70 Overlay",
                 "author": "Der_Googler",
                 "version": "2022-05-22",
@@ -35,6 +36,7 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
             "prop_url": {
+                "id": "amtsmagisk",
                 "name": "AntiAMTS for Magisk",
                 "author": "Der_Googler & Sierra Community",
                 "version": "v1.2",
@@ -58,6 +60,7 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/common-on-android/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/README.md",
             "prop_url": {
+                "id": "common_on_android",
                 "name": "Common on Android",
                 "author": "Der_Googler",
                 "version": "1.0",
@@ -81,6 +84,7 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
             "prop_url": {
+                "id": "fake-shell-android-charger",
                 "name": "Fake Shell Charger",
                 "author": "Der_Googler",
                 "version": "v1.5",
@@ -104,6 +108,7 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
             "prop_url": {
+                "id": "mkshrc",
                 "name": "Systemless mksh.rc",
                 "author": "Der_Googler",
                 "version": "2022-07-18",
@@ -127,6 +132,7 @@
             "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/README.md",
             "prop_url": {
+                "id": "samsung_a70_overlay",
                 "name": "Samsung Galaxy A70 Overlay",
                 "author": "Der_Googler",
                 "version": "15",
