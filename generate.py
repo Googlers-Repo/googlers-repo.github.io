@@ -43,6 +43,24 @@ for repo in repos:
             lhs, rhs = line.split("=", 1)
             moduleprop[lhs] = rhs
         
+        # Isn't that way better?
+        details = {
+            "name": moduleprop["name"],
+            "version": moduleprop["version"],
+            "versionCode": moduleprop["versionCode"],
+            "author": moduleprop["author"],
+            "foxprops": {
+                "minApi": moduleprop["minApi"],
+                "maxApi": moduleprop["maxApi"],
+                "minMagisk": moduleprop["minMagisk"],
+                "needRamdisk": moduleprop["needRamdisk"],
+                "support": moduleprop["support"],
+                "donate": moduleprop["donate"],
+                "config": moduleprop["config"],
+                "changeBoot": moduleprop["changeBoot"]
+            }
+        }
+
         module = {
             "id": moduleprop["id"],
             "last_update": int(repo.updated_at.timestamp() * 1000),
