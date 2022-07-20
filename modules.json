@@ -1,5 +1,5 @@
 {
-    "last_update": 1658146279000,
+    "last_update": 1658359057000,
     "name": "Googlers Magisk Repo",
     "website": "https://dergoogler.com/repo",
     "support": "https://t.me/The_Googler",
@@ -9,9 +9,9 @@
         {
             "id": "samsung_a70_raven_prop_overlay",
             "last_update": 1654181061000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/a70_overlay_pixel_props/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/a70_overlay_pixel_props/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/a70_overlay_pixel_props/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/a70_overlay_pixel_props/master/README.md",
             "props": {
                 "id": "samsung_a70_raven_prop_overlay",
                 "name": "Samsung Galaxy A70 Overlay",
@@ -34,9 +34,9 @@
         {
             "id": "amtsmagisk",
             "last_update": 1650811837000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/AntiAMTS-Magisk/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/AntiAMTS-Magisk/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/AntiAMTS-Magisk/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/AntiAMTS-Magisk/master/README.md",
             "props": {
                 "id": "amtsmagisk",
                 "name": "AntiAMTS for Magisk",
@@ -59,9 +59,9 @@
         {
             "id": "common_on_android",
             "last_update": 1654186830000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/common-on-android/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/common-on-android/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/common-on-android/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/common-on-android/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/common-on-android/master/README.md",
             "props": {
                 "id": "common_on_android",
                 "name": "Common on Android",
@@ -84,9 +84,9 @@
         {
             "id": "fake-shell-android-charger",
             "last_update": 1652591245000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/fake-shell-charger/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/fake-shell-charger/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/fake-shell-charger/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/README.md",
             "props": {
                 "id": "fake-shell-android-charger",
                 "name": "Fake Shell Charger",
@@ -109,9 +109,9 @@
         {
             "id": "mkshrc",
             "last_update": 1651943112000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/mkshrc/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/mkshrc/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/mkshrc/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/mkshrc/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/mkshrc/master/README.md",
             "props": {
                 "id": "mkshrc",
                 "name": "Systemless mksh.rc",
@@ -134,9 +134,9 @@
         {
             "id": "samsung_a70_overlay",
             "last_update": 1653249678000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Magisk-Repo/samsung_a70_overlay/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Magisk-Repo/samsung_a70_overlay/master/README.md",
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/samsung_a70_overlay/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/README.md",
             "props": {
                 "id": "samsung_a70_overlay",
                 "name": "Samsung Galaxy A70 Overlay",
