@@ -1,4 +1,4 @@
-name: Generate JSON
+name: Generate Modules Meta JSON
 on:
   push:
   workflow_dispatch:
@@ -23,12 +23,12 @@ jobs:
       - name: Generate JSON
         run: |
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate.py "${{ secrets.TOKEN }}" > modules.json
+          python generate-modules.py "${{ secrets.TOKEN }}" > modules.json
           
       - name: Commit Changes
         run: |
           git config --global user.email "jimmyboehm@dergoogler.com"
-          git config --global user.name "DG-Service"
+          git config --global user.name "DG-Repo-Service"
           git add modules.json
           git commit -sm "Update modules.json" || true
           git push || true
