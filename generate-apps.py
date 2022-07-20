@@ -25,7 +25,7 @@ meta = {
 # Initialize the GitHub objects
 g = Github(os.environ['GIT_TOKEN'])
 user = g.get_user(REPO_NAME)
-repo = user.get_repo("store")
+repo = user.get_repo("apps")
 
 # Fetch the last repository update
 meta["last_update"] = int(user.updated_at.timestamp() * 1000)
