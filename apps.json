@@ -18,18 +18,23 @@
             },
             "contributors": [
                 {
+                    "name": "daywalk3r666",
+                    "avatar": "https://avatars.githubusercontent.com/u/15938117?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "ender-zhao",
+                    "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
+                    "contributions_count": null
+                },
+                {
                     "name": "Daviteusz",
                     "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "ygorigor",
-                    "avatar": "https://avatars.githubusercontent.com/u/1684359?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "mi007d",
-                    "avatar": "https://avatars.githubusercontent.com/u/100167438?v=4",
+                    "name": "Madis0",
+                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
                     "contributions_count": null
                 },
                 {
@@ -38,13 +43,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "pokurt",
-                    "avatar": "https://avatars.githubusercontent.com/u/43902347?v=4",
+                    "name": "lindwurm",
+                    "avatar": "https://avatars.githubusercontent.com/u/1874549?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "daywalk3r666",
-                    "avatar": "https://avatars.githubusercontent.com/u/15938117?v=4",
+                    "name": "pokurt",
+                    "avatar": "https://avatars.githubusercontent.com/u/43902347?v=4",
                     "contributions_count": null
                 },
                 {
@@ -68,18 +73,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "DerGoogler",
-                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
+                    "name": "mi007d",
+                    "avatar": "https://avatars.githubusercontent.com/u/100167438?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "Madis0",
-                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "lindwurm",
-                    "avatar": "https://avatars.githubusercontent.com/u/1874549?v=4",
+                    "name": "ygorigor",
+                    "avatar": "https://avatars.githubusercontent.com/u/1684359?v=4",
                     "contributions_count": null
                 },
                 {
@@ -88,8 +88,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "ender-zhao",
-                    "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
+                    "name": "DerGoogler",
+                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
                     "contributions_count": null
                 },
                 {
@@ -160,24 +160,30 @@
             ]
         },
         {
-            "apk_url": "https://github.com/DerGoogler/MMRL/releases",
-            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/store/master/mmrl/README.md",
+            "apk_url": "https://github.com/DerGoogler/MMRL/releases/download/1.4.1-%28141%29/app-release.apk",
+            "readme_url": "https://raw.githubusercontent.com/DerGoogler/MMRL/master/README.md",
             "prop": {
                 "name": "MMRL",
                 "icon": "https://github.com/DerGoogler/MMRL/blob/master/Android/app/src/main/ic_launcher-playstore.png?raw=true",
                 "package": "com.dergoogler.mmrl",
                 "versionName": "1.4.1",
                 "versionCode": "141",
-                "description": null
+                "description": "Magisk Module Repo Loader (MMRL). Allows you to load custom repos with an simple UI"
             },
-            "contributors": []
+            "contributors": [
+                {
+                    "name": "DerGoogler",
+                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
+                    "contributions_count": null
+                }
+            ]
         },
         {
             "apk_url": null,
-            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/store/master/youtube/README.md",
+            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/README.md",
             "prop": {
                 "name": "YouTube",
-                "icon": "https://raw.githubusercontent.com/Googlers-Repo/store/master/youtube/68747470733a2f2f6e6974726174696e652e6e65742f706f7374732f6175746f2d70792d746f2d6578652f666561747572652e706e67.png",
+                "icon": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/68747470733a2f2f6e6974726174696e652e6e65742f706f7374732f6175746f2d70792d746f2d6578652f666561747572652e706e67.png",
                 "package": "com.android.youtube",
                 "versionName": "1.0.0",
                 "versionCode": "100",
