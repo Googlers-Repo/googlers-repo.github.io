@@ -109,28 +109,25 @@ while len(contents) > 0:
                         get_latest_release_assests = g.get_repo(getRepoConf(
                             "repo")).get_releases()[0].get_assets()
                         tmp_releases = []
-                        for release in get_latest_release:
-                            for asset in release.get_assets():
-                                tmp_asset = []
 
-                                def getAsset():
-                                    tmp_asset.append({
-                                        "id": asset.id,
-                                        "name": asset.name,
-                                        "download": asset.browser_download_url,
-                                        "size": asset.size
-                                    })
-                                    return tmp_asset
+                        for idxx, release in enumerate(get_latest_release):
+                            tmp_releases.append({
+                                "name": release.title,
+                                "id": release.id,
+                                "author": release.author.login,
+                                "tag_name": release.tag_name,
+                                "prerelease": release.prerelease,
+                                "published_at": str(release.published_at),
+                                "body": release.body,
+                                "asset": []
+                            })
 
-                                tmp_releases.append({
-                                    "name": release.title,
-                                    "id": release.id,
-                                    "author": release.author.login,
-                                    "tag_name": release.tag_name,
-                                    "prerelease": release.prerelease,
-                                    "published_at": str(release.published_at),
-                                    "body": release.body,
-                                    "asset": getAsset()
+                            for idx, asset in enumerate(release.get_assets()):
+                                tmp_releases[idxx]["asset"].append({
+                                    "id": asset.id,
+                                    "name": asset.name,
+                                    "download": asset.browser_download_url,
+                                    "size": asset.size
                                 })
                         return tmp_releases
                     else:
@@ -148,7 +145,7 @@ while len(contents) > 0:
             # Get contributors of the given repository
             if getRepoConf("repo") != None:
                 repo_of_app = g.get_repo(getRepoConf("repo"))
-                contributors_count = repo_of_app.get_stats_contributors()
+                contributors_count = repo_of_app.get_stats_contributors()[0:20]
                 for const in contributors_count:
                     apps["contributors"].append({
                         "name": const.author.login,
@@ -159,7 +156,7 @@ while len(contents) > 0:
             # Append to skeleton
             meta["apps"].append(apps)
     except Exception as e:
-        # print(e)
+        print(e)
         continue
 
 # Return our final skeleton
