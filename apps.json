@@ -7,6 +7,90 @@
     "apps": [
         {
             "prop": {
+                "name": "YouTube",
+                "icon": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/com.android.youtube/68747470733a2f2f6e6974726174696e652e6e65742f706f7374732f6175746f2d70792d746f2d6578652f666561747572652e706e67.png",
+                "package": "com.android.youtube",
+                "versionName": "1.0.0",
+                "versionCode": "100",
+                "description": "We like to spam with ads"
+            },
+            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/com.android.youtube/README.md",
+            "contributors": [],
+            "download": null
+        },
+        {
+            "prop": {
+                "name": "MMRL",
+                "icon": "https://github.com/DerGoogler/MMRL/blob/master/Android/app/src/main/ic_launcher-playstore.png?raw=true",
+                "package": "com.dergoogler.mmrl",
+                "versionName": "1.4.1",
+                "versionCode": "141",
+                "description": "Magisk Module Repo Loader (MMRL). Allows you to load custom repos with an simple UI"
+            },
+            "readme_url": "https://raw.githubusercontent.com/DerGoogler/MMRL/master/README.md",
+            "contributors": [
+                {
+                    "name": "DerGoogler",
+                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
+                    "contributions_count": null
+                }
+            ],
+            "download": [
+                {
+                    "name": "1.4.1 (141)",
+                    "id": 72095891,
+                    "author": "DerGoogler",
+                    "tag_name": "1.4.1-(141)",
+                    "prerelease": false,
+                    "published_at": "2022-07-15 14:09:05",
+                    "body": "> Link has been moved to https://dergoogler.com/repo\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n# What's new?\r\n\r\n## Code\r\n\r\n- Fixed Android version\r\n- Removed `setPref` & `getPref`. Now should be merged to the new API\r\n- Depen. updated\r\n- Added fake url system\r\n- Removed DAPI\r\n- Moved Download and Install button to an dialog\r\n- Added translations\r\n- Added some support for Magisk Delta (by @HuskyDG)\r\n- Improved Webpack\r\n- `AlertDialog` supports now JSX Elements\r\n- Added `Magisk` class and `MagiskBoot` class\r\n- Logger has been rewritten\r\n- Workspace cleanups\r\n\r\n## App\r\n\r\n- Fix white statusbar\r\n- Design improvements\r\n- Added option to move the navigation bar to the bottom (only Android)\r\n- Added component to make the view better on large screens\r\n- Markdown `<checkicon>` and `<dangericon>` are now `<checkmark>` and `<dangermark>`\r\n- Some parts has been migrated to react-onsenuix\r\n- App gets rendered over `googlers-tools` `dom.render(...args)`\r\n- New translations added\r\n- Added Repo Generator\r\n- Added support for large screens\r\n",
+                    "asset": [
+                        {
+                            "id": 71680020,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.1-%28141%29/app-release.apk",
+                            "size": 3451691
+                        }
+                    ]
+                },
+                {
+                    "name": "1.4.0@Alpha-3",
+                    "id": 68959017,
+                    "author": "DerGoogler",
+                    "tag_name": "1.4.0@Alpha-3",
+                    "prerelease": false,
+                    "published_at": "2022-06-08 14:14:36",
+                    "body": "> You can view the alpha also on https://repo.dergoogler.com/alpha\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n#  What's new?\r\n- Reworked Icons\r\n- Reworked settings\r\n- Reworked built-in repos\r\n- Reworked `ListViewBuilder`\r\n- Design fixes\r\n- Added dark mode\r\n\r\n## Source code\r\n- [Constants is now deprecated](https://github.com/DerGoogler/MMRL/commit/f04b2c97571f27084306930577e1031b18044ad8)\r\n- [New SharedPreferences API](https://github.com/DerGoogler/MMRL/commit/eb1db6f56fcd60fccbd67024d01ae70c1187163c)",
+                    "asset": [
+                        {
+                            "id": 67895225,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.0%40Alpha-3/app-release.apk",
+                            "size": 3663130
+                        }
+                    ]
+                },
+                {
+                    "name": "1.4.0@Alpha-2",
+                    "id": 68071180,
+                    "author": "DerGoogler",
+                    "tag_name": "1.4.0@Alpha-2",
+                    "prerelease": false,
+                    "published_at": "2022-05-28 13:01:30",
+                    "body": "Today I've release alpha 2 of MMRL. This is also an first app release!\r\n\r\n> You can view the alpha also on https://repo.dergoogler.com/alpha\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n# What's new?\r\n\r\n- Installed modules gets now listed\r\n- Installed modules are now disable, enable and removable (requires reboot)\r\n- Installed modules can be recovered (when not rebooted)\r\n\r\n# Currently planned\r\n\r\n- Translation\r\n- Module installing (Hard to transform in JavaScript / TypeScript)",
+                    "asset": [
+                        {
+                            "id": 66878721,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.0%40Alpha-2/app-release.apk",
+                            "size": 27349956
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "prop": {
                 "name": "FoxMMM",
                 "icon": "https://github.com/Fox2Code/FoxMagiskModuleManager/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
                 "package": "com.fox2code.mmm",
@@ -17,18 +101,18 @@
             "readme_url": "https://raw.githubusercontent.com/Fox2Code/FoxMagiskModuleManager/master/README.md",
             "contributors": [
                 {
-                    "name": "S0FTMAN",
-                    "avatar": "https://avatars.githubusercontent.com/u/57122901?v=4",
+                    "name": "comradekingu",
+                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "Daviteusz",
-                    "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
+                    "name": "mi007d",
+                    "avatar": "https://avatars.githubusercontent.com/u/100167438?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "androidacy-user",
-                    "avatar": "https://avatars.githubusercontent.com/u/45006100?v=4",
+                    "name": "ender-zhao",
+                    "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
                     "contributions_count": null
                 },
                 {
@@ -42,8 +126,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "Madis0",
-                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
+                    "name": "daywalk3r666",
+                    "avatar": "https://avatars.githubusercontent.com/u/15938117?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "S0FTMAN",
+                    "avatar": "https://avatars.githubusercontent.com/u/57122901?v=4",
                     "contributions_count": null
                 },
                 {
@@ -67,13 +156,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "DerGoogler",
-                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "mi007d",
-                    "avatar": "https://avatars.githubusercontent.com/u/100167438?v=4",
+                    "name": "Madis0",
+                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
                     "contributions_count": null
                 },
                 {
@@ -87,13 +171,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "ender-zhao",
-                    "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
+                    "name": "DerGoogler",
+                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "comradekingu",
-                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
+                    "name": "Daviteusz",
+                    "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
                     "contributions_count": null
                 },
                 {
@@ -207,19 +291,6 @@
         },
         {
             "prop": {
-                "name": "Magisk Delta (Stable)",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Magisk_Logo.png",
-                "package": "io.github.huskydg.magisk",
-                "versionName": "d2f6ccbd",
-                "versionCode": "25201",
-                "description": null
-            },
-            "readme_url": "https://raw.githubusercontent.com/HuskyDG/magisk-files/main/README.md",
-            "contributors": [],
-            "download": "https://github.com/HuskyDG/magisk-files/raw/main/app-release.apk"
-        },
-        {
-            "prop": {
                 "name": "Magisk (Stable)",
                 "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Magisk_Logo.png",
                 "package": "com.topjohnwu.magisk",
@@ -230,8 +301,13 @@
             "readme_url": "https://raw.githubusercontent.com/topjohnwu/Magisk/master/README.MD",
             "contributors": [
                 {
-                    "name": "lilymaniac",
-                    "avatar": "https://avatars.githubusercontent.com/u/17095823?v=4",
+                    "name": "linar10",
+                    "avatar": "https://avatars.githubusercontent.com/u/829604?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "AioiLight",
+                    "avatar": "https://avatars.githubusercontent.com/u/13918537?v=4",
                     "contributions_count": null
                 },
                 {
@@ -245,23 +321,23 @@
                     "contributions_count": null
                 },
                 {
+                    "name": "Madis0",
+                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Zackptg5",
+                    "avatar": "https://avatars.githubusercontent.com/u/5107713?v=4",
+                    "contributions_count": null
+                },
+                {
                     "name": "feliph-rc",
                     "avatar": "https://avatars.githubusercontent.com/u/36807112?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "AioiLight",
-                    "avatar": "https://avatars.githubusercontent.com/u/13918537?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "Vistaus",
-                    "avatar": "https://avatars.githubusercontent.com/u/1716229?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "tsynik",
-                    "avatar": "https://avatars.githubusercontent.com/u/1551446?v=4",
+                    "name": "erayrafet",
+                    "avatar": "https://avatars.githubusercontent.com/u/34194191?v=4",
                     "contributions_count": null
                 },
                 {
@@ -275,18 +351,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "erayrafet",
-                    "avatar": "https://avatars.githubusercontent.com/u/34194191?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "jbrindle",
-                    "avatar": "https://avatars.githubusercontent.com/u/1242794?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "simonsmh",
-                    "avatar": "https://avatars.githubusercontent.com/u/9512067?v=4",
+                    "name": "cocka11",
+                    "avatar": "https://avatars.githubusercontent.com/u/35626219?v=4",
                     "contributions_count": null
                 },
                 {
@@ -295,18 +361,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "Henry2o1o",
-                    "avatar": "https://avatars.githubusercontent.com/u/6131799?v=4",
+                    "name": "Fabb2303",
+                    "avatar": "https://avatars.githubusercontent.com/u/18281895?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "Generator",
-                    "avatar": "https://avatars.githubusercontent.com/u/44146?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "Zackptg5",
-                    "avatar": "https://avatars.githubusercontent.com/u/5107713?v=4",
+                    "name": "gh2923",
+                    "avatar": "https://avatars.githubusercontent.com/u/14146273?v=4",
                     "contributions_count": null
                 },
                 {
@@ -320,13 +381,23 @@
                     "contributions_count": null
                 },
                 {
+                    "name": "thehappydinoa",
+                    "avatar": "https://avatars.githubusercontent.com/u/30162978?v=4",
+                    "contributions_count": null
+                },
+                {
                     "name": "neekless",
                     "avatar": "https://avatars.githubusercontent.com/u/22426822?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "Fabb2303",
-                    "avatar": "https://avatars.githubusercontent.com/u/18281895?v=4",
+                    "name": "kubalav",
+                    "avatar": "https://avatars.githubusercontent.com/u/37414585?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "worstperson",
+                    "avatar": "https://avatars.githubusercontent.com/u/2978883?v=4",
                     "contributions_count": null
                 }
             ],
@@ -450,87 +521,16 @@
         },
         {
             "prop": {
-                "name": "MMRL",
-                "icon": "https://github.com/DerGoogler/MMRL/blob/master/Android/app/src/main/ic_launcher-playstore.png?raw=true",
-                "package": "com.dergoogler.mmrl",
-                "versionName": "1.4.1",
-                "versionCode": "141",
-                "description": "Magisk Module Repo Loader (MMRL). Allows you to load custom repos with an simple UI"
+                "name": "Magisk Delta (Stable)",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Magisk_Logo.png",
+                "package": "io.github.huskydg.magisk",
+                "versionName": "d2f6ccbd",
+                "versionCode": "25201",
+                "description": null
             },
-            "readme_url": "https://raw.githubusercontent.com/DerGoogler/MMRL/master/README.md",
-            "contributors": [
-                {
-                    "name": "DerGoogler",
-                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
-                    "contributions_count": null
-                }
-            ],
-            "download": [
-                {
-                    "name": "1.4.1 (141)",
-                    "id": 72095891,
-                    "author": "DerGoogler",
-                    "tag_name": "1.4.1-(141)",
-                    "prerelease": false,
-                    "published_at": "2022-07-15 14:09:05",
-                    "body": "> Link has been moved to https://dergoogler.com/repo\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n# What's new?\r\n\r\n## Code\r\n\r\n- Fixed Android version\r\n- Removed `setPref` & `getPref`. Now should be merged to the new API\r\n- Depen. updated\r\n- Added fake url system\r\n- Removed DAPI\r\n- Moved Download and Install button to an dialog\r\n- Added translations\r\n- Added some support for Magisk Delta (by @HuskyDG)\r\n- Improved Webpack\r\n- `AlertDialog` supports now JSX Elements\r\n- Added `Magisk` class and `MagiskBoot` class\r\n- Logger has been rewritten\r\n- Workspace cleanups\r\n\r\n## App\r\n\r\n- Fix white statusbar\r\n- Design improvements\r\n- Added option to move the navigation bar to the bottom (only Android)\r\n- Added component to make the view better on large screens\r\n- Markdown `<checkicon>` and `<dangericon>` are now `<checkmark>` and `<dangermark>`\r\n- Some parts has been migrated to react-onsenuix\r\n- App gets rendered over `googlers-tools` `dom.render(...args)`\r\n- New translations added\r\n- Added Repo Generator\r\n- Added support for large screens\r\n",
-                    "asset": [
-                        {
-                            "id": 71680020,
-                            "name": "app-release.apk",
-                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.1-%28141%29/app-release.apk",
-                            "size": 3451691
-                        }
-                    ]
-                },
-                {
-                    "name": "1.4.0@Alpha-3",
-                    "id": 68959017,
-                    "author": "DerGoogler",
-                    "tag_name": "1.4.0@Alpha-3",
-                    "prerelease": false,
-                    "published_at": "2022-06-08 14:14:36",
-                    "body": "> You can view the alpha also on https://repo.dergoogler.com/alpha\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n#  What's new?\r\n- Reworked Icons\r\n- Reworked settings\r\n- Reworked built-in repos\r\n- Reworked `ListViewBuilder`\r\n- Design fixes\r\n- Added dark mode\r\n\r\n## Source code\r\n- [Constants is now deprecated](https://github.com/DerGoogler/MMRL/commit/f04b2c97571f27084306930577e1031b18044ad8)\r\n- [New SharedPreferences API](https://github.com/DerGoogler/MMRL/commit/eb1db6f56fcd60fccbd67024d01ae70c1187163c)",
-                    "asset": [
-                        {
-                            "id": 67895225,
-                            "name": "app-release.apk",
-                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.0%40Alpha-3/app-release.apk",
-                            "size": 3663130
-                        }
-                    ]
-                },
-                {
-                    "name": "1.4.0@Alpha-2",
-                    "id": 68071180,
-                    "author": "DerGoogler",
-                    "tag_name": "1.4.0@Alpha-2",
-                    "prerelease": false,
-                    "published_at": "2022-05-28 13:01:30",
-                    "body": "Today I've release alpha 2 of MMRL. This is also an first app release!\r\n\r\n> You can view the alpha also on https://repo.dergoogler.com/alpha\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n# What's new?\r\n\r\n- Installed modules gets now listed\r\n- Installed modules are now disable, enable and removable (requires reboot)\r\n- Installed modules can be recovered (when not rebooted)\r\n\r\n# Currently planned\r\n\r\n- Translation\r\n- Module installing (Hard to transform in JavaScript / TypeScript)",
-                    "asset": [
-                        {
-                            "id": 66878721,
-                            "name": "app-release.apk",
-                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.0%40Alpha-2/app-release.apk",
-                            "size": 27349956
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "prop": {
-                "name": "YouTube",
-                "icon": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/68747470733a2f2f6e6974726174696e652e6e65742f706f7374732f6175746f2d70792d746f2d6578652f666561747572652e706e67.png",
-                "package": "com.android.youtube",
-                "versionName": "1.0.0",
-                "versionCode": "100",
-                "description": "We like to spam with ads"
-            },
-            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/README.md",
+            "readme_url": "https://raw.githubusercontent.com/HuskyDG/magisk-files/main/README.md",
             "contributors": [],
-            "download": null
+            "download": "https://github.com/HuskyDG/magisk-files/raw/main/app-release.apk"
         }
     ]
 }
