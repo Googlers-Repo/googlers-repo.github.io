@@ -89,7 +89,7 @@ while len(contents) > 0:
             details = {
                 "name": getProp("name"),
                 "icon": getProp("icon", "{localURL}", f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/{file_content.path}"),
-                "package": getProp("package"),
+                "package": file_content.path,
                 "versionName": getProp("versionName"),
                 "versionCode": getProp("versionCode"),
                 "description": getDescription(),
