@@ -247,6 +247,704 @@
         },
         {
             "prop": {
+                "name": "Magisk Delta (Stable)",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Magisk_Logo.png",
+                "package": "io.github.huskydg.magisk",
+                "versionName": "d2f6ccbd",
+                "versionCode": "25201",
+                "description": null
+            },
+            "readme_url": "https://raw.githubusercontent.com/HuskyDG/magisk-files/main/README.md",
+            "contributors": [],
+            "download": "https://github.com/HuskyDG/magisk-files/raw/main/app-release.apk"
+        },
+        {
+            "prop": {
+                "name": "Magisk (Stable)",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Magisk_Logo.png",
+                "package": "com.topjohnwu.magisk",
+                "versionName": "25.2",
+                "versionCode": "25201",
+                "description": "The Magic Mask for Android"
+            },
+            "readme_url": "https://raw.githubusercontent.com/topjohnwu/Magisk/master/README.md",
+            "contributors": [
+                {
+                    "name": "feliph-rc",
+                    "avatar": "https://avatars.githubusercontent.com/u/36807112?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "ianmacd",
+                    "avatar": "https://avatars.githubusercontent.com/u/749942?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "fessmm",
+                    "avatar": "https://avatars.githubusercontent.com/u/19999039?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "DevDef",
+                    "avatar": "https://avatars.githubusercontent.com/u/12715256?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "erayrafet",
+                    "avatar": "https://avatars.githubusercontent.com/u/34194191?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "simonsmh",
+                    "avatar": "https://avatars.githubusercontent.com/u/9512067?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "amnindersingh12",
+                    "avatar": "https://avatars.githubusercontent.com/u/45424062?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "VD171",
+                    "avatar": "https://avatars.githubusercontent.com/u/80125987?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "xerta555",
+                    "avatar": "https://avatars.githubusercontent.com/u/20888017?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "kegang0619",
+                    "avatar": "https://avatars.githubusercontent.com/u/13598141?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "HuskyDG",
+                    "avatar": "https://avatars.githubusercontent.com/u/84650617?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Henry2o1o",
+                    "avatar": "https://avatars.githubusercontent.com/u/6131799?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "tonymanou",
+                    "avatar": "https://avatars.githubusercontent.com/u/3890441?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "peter9811",
+                    "avatar": "https://avatars.githubusercontent.com/u/22783445?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "cocka11",
+                    "avatar": "https://avatars.githubusercontent.com/u/35626219?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "gh2923",
+                    "avatar": "https://avatars.githubusercontent.com/u/14146273?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Ingan121",
+                    "avatar": "https://avatars.githubusercontent.com/u/34885971?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "jbrindle",
+                    "avatar": "https://avatars.githubusercontent.com/u/1242794?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "razor84",
+                    "avatar": "https://avatars.githubusercontent.com/u/10728744?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "AdiityaAndre",
+                    "avatar": "https://avatars.githubusercontent.com/u/66918184?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "worstperson",
+                    "avatar": "https://avatars.githubusercontent.com/u/2978883?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "tony8077616",
+                    "avatar": "https://avatars.githubusercontent.com/u/9822340?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "GreatApo",
+                    "avatar": "https://avatars.githubusercontent.com/u/9620510?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "antikruk",
+                    "avatar": "https://avatars.githubusercontent.com/u/6292989?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "neekless",
+                    "avatar": "https://avatars.githubusercontent.com/u/22426822?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "omerakgoz34",
+                    "avatar": "https://avatars.githubusercontent.com/u/49201485?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "tsynik",
+                    "avatar": "https://avatars.githubusercontent.com/u/1551446?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "AioiLight",
+                    "avatar": "https://avatars.githubusercontent.com/u/13918537?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Generator",
+                    "avatar": "https://avatars.githubusercontent.com/u/44146?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Vistaus",
+                    "avatar": "https://avatars.githubusercontent.com/u/1716229?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "tzagim",
+                    "avatar": "https://avatars.githubusercontent.com/u/2285958?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "RikkaW",
+                    "avatar": "https://avatars.githubusercontent.com/u/12999176?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "krasCGQ",
+                    "avatar": "https://avatars.githubusercontent.com/u/18099062?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "chaosmaster",
+                    "avatar": "https://avatars.githubusercontent.com/u/1183624?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "kam821",
+                    "avatar": "https://avatars.githubusercontent.com/u/26425123?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "d8ahazard",
+                    "avatar": "https://avatars.githubusercontent.com/u/1633844?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "LLZN",
+                    "avatar": "https://avatars.githubusercontent.com/u/28399723?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "DandelionSprout",
+                    "avatar": "https://avatars.githubusercontent.com/u/22780683?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "sn-o-w",
+                    "avatar": "https://avatars.githubusercontent.com/u/2406819?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "X1nto",
+                    "avatar": "https://avatars.githubusercontent.com/u/48173186?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Lishoo",
+                    "avatar": "https://avatars.githubusercontent.com/u/1045996?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "daveyannihilation",
+                    "avatar": "https://avatars.githubusercontent.com/u/4631055?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Gozzwip",
+                    "avatar": "https://avatars.githubusercontent.com/u/36863088?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "MASVA",
+                    "avatar": "https://avatars.githubusercontent.com/u/6840794?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "aleasto",
+                    "avatar": "https://avatars.githubusercontent.com/u/8167495?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "lindwurm",
+                    "avatar": "https://avatars.githubusercontent.com/u/1874549?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Displax",
+                    "avatar": "https://avatars.githubusercontent.com/u/16293419?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "yujincheng08",
+                    "avatar": "https://avatars.githubusercontent.com/u/5022927?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "zertyuiop",
+                    "avatar": "https://avatars.githubusercontent.com/u/4997630?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "tarasyyyk",
+                    "avatar": "https://avatars.githubusercontent.com/u/20100011?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "d4rken",
+                    "avatar": "https://avatars.githubusercontent.com/u/1439229?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "RoySchutte",
+                    "avatar": "https://avatars.githubusercontent.com/u/18527753?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "auanasgheps",
+                    "avatar": "https://avatars.githubusercontent.com/u/20586878?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "CDzungx",
+                    "avatar": "https://avatars.githubusercontent.com/u/59353870?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "linar10",
+                    "avatar": "https://avatars.githubusercontent.com/u/829604?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Drgravy",
+                    "avatar": "https://avatars.githubusercontent.com/u/2712097?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "capntrips",
+                    "avatar": "https://avatars.githubusercontent.com/u/31455058?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "npes87184",
+                    "avatar": "https://avatars.githubusercontent.com/u/5494432?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "zrq8",
+                    "avatar": "https://avatars.githubusercontent.com/u/36910740?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "marciozomb13",
+                    "avatar": "https://avatars.githubusercontent.com/u/2564929?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Exalm",
+                    "avatar": "https://avatars.githubusercontent.com/u/1510457?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "hugwalk",
+                    "avatar": "https://avatars.githubusercontent.com/u/21334079?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "diareuse",
+                    "avatar": "https://avatars.githubusercontent.com/u/5982859?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "AndroPlus-org",
+                    "avatar": "https://avatars.githubusercontent.com/u/4242402?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "NoSayGoodbye",
+                    "avatar": "https://avatars.githubusercontent.com/u/26365169?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "lilymaniac",
+                    "avatar": "https://avatars.githubusercontent.com/u/17095823?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "arter97",
+                    "avatar": "https://avatars.githubusercontent.com/u/5400990?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "xDonatello",
+                    "avatar": "https://avatars.githubusercontent.com/u/13498803?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Fox2Code",
+                    "avatar": "https://avatars.githubusercontent.com/u/42963271?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "taras-GA",
+                    "avatar": "https://avatars.githubusercontent.com/u/62345629?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "JoanVC100",
+                    "avatar": "https://avatars.githubusercontent.com/u/36604048?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "osm0sis",
+                    "avatar": "https://avatars.githubusercontent.com/u/2858716?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "shakalaca",
+                    "avatar": "https://avatars.githubusercontent.com/u/306376?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Zackptg5",
+                    "avatar": "https://avatars.githubusercontent.com/u/5107713?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "jenslody",
+                    "avatar": "https://avatars.githubusercontent.com/u/5686603?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "DoggoOfSpeed",
+                    "avatar": "https://avatars.githubusercontent.com/u/28051112?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Fs00",
+                    "avatar": "https://avatars.githubusercontent.com/u/30041551?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "friederbluemle",
+                    "avatar": "https://avatars.githubusercontent.com/u/743291?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "chenxiaolong",
+                    "avatar": "https://avatars.githubusercontent.com/u/646253?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "thehappydinoa",
+                    "avatar": "https://avatars.githubusercontent.com/u/30162978?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "papadakospan",
+                    "avatar": "https://avatars.githubusercontent.com/u/67466872?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "DVDAndroid",
+                    "avatar": "https://avatars.githubusercontent.com/u/6277172?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "vvb2060",
+                    "avatar": "https://avatars.githubusercontent.com/u/26996262?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "kubalav",
+                    "avatar": "https://avatars.githubusercontent.com/u/37414585?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "cheese1",
+                    "avatar": "https://avatars.githubusercontent.com/u/6437726?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "phhusson",
+                    "avatar": "https://avatars.githubusercontent.com/u/3642?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "bovirus",
+                    "avatar": "https://avatars.githubusercontent.com/u/1262554?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Madis0",
+                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "ygorigor",
+                    "avatar": "https://avatars.githubusercontent.com/u/1684359?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "DeicPro",
+                    "avatar": "https://avatars.githubusercontent.com/u/12710770?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "topjohnwu",
+                    "avatar": "https://avatars.githubusercontent.com/u/7337301?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "comradekingu",
+                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "sabpprook",
+                    "avatar": "https://avatars.githubusercontent.com/u/7044575?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "canyie",
+                    "avatar": "https://avatars.githubusercontent.com/u/31466456?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "WaggBR",
+                    "avatar": "https://avatars.githubusercontent.com/u/57603689?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Fabb2303",
+                    "avatar": "https://avatars.githubusercontent.com/u/18281895?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "DanGLES3",
+                    "avatar": "https://avatars.githubusercontent.com/u/32078304?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "killer7Mod",
+                    "avatar": "https://avatars.githubusercontent.com/u/20243587?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "aviraxp",
+                    "avatar": "https://avatars.githubusercontent.com/u/18079988?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "softastur",
+                    "avatar": "https://avatars.githubusercontent.com/u/10351697?v=4",
+                    "contributions_count": null
+                }
+            ],
+            "download": [
+                {
+                    "name": "Magisk v25.2",
+                    "id": 72485178,
+                    "author": "topjohnwu",
+                    "tag_name": "v25.2",
+                    "prerelease": false,
+                    "published_at": "2022-07-21 03:15:07",
+                    "body": "Maintenance release fixing various issues.\r\n\r\n- [MagiskInit] Fix a potential issue when stub cpio is used\r\n- [MagiskInit] Fix reboot to recovery when stub cpio is used\r\n- [MagiskInit] Fix sepolicy.rules symlink for rootfs devices\r\n- [General] Better data encryption detection\r\n- [General] Move the whole logging infrastructure into Rust\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)",
+                    "asset": [
+                        {
+                            "id": 72202746,
+                            "name": "Magisk-v25.2.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v25.2/Magisk-v25.2.apk",
+                            "size": 11278270
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v25.2",
+                    "id": 72485178,
+                    "author": "topjohnwu",
+                    "tag_name": "v25.2",
+                    "prerelease": false,
+                    "published_at": "2022-07-21 03:15:07",
+                    "body": "Maintenance release fixing various issues.\r\n\r\n- [MagiskInit] Fix a potential issue when stub cpio is used\r\n- [MagiskInit] Fix reboot to recovery when stub cpio is used\r\n- [MagiskInit] Fix sepolicy.rules symlink for rootfs devices\r\n- [General] Better data encryption detection\r\n- [General] Move the whole logging infrastructure into Rust\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)",
+                    "asset": [
+                        {
+                            "id": 72202756,
+                            "name": "stub-release.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v25.2/stub-release.apk",
+                            "size": 29037
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v25.1",
+                    "id": 69789953,
+                    "author": "topjohnwu",
+                    "tag_name": "v25.1",
+                    "prerelease": false,
+                    "published_at": "2022-06-19 10:01:09",
+                    "body": "> v25.1 fixes some minor bugs over v25.0. The following are the same as v25.0 release notes.\r\n\r\nAnother major release! A lot of the changes aren't visible at the surface, but v25 is actually a really substantial upgrade!\r\n\r\n### MagiskInit Rewrite\r\n\r\nA significant portion of `magiskinit` (the critical software that runs before your device boots up) is completely rewritten from scratch. Ever since Android introduced [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html) in Android 8.0, Magisk has been constantly fighting against the increasingly complex partitioning and early mount setups of all kinds of devices, sometimes with weird OEM specific implementations. It got to a point that `magiskinit` had become so complicated that few people (including myself!) were aware of every detail, and maintaining this piece of software like this was clearly not sustainable. After many months of planning (yes, this whole re-architecture has been in my head for a long time) and some help from external contributors, a whole new `sepolicy` injection mechanism is introduced into Magisk, solving the \"SELinux Problem\" once and for all.\r\n\r\nSince this is a full paradigm shift on how Magisk hot-patch the device at boot, several behaviors that many developers implicitly relied on might not exist. For example, Magisk no longer patches fstabs in most scenarios, which means AVB will remain intact; some custom kernels rely on AVB being stripped out for them by Magisk.\r\n\r\n### MagiskSU Security Enhancements\r\n\r\nThe superuser functionality of Magisk has not seen much changes ever since its introduction. v25 focuses on making root permission management more accurate and secure:\r\n\r\n- Add a whole new package tracking system to ensure malicious UID reuse attack cannot be performed\r\n- Properly support and implement the UX in the Magisk app for packages using `sharedUserId`\r\n- Enforce root manager APK signature verification to combat the rampant unofficial Magisk app \"mods\"\r\n\r\nMany might not realize, but using a trusted, unmodified Magisk app is really important. Magisk's root daemon treats the Magisk app differently and gives it blanket root access without any restrictions. A modded Magisk app can potentially backdoor your device.\r\n\r\nAnd in case some of you are about to put on your tin foil hats, this is not designed to \"vendor lock-in\"; the goal is to make sure your root management app comes from the same developer of the underlying root implementation. Magisk's build system allows custom distributors to use its own signing keys, and in addition, I am also providing official debug builds which skips any signature verification for development.\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)\r\n",
+                    "asset": [
+                        {
+                            "id": 68932606,
+                            "name": "Magisk-v25.1.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v25.1/Magisk-v25.1.apk",
+                            "size": 11229118
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v25.1",
+                    "id": 69789953,
+                    "author": "topjohnwu",
+                    "tag_name": "v25.1",
+                    "prerelease": false,
+                    "published_at": "2022-06-19 10:01:09",
+                    "body": "> v25.1 fixes some minor bugs over v25.0. The following are the same as v25.0 release notes.\r\n\r\nAnother major release! A lot of the changes aren't visible at the surface, but v25 is actually a really substantial upgrade!\r\n\r\n### MagiskInit Rewrite\r\n\r\nA significant portion of `magiskinit` (the critical software that runs before your device boots up) is completely rewritten from scratch. Ever since Android introduced [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html) in Android 8.0, Magisk has been constantly fighting against the increasingly complex partitioning and early mount setups of all kinds of devices, sometimes with weird OEM specific implementations. It got to a point that `magiskinit` had become so complicated that few people (including myself!) were aware of every detail, and maintaining this piece of software like this was clearly not sustainable. After many months of planning (yes, this whole re-architecture has been in my head for a long time) and some help from external contributors, a whole new `sepolicy` injection mechanism is introduced into Magisk, solving the \"SELinux Problem\" once and for all.\r\n\r\nSince this is a full paradigm shift on how Magisk hot-patch the device at boot, several behaviors that many developers implicitly relied on might not exist. For example, Magisk no longer patches fstabs in most scenarios, which means AVB will remain intact; some custom kernels rely on AVB being stripped out for them by Magisk.\r\n\r\n### MagiskSU Security Enhancements\r\n\r\nThe superuser functionality of Magisk has not seen much changes ever since its introduction. v25 focuses on making root permission management more accurate and secure:\r\n\r\n- Add a whole new package tracking system to ensure malicious UID reuse attack cannot be performed\r\n- Properly support and implement the UX in the Magisk app for packages using `sharedUserId`\r\n- Enforce root manager APK signature verification to combat the rampant unofficial Magisk app \"mods\"\r\n\r\nMany might not realize, but using a trusted, unmodified Magisk app is really important. Magisk's root daemon treats the Magisk app differently and gives it blanket root access without any restrictions. A modded Magisk app can potentially backdoor your device.\r\n\r\nAnd in case some of you are about to put on your tin foil hats, this is not designed to \"vendor lock-in\"; the goal is to make sure your root management app comes from the same developer of the underlying root implementation. Magisk's build system allows custom distributors to use its own signing keys, and in addition, I am also providing official debug builds which skips any signature verification for development.\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)\r\n",
+                    "asset": [
+                        {
+                            "id": 68932609,
+                            "name": "stub-release.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v25.1/stub-release.apk",
+                            "size": 57709
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v25.0",
+                    "id": 68808526,
+                    "author": "topjohnwu",
+                    "tag_name": "v25.0",
+                    "prerelease": false,
+                    "published_at": "2022-06-07 10:23:31",
+                    "body": "Another major release! A lot of the changes aren't visible at the surface, but v25 is actually a really substantial upgrade!\r\n\r\n### MagiskInit Rewrite\r\n\r\nA significant portion of `magiskinit` (the critical software that runs before your device boots up) is completely rewritten from scratch. Ever since Android introduced [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html) in Android 8.0, Magisk has been constantly fighting against the increasingly complex partitioning and early mount setups of all kinds of devices, sometimes with weird OEM specific implementations. It got to a point that `magiskinit` had become so complicated that few people (including myself!) were aware of every detail, and maintaining this piece of software like this was clearly not sustainable. After many months of planning (yes, this whole re-architecture has been in my head for a long time) and some help from external contributors, a whole new `sepolicy` injection mechanism is introduced into Magisk, solving the \"SELinux Problem\" once and for all.\r\n\r\nSince this is a full paradigm shift on how Magisk hot-patch the device at boot, several behaviors that many developers implicitly relied on might not exist. For example, Magisk no longer patches fstabs in most scenarios, which means AVB will remain intact; some custom kernels rely on AVB being stripped out for them by Magisk.\r\n\r\n### MagiskSU Security Enhancements\r\n\r\nThe superuser functionality of Magisk has not seen much changes ever since its introduction. v25 focuses on making root permission management more accurate and secure:\r\n\r\n- Add a whole new package tracking system to ensure malicious UID reuse attack cannot be performed\r\n- Properly support and implement the UX in the Magisk app for packages using `sharedUserId`\r\n- Enforce root manager APK signature verification to combat the rampant unofficial Magisk app \"mods\"\r\n\r\nMany might not realize, but using a trusted, unmodified Magisk app is really important. Magisk's root daemon treats the Magisk app differently and gives it blanket root access without any restrictions. A modded Magisk app can potentially backdoor your device.\r\n\r\nAnd in case some of you are about to put on your tin foil hats, this is not designed to \"vendor lock-in\"; the goal is to make sure your root management app comes from the same developer of the underlying root implementation. Magisk's build system allows custom distributors to use its own signing keys, and in addition, I am also providing official debug builds which skips any signature verification for development.\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)\r\n",
+                    "asset": [
+                        {
+                            "id": 67768507,
+                            "name": "Magisk-v25.0.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v25.0/Magisk-v25.0.apk",
+                            "size": 11110603
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v25.0",
+                    "id": 68808526,
+                    "author": "topjohnwu",
+                    "tag_name": "v25.0",
+                    "prerelease": false,
+                    "published_at": "2022-06-07 10:23:31",
+                    "body": "Another major release! A lot of the changes aren't visible at the surface, but v25 is actually a really substantial upgrade!\r\n\r\n### MagiskInit Rewrite\r\n\r\nA significant portion of `magiskinit` (the critical software that runs before your device boots up) is completely rewritten from scratch. Ever since Android introduced [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html) in Android 8.0, Magisk has been constantly fighting against the increasingly complex partitioning and early mount setups of all kinds of devices, sometimes with weird OEM specific implementations. It got to a point that `magiskinit` had become so complicated that few people (including myself!) were aware of every detail, and maintaining this piece of software like this was clearly not sustainable. After many months of planning (yes, this whole re-architecture has been in my head for a long time) and some help from external contributors, a whole new `sepolicy` injection mechanism is introduced into Magisk, solving the \"SELinux Problem\" once and for all.\r\n\r\nSince this is a full paradigm shift on how Magisk hot-patch the device at boot, several behaviors that many developers implicitly relied on might not exist. For example, Magisk no longer patches fstabs in most scenarios, which means AVB will remain intact; some custom kernels rely on AVB being stripped out for them by Magisk.\r\n\r\n### MagiskSU Security Enhancements\r\n\r\nThe superuser functionality of Magisk has not seen much changes ever since its introduction. v25 focuses on making root permission management more accurate and secure:\r\n\r\n- Add a whole new package tracking system to ensure malicious UID reuse attack cannot be performed\r\n- Properly support and implement the UX in the Magisk app for packages using `sharedUserId`\r\n- Enforce root manager APK signature verification to combat the rampant unofficial Magisk app \"mods\"\r\n\r\nMany might not realize, but using a trusted, unmodified Magisk app is really important. Magisk's root daemon treats the Magisk app differently and gives it blanket root access without any restrictions. A modded Magisk app can potentially backdoor your device.\r\n\r\nAnd in case some of you are about to put on your tin foil hats, this is not designed to \"vendor lock-in\"; the goal is to make sure your root management app comes from the same developer of the underlying root implementation. Magisk's build system allows custom distributors to use its own signing keys, and in addition, I am also providing official debug builds which skips any signature verification for development.\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)\r\n",
+                    "asset": [
+                        {
+                            "id": 67768508,
+                            "name": "stub-release.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v25.0/stub-release.apk",
+                            "size": 30036
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v24.3",
+                    "id": 61470080,
+                    "author": "topjohnwu",
+                    "tag_name": "v24.3",
+                    "prerelease": false,
+                    "published_at": "2022-03-10 08:33:58",
+                    "body": "For those coming from v24.1, check the full changelog for changes introduced in v24.2.\r\n\r\n- [General] Stop using `getrandom` syscall\r\n- [Zygisk] Update API to v3, adding new fields to `AppSpecializeArgs`\r\n- [App] Improve app repackaging installation workflow\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)",
+                    "asset": [
+                        {
+                            "id": 59091145,
+                            "name": "Magisk-v24.3.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v24.3/Magisk-v24.3.apk",
+                            "size": 10878069
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v24.3",
+                    "id": 61470080,
+                    "author": "topjohnwu",
+                    "tag_name": "v24.3",
+                    "prerelease": false,
+                    "published_at": "2022-03-10 08:33:58",
+                    "body": "For those coming from v24.1, check the full changelog for changes introduced in v24.2.\r\n\r\n- [General] Stop using `getrandom` syscall\r\n- [Zygisk] Update API to v3, adding new fields to `AppSpecializeArgs`\r\n- [App] Improve app repackaging installation workflow\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)",
+                    "asset": [
+                        {
+                            "id": 59091152,
+                            "name": "stub-release.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v24.3/stub-release.apk",
+                            "size": 27444
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v24.2",
+                    "id": 60773645,
+                    "author": "topjohnwu",
+                    "tag_name": "v24.2",
+                    "prerelease": false,
+                    "published_at": "2022-03-02 07:40:24",
+                    "body": "Maintenance release fixing various issues.\r\n\r\n- [MagiskSU] Fix buffer overflow\r\n- [MagiskSU] Fix owner managed multiuser superuser settings\r\n- [MagiskSU] Fix command logging when using `su -c <cmd>`\r\n- [MagiskSU] Prevent su request indefinite blocking\r\n- [MagiskBoot] Support `lz4_legacy` archive with multiple magic\r\n- [MagiskBoot] Fix `lz4_lg` compression\r\n- [DenyList] Allow targeting processes running as system UID\r\n- [Zygisk] Workaround Samsung's \"early zygote\"\r\n- [Zygisk] Improved Zygisk loading mechanism\r\n- [Zygisk] Fix application UID tracking\r\n- [Zygisk] Fix improper `umask` being set in zygote\r\n- [App] Fix BusyBox execution test\r\n- [App] Improve stub loading mechanism\r\n- [App] Major app upgrade flow improvements\r\n- [General] Improve commandline error handling and messaging\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)",
+                    "asset": [
+                        {
+                            "id": 58310944,
+                            "name": "Magisk-v24.2.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v24.2/Magisk-v24.2.apk",
+                            "size": 10871119
+                        }
+                    ]
+                },
+                {
+                    "name": "Magisk v24.2",
+                    "id": 60773645,
+                    "author": "topjohnwu",
+                    "tag_name": "v24.2",
+                    "prerelease": false,
+                    "published_at": "2022-03-02 07:40:24",
+                    "body": "Maintenance release fixing various issues.\r\n\r\n- [MagiskSU] Fix buffer overflow\r\n- [MagiskSU] Fix owner managed multiuser superuser settings\r\n- [MagiskSU] Fix command logging when using `su -c <cmd>`\r\n- [MagiskSU] Prevent su request indefinite blocking\r\n- [MagiskBoot] Support `lz4_legacy` archive with multiple magic\r\n- [MagiskBoot] Fix `lz4_lg` compression\r\n- [DenyList] Allow targeting processes running as system UID\r\n- [Zygisk] Workaround Samsung's \"early zygote\"\r\n- [Zygisk] Improved Zygisk loading mechanism\r\n- [Zygisk] Fix application UID tracking\r\n- [Zygisk] Fix improper `umask` being set in zygote\r\n- [App] Fix BusyBox execution test\r\n- [App] Improve stub loading mechanism\r\n- [App] Major app upgrade flow improvements\r\n- [General] Improve commandline error handling and messaging\r\n\r\n### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)",
+                    "asset": [
+                        {
+                            "id": 58310951,
+                            "name": "stub-release.apk",
+                            "download": "https://github.com/topjohnwu/Magisk/releases/download/v24.2/stub-release.apk",
+                            "size": 27153
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "prop": {
                 "name": "MMRL",
                 "icon": "https://github.com/DerGoogler/MMRL/blob/master/Android/app/src/main/ic_launcher-playstore.png?raw=true",
                 "package": "com.dergoogler.mmrl",
