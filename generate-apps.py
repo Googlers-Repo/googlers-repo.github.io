@@ -103,20 +103,49 @@ while len(contents) > 0:
 
             def getDownloadLink():
                 if getRepoConf("repo") != None:
-                    get_latest_release = g.get_repo(getRepoConf(
-                        "repo")).get_releases()[0].get_assets()
-                    for release in get_latest_release:
-                        return release.browser_download_url
+                    if getRepoConf("download") == None:
+                        get_latest_release = g.get_repo(getRepoConf(
+                            "repo")).get_releases()[0:5]
+                        get_latest_release_assests = g.get_repo(getRepoConf(
+                            "repo")).get_releases()[0].get_assets()
+                        tmp_releases = []
+                        for release in get_latest_release:
+                            for asset in release.get_assets():
+                                tmp_asset = []
+
+                                def getAsset():
+                                    tmp_asset.append({
+                                        "id": asset.id,
+                                        "name": asset.name,
+                                        "download": asset.browser_download_url,
+                                        "size": asset.size
+                                    })
+                                    return tmp_asset
+
+                                tmp_releases.append({
+                                    "name": release.title,
+                                    "id": release.id,
+                                    "author": release.author.login,
+                                    "tag_name": release.tag_name,
+                                    "prerelease": release.prerelease,
+                                    "published_at": str(release.published_at),
+                                    "body": release.body,
+                                    "asset": getAsset()
+                                })
+                        return tmp_releases
+                    else:
+                        return getRepoConf("download")
                 else:
                     return getProp("download")
 
             apps = {
-                "apk_url":  getDownloadLink(),
-                "readme_url": getReadme(),
                 "prop": details,
+                "readme_url": getReadme(),
                 "contributors": [],
+                "download":  getDownloadLink(),
             }
 
+            # Get contributors of the given repository
             if getRepoConf("repo") != None:
                 repo_of_app = g.get_repo(getRepoConf("repo"))
                 contributors_count = repo_of_app.get_stats_contributors()
