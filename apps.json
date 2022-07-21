@@ -6,8 +6,6 @@
     "donate": null,
     "apps": [
         {
-            "apk_url": "https://github.com/Fox2Code/FoxMagiskModuleManager/releases/download/0.5.6/FoxMmm-0.5.6.apk",
-            "readme_url": "https://raw.githubusercontent.com/Fox2Code/FoxMagiskModuleManager/master/README.md",
             "prop": {
                 "name": "FoxMMM",
                 "icon": "https://github.com/Fox2Code/FoxMagiskModuleManager/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
@@ -16,20 +14,11 @@
                 "versionCode": "100",
                 "description": "A module manager for Magisk because the official app dropped support for it"
             },
+            "readme_url": "https://raw.githubusercontent.com/Fox2Code/FoxMagiskModuleManager/master/README.md",
             "contributors": [
                 {
                     "name": "comradekingu",
                     "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "mi007d",
-                    "avatar": "https://avatars.githubusercontent.com/u/100167438?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "ender-zhao",
-                    "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
                     "contributions_count": null
                 },
                 {
@@ -38,13 +27,23 @@
                     "contributions_count": null
                 },
                 {
+                    "name": "daywalk3r666",
+                    "avatar": "https://avatars.githubusercontent.com/u/15938117?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "ender-zhao",
+                    "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
+                    "contributions_count": null
+                },
+                {
                     "name": "Alprnn357",
                     "avatar": "https://avatars.githubusercontent.com/u/37711793?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "daywalk3r666",
-                    "avatar": "https://avatars.githubusercontent.com/u/15938117?v=4",
+                    "name": "mi007d",
+                    "avatar": "https://avatars.githubusercontent.com/u/100167438?v=4",
                     "contributions_count": null
                 },
                 {
@@ -157,11 +156,96 @@
                     "avatar": "https://avatars.githubusercontent.com/u/70908636?v=4",
                     "contributions_count": null
                 }
+            ],
+            "download": [
+                {
+                    "name": "0.5.6 - Hotfix",
+                    "id": 72116125,
+                    "author": "Fox2Code",
+                    "tag_name": "0.5.6",
+                    "prerelease": false,
+                    "published_at": "2022-07-15 18:16:23",
+                    "body": "- Fix crash introduced in 0.5.5 (Fix #175)",
+                    "asset": [
+                        {
+                            "id": 71697883,
+                            "name": "FoxMmm-0.5.6.apk",
+                            "download": "https://github.com/Fox2Code/FoxMagiskModuleManager/releases/download/0.5.6/FoxMmm-0.5.6.apk",
+                            "size": 2871483
+                        }
+                    ]
+                },
+                {
+                    "name": "0.5.5 - Maintenance Update",
+                    "id": 72103122,
+                    "author": "Fox2Code",
+                    "tag_name": "0.5.5",
+                    "prerelease": false,
+                    "published_at": "2022-07-15 15:25:24",
+                    "body": "- Fix search icon when Monet is enabled.\r\n- Fix Monet switch not working.\r\n\r\nNote: Android 5.0 & 5.1 support might be removed in a future update, this was decided after a vote on [my Telegram channel](https://t.me/Fox2Code_Chat).",
+                    "asset": [
+                        {
+                            "id": 71686393,
+                            "name": "FoxMmm-0.5.5.apk",
+                            "download": "https://github.com/Fox2Code/FoxMagiskModuleManager/releases/download/0.5.5/FoxMmm-0.5.5.apk",
+                            "size": 2871511
+                        }
+                    ]
+                },
+                {
+                    "name": "0.5.4 - Maintenance Update",
+                    "id": 71701829,
+                    "author": "Fox2Code",
+                    "tag_name": "0.5.4",
+                    "prerelease": false,
+                    "published_at": "2022-07-11 13:40:39",
+                    "body": "- Use Magisk folder to detect active modules. (No longer use boot listener)\r\n- Better Blur, MultiWindow, and Notch/DisplayCutout support.\r\n- Update Latin America spanish by @Leshu7w7\r\n- Update French by @xerta555\r\n- Update libraries.",
+                    "asset": [
+                        {
+                            "id": 71232160,
+                            "name": "FoxMmm-0.5.4.apk",
+                            "download": "https://github.com/Fox2Code/FoxMagiskModuleManager/releases/download/0.5.4/FoxMmm-0.5.4.apk",
+                            "size": 2868275
+                        }
+                    ]
+                },
+                {
+                    "name": "0.5.3 - Maintenance Update",
+                    "id": 71126381,
+                    "author": "Fox2Code",
+                    "tag_name": "0.5.3",
+                    "prerelease": false,
+                    "published_at": "2022-07-02 16:16:10",
+                    "body": "- Fix ANSI being disabled by default instead of enabled by default.\r\n- Rewrite FoxCompat to support Notch and remove unused stuff.\r\n- Update Vietnamese by @CDzungx\r\n- Update Italian by @AbsurdUsername\r\n\r\nAlso a module contest is available for module creators, check the GitHub page for more info.\r\n",
+                    "asset": [
+                        {
+                            "id": 70371223,
+                            "name": "FoxMmm-0.5.3.apk",
+                            "download": "https://github.com/Fox2Code/FoxMagiskModuleManager/releases/download/0.5.3/FoxMmm-0.5.3.apk",
+                            "size": 2863466
+                        }
+                    ]
+                },
+                {
+                    "name": "0.5.2 - Maintenance Update",
+                    "id": 70368913,
+                    "author": "Fox2Code",
+                    "tag_name": "0.5.2",
+                    "prerelease": false,
+                    "published_at": "2022-06-23 09:36:37",
+                    "body": "- Fix possible NullPointerException if install failed. (Fix #167) \r\n- Support null bytes in module.prop (Fix #167) \r\n\r\nThe issue #167 actually reported 2 bugs, this is why it's fixed twice.\r\n",
+                    "asset": [
+                        {
+                            "id": 69365545,
+                            "name": "FoxMmm-0.5.2.apk",
+                            "download": "https://github.com/Fox2Code/FoxMagiskModuleManager/releases/download/0.5.2/FoxMmm-0.5.2.apk",
+                            "size": 2859393
+                        }
+                    ]
+                }
             ]
         },
         {
-            "apk_url": "https://github.com/DerGoogler/MMRL/releases/download/1.4.1-%28141%29/app-release.apk",
-            "readme_url": "https://raw.githubusercontent.com/DerGoogler/MMRL/master/README.md",
             "prop": {
                 "name": "MMRL",
                 "icon": "https://github.com/DerGoogler/MMRL/blob/master/Android/app/src/main/ic_launcher-playstore.png?raw=true",
@@ -170,17 +254,69 @@
                 "versionCode": "141",
                 "description": "Magisk Module Repo Loader (MMRL). Allows you to load custom repos with an simple UI"
             },
+            "readme_url": "https://raw.githubusercontent.com/DerGoogler/MMRL/master/README.md",
             "contributors": [
                 {
                     "name": "DerGoogler",
                     "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
                     "contributions_count": null
                 }
+            ],
+            "download": [
+                {
+                    "name": "1.4.1 (141)",
+                    "id": 72095891,
+                    "author": "DerGoogler",
+                    "tag_name": "1.4.1-(141)",
+                    "prerelease": false,
+                    "published_at": "2022-07-15 14:09:05",
+                    "body": "> Link has been moved to https://dergoogler.com/repo\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n# What's new?\r\n\r\n## Code\r\n\r\n- Fixed Android version\r\n- Removed `setPref` & `getPref`. Now should be merged to the new API\r\n- Depen. updated\r\n- Added fake url system\r\n- Removed DAPI\r\n- Moved Download and Install button to an dialog\r\n- Added translations\r\n- Added some support for Magisk Delta (by @HuskyDG)\r\n- Improved Webpack\r\n- `AlertDialog` supports now JSX Elements\r\n- Added `Magisk` class and `MagiskBoot` class\r\n- Logger has been rewritten\r\n- Workspace cleanups\r\n\r\n## App\r\n\r\n- Fix white statusbar\r\n- Design improvements\r\n- Added option to move the navigation bar to the bottom (only Android)\r\n- Added component to make the view better on large screens\r\n- Markdown `<checkicon>` and `<dangericon>` are now `<checkmark>` and `<dangermark>`\r\n- Some parts has been migrated to react-onsenuix\r\n- App gets rendered over `googlers-tools` `dom.render(...args)`\r\n- New translations added\r\n- Added Repo Generator\r\n- Added support for large screens\r\n",
+                    "asset": [
+                        {
+                            "id": 71680020,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.1-%28141%29/app-release.apk",
+                            "size": 3451691
+                        }
+                    ]
+                },
+                {
+                    "name": "1.4.0@Alpha-3",
+                    "id": 68959017,
+                    "author": "DerGoogler",
+                    "tag_name": "1.4.0@Alpha-3",
+                    "prerelease": false,
+                    "published_at": "2022-06-08 14:14:36",
+                    "body": "> You can view the alpha also on https://repo.dergoogler.com/alpha\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n#  What's new?\r\n- Reworked Icons\r\n- Reworked settings\r\n- Reworked built-in repos\r\n- Reworked `ListViewBuilder`\r\n- Design fixes\r\n- Added dark mode\r\n\r\n## Source code\r\n- [Constants is now deprecated](https://github.com/DerGoogler/MMRL/commit/f04b2c97571f27084306930577e1031b18044ad8)\r\n- [New SharedPreferences API](https://github.com/DerGoogler/MMRL/commit/eb1db6f56fcd60fccbd67024d01ae70c1187163c)",
+                    "asset": [
+                        {
+                            "id": 67895225,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.0%40Alpha-3/app-release.apk",
+                            "size": 3663130
+                        }
+                    ]
+                },
+                {
+                    "name": "1.4.0@Alpha-2",
+                    "id": 68071180,
+                    "author": "DerGoogler",
+                    "tag_name": "1.4.0@Alpha-2",
+                    "prerelease": false,
+                    "published_at": "2022-05-28 13:01:30",
+                    "body": "Today I've release alpha 2 of MMRL. This is also an first app release!\r\n\r\n> You can view the alpha also on https://repo.dergoogler.com/alpha\r\n\r\n```\r\n/*\r\n* I'm not responsible for bricked devices, dead SD cards or thermonuclear war.\r\n* Please do some research if you have any concerns about features included in the products you find here before flashing it!\r\n* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.\r\n* Your warranty will be void if you tamper with any part of your device / software.\r\n*/\r\n```\r\n\r\n# What's new?\r\n\r\n- Installed modules gets now listed\r\n- Installed modules are now disable, enable and removable (requires reboot)\r\n- Installed modules can be recovered (when not rebooted)\r\n\r\n# Currently planned\r\n\r\n- Translation\r\n- Module installing (Hard to transform in JavaScript / TypeScript)",
+                    "asset": [
+                        {
+                            "id": 66878721,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/MMRL/releases/download/1.4.0%40Alpha-2/app-release.apk",
+                            "size": 27349956
+                        }
+                    ]
+                }
             ]
         },
         {
-            "apk_url": null,
-            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/README.md",
             "prop": {
                 "name": "YouTube",
                 "icon": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/68747470733a2f2f6e6974726174696e652e6e65742f706f7374732f6175746f2d70792d746f2d6578652f666561747572652e706e67.png",
@@ -189,7 +325,9 @@
                 "versionCode": "100",
                 "description": "We like to spam with ads"
             },
-            "contributors": []
+            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/youtube/README.md",
+            "contributors": [],
+            "download": null
         }
     ]
 }
