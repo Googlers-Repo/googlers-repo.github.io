@@ -91,6 +91,43 @@
         },
         {
             "prop": {
+                "name": "PHH Flashlight",
+                "icon": "https://github.com/DerGoogler/phh-flashlight/blob/master/app/src/main/ic_launcher-playstore.png?raw=true",
+                "package": "com.dergoogler.phh.flashlight",
+                "versionName": "1.1.0",
+                "versionCode": "110",
+                "description": "Flashlight Controller for PHH GSI Roms"
+            },
+            "readme_url": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/com.dergoogler.phh.flashlight/README.md",
+            "contributors": [
+                {
+                    "name": "DerGoogler",
+                    "avatar": "https://avatars.githubusercontent.com/u/54764558?v=4",
+                    "contributions_count": null
+                }
+            ],
+            "download": [
+                {
+                    "name": "1.1.0",
+                    "id": 69950597,
+                    "author": "DerGoogler",
+                    "tag_name": "1.1.0",
+                    "prerelease": false,
+                    "published_at": "2022-06-21 16:02:36",
+                    "body": "- Improved pph gsi detection\r\n- Removed C++ from source\r\n- Other changes",
+                    "asset": [
+                        {
+                            "id": 69145788,
+                            "name": "app-release.apk",
+                            "download": "https://github.com/DerGoogler/phh-flashlight/releases/download/1.1.0/app-release.apk",
+                            "size": 1837511
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "prop": {
                 "name": "FoxMMM",
                 "icon": "https://github.com/Fox2Code/FoxMagiskModuleManager/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
                 "package": "com.fox2code.mmm",
