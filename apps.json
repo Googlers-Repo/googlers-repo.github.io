@@ -142,6 +142,16 @@
             "theme": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/com.fox2code.mmm/theme.json",
             "contributors": [
                 {
+                    "name": "androidacy-user",
+                    "avatar": "https://avatars.githubusercontent.com/u/45006100?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "comradekingu",
+                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
+                    "contributions_count": null
+                },
+                {
                     "name": "ender-zhao",
                     "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
                     "contributions_count": null
@@ -152,23 +162,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "pokurt",
-                    "avatar": "https://avatars.githubusercontent.com/u/43902347?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "Daviteusz",
-                    "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
+                    "name": "S0FTMAN",
+                    "avatar": "https://avatars.githubusercontent.com/u/57122901?v=4",
                     "contributions_count": null
                 },
                 {
                     "name": "Alprnn357",
                     "avatar": "https://avatars.githubusercontent.com/u/37711793?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "androidacy-user",
-                    "avatar": "https://avatars.githubusercontent.com/u/45006100?v=4",
                     "contributions_count": null
                 },
                 {
@@ -192,8 +192,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "S0FTMAN",
-                    "avatar": "https://avatars.githubusercontent.com/u/57122901?v=4",
+                    "name": "pokurt",
+                    "avatar": "https://avatars.githubusercontent.com/u/43902347?v=4",
                     "contributions_count": null
                 },
                 {
@@ -217,8 +217,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "comradekingu",
-                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
+                    "name": "Daviteusz",
+                    "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
                     "contributions_count": null
                 },
                 {
@@ -343,13 +343,8 @@
             "theme": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/com.topjohnwu.magisk/theme.json",
             "contributors": [
                 {
-                    "name": "Madis0",
-                    "avatar": "https://avatars.githubusercontent.com/u/8611110?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "feliph-rc",
-                    "avatar": "https://avatars.githubusercontent.com/u/36807112?v=4",
+                    "name": "bovirus",
+                    "avatar": "https://avatars.githubusercontent.com/u/1262554?v=4",
                     "contributions_count": null
                 },
                 {
@@ -358,13 +353,18 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "neekless",
-                    "avatar": "https://avatars.githubusercontent.com/u/22426822?v=4",
+                    "name": "fessmm",
+                    "avatar": "https://avatars.githubusercontent.com/u/19999039?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "linar10",
-                    "avatar": "https://avatars.githubusercontent.com/u/829604?v=4",
+                    "name": "zrq8",
+                    "avatar": "https://avatars.githubusercontent.com/u/36910740?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "HuskyDG",
+                    "avatar": "https://avatars.githubusercontent.com/u/84650617?v=4",
                     "contributions_count": null
                 },
                 {
@@ -378,23 +378,18 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "sn-o-w",
-                    "avatar": "https://avatars.githubusercontent.com/u/2406819?v=4",
+                    "name": "simonsmh",
+                    "avatar": "https://avatars.githubusercontent.com/u/9512067?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "erayrafet",
-                    "avatar": "https://avatars.githubusercontent.com/u/34194191?v=4",
+                    "name": "linar10",
+                    "avatar": "https://avatars.githubusercontent.com/u/829604?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "kegang0619",
-                    "avatar": "https://avatars.githubusercontent.com/u/13598141?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "fessmm",
-                    "avatar": "https://avatars.githubusercontent.com/u/19999039?v=4",
+                    "name": "worstperson",
+                    "avatar": "https://avatars.githubusercontent.com/u/2978883?v=4",
                     "contributions_count": null
                 },
                 {
@@ -403,18 +398,13 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "amnindersingh12",
-                    "avatar": "https://avatars.githubusercontent.com/u/45424062?v=4",
+                    "name": "thehappydinoa",
+                    "avatar": "https://avatars.githubusercontent.com/u/30162978?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "HuskyDG",
-                    "avatar": "https://avatars.githubusercontent.com/u/84650617?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "GreatApo",
-                    "avatar": "https://avatars.githubusercontent.com/u/9620510?v=4",
+                    "name": "neekless",
+                    "avatar": "https://avatars.githubusercontent.com/u/22426822?v=4",
                     "contributions_count": null
                 },
                 {
@@ -423,23 +413,33 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "zrq8",
-                    "avatar": "https://avatars.githubusercontent.com/u/36910740?v=4",
+                    "name": "GreatApo",
+                    "avatar": "https://avatars.githubusercontent.com/u/9620510?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "lilymaniac",
-                    "avatar": "https://avatars.githubusercontent.com/u/17095823?v=4",
+                    "name": "razor84",
+                    "avatar": "https://avatars.githubusercontent.com/u/10728744?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "Generator",
-                    "avatar": "https://avatars.githubusercontent.com/u/44146?v=4",
+                    "name": "kegang0619",
+                    "avatar": "https://avatars.githubusercontent.com/u/13598141?v=4",
                     "contributions_count": null
                 },
                 {
-                    "name": "worstperson",
-                    "avatar": "https://avatars.githubusercontent.com/u/2978883?v=4",
+                    "name": "cocka11",
+                    "avatar": "https://avatars.githubusercontent.com/u/35626219?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "tony8077616",
+                    "avatar": "https://avatars.githubusercontent.com/u/9822340?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "AioiLight",
+                    "avatar": "https://avatars.githubusercontent.com/u/13918537?v=4",
                     "contributions_count": null
                 }
             ],
