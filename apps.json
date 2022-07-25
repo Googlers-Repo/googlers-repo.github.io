@@ -142,16 +142,6 @@
             "theme": "https://raw.githubusercontent.com/Googlers-Repo/apps/master/com.fox2code.mmm/theme.json",
             "contributors": [
                 {
-                    "name": "androidacy-user",
-                    "avatar": "https://avatars.githubusercontent.com/u/45006100?v=4",
-                    "contributions_count": null
-                },
-                {
-                    "name": "comradekingu",
-                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
-                    "contributions_count": null
-                },
-                {
                     "name": "ender-zhao",
                     "avatar": "https://avatars.githubusercontent.com/u/77391690?v=4",
                     "contributions_count": null
@@ -162,13 +152,23 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "S0FTMAN",
-                    "avatar": "https://avatars.githubusercontent.com/u/57122901?v=4",
+                    "name": "pokurt",
+                    "avatar": "https://avatars.githubusercontent.com/u/43902347?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "Daviteusz",
+                    "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
                     "contributions_count": null
                 },
                 {
                     "name": "Alprnn357",
                     "avatar": "https://avatars.githubusercontent.com/u/37711793?v=4",
+                    "contributions_count": null
+                },
+                {
+                    "name": "androidacy-user",
+                    "avatar": "https://avatars.githubusercontent.com/u/45006100?v=4",
                     "contributions_count": null
                 },
                 {
@@ -192,8 +192,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "pokurt",
-                    "avatar": "https://avatars.githubusercontent.com/u/43902347?v=4",
+                    "name": "S0FTMAN",
+                    "avatar": "https://avatars.githubusercontent.com/u/57122901?v=4",
                     "contributions_count": null
                 },
                 {
@@ -217,8 +217,8 @@
                     "contributions_count": null
                 },
                 {
-                    "name": "Daviteusz",
-                    "avatar": "https://avatars.githubusercontent.com/u/11527277?v=4",
+                    "name": "comradekingu",
+                    "avatar": "https://avatars.githubusercontent.com/u/13802408?v=4",
                     "contributions_count": null
                 },
                 {
