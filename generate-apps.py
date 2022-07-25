@@ -138,6 +138,7 @@ while len(contents) > 0:
             apps = {
                 "prop": details,
                 "readme_url": getReadme(),
+                "theme": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/{file_content.path}/theme.json",
                 "contributors": [],
                 "download":  getDownloadLink(),
             }
