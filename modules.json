@@ -116,8 +116,8 @@
                 "id": "mkshrc",
                 "name": "Systemless mksh.rc",
                 "author": "Der_Googler",
-                "version": "2022-07-18",
-                "versionCode": "20220718",
+                "version": "1.0",
+                "versionCode": "1",
                 "description": "Systemlessly mksh.rc for better Terminal experience. Termux environment is also useable.",
                 "foxprops": {
                     "minApi": null,
