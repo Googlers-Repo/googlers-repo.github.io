@@ -37,41 +37,38 @@ for repo in repos:
         # Parse module.prop into a python object
         moduleprop_raw = repo.get_contents(
             "module.prop").decoded_content.decode("UTF-8")
+
         moduleprop = {}
         for line in moduleprop_raw.splitlines():
             if "=" not in line:
                 continue
             lhs, rhs = line.split("=", 1)
-            moduleprop[lhs] = rhs
-
-        def getProp(name):
-            try:
-                return moduleprop[name]
-            except:
-                return None
+            moduleprop.update({
+                lhs: rhs
+            })
 
         # Isn't that way better?
         details = {
-            "id": getProp("id"),
-            "name": getProp("name"),
-            "author": getProp("author"),
-            "version": getProp("version"),
-            "versionCode": getProp("versionCode"),
-            "description": getProp("description"),
+            "id": moduleprop.get("id"),
+            "name": moduleprop.get("name"),
+            "author": moduleprop.get("author"),
+            "version": moduleprop.get("version"),
+            "versionCode": moduleprop.get("versionCode"),
+            "description": moduleprop.get("description"),
             "foxprops": {
-                "minApi": getProp("minApi"),
-                "maxApi": getProp("maxApi"),
-                "minMagisk": getProp("minMagisk"),
-                "needRamdisk": getProp("needRamdisk"),
-                "support": getProp("support"),
-                "donate": getProp("donate"),
-                "config": getProp("config"),
-                "changeBoot": getProp("changeBoot")
+                "minApi": moduleprop.get("minApi"),
+                "maxApi": moduleprop.get("maxApi"),
+                "minMagisk": moduleprop.get("minMagisk"),
+                "needRamdisk": moduleprop.get("needRamdisk"),
+                "support": moduleprop.get("support"),
+                "donate": moduleprop.get("donate"),
+                "config": moduleprop.get("config"),
+                "changeBoot": moduleprop.get("changeBoot")
             }
         }
 
         module = {
-            "id": moduleprop["id"],
+            "id": moduleprop.get("id"),
             "last_update": int(repo.updated_at.timestamp() * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
             "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
@@ -80,8 +77,13 @@ for repo in repos:
             "props": details,
         }
 
-        # Append to skeleton
-        meta["modules"].append(module)
+        # Handle file to ignore the index process for the current module
+        if moduleprop.get("gr_ignore") == "yes":
+            continue
+        else:
+            # Append to skeleton
+            meta["modules"].append(module)
+
     except:
         continue
 
