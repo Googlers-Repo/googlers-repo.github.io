@@ -57,31 +57,6 @@
             }
         },
         {
-            "id": "common_on_android",
-            "last_update": 1654186830000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/common-on-android/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Repo/common-on-android/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/common-on-android/master/README.md",
-            "props": {
-                "id": "common_on_android",
-                "name": "Common on Android",
-                "author": "Der_Googler",
-                "version": "1.0",
-                "versionCode": "10",
-                "description": "Including many binarys for usage",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": "18000",
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
-            }
-        },
-        {
             "id": "fake-shell-android-charger",
             "last_update": 1660089056000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/module.prop",
