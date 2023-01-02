@@ -82,31 +82,6 @@
             }
         },
         {
-            "id": "mkshrc",
-            "last_update": 1671903661000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/mkshrc/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Repo/mkshrc/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/mkshrc/master/README.md",
-            "props": {
-                "id": "mkshrc",
-                "name": "Systemless mksh.rc",
-                "author": "Der_Googler",
-                "version": "1.1.2",
-                "versionCode": "112",
-                "description": "Systemlessly mksh.rc for better Terminal experience to turn your device into a workstation :)",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": null,
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
-            }
-        },
-        {
             "id": "samsung_a70_overlay",
             "last_update": 1653249678000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/module.prop",
@@ -119,31 +94,6 @@
                 "version": "15",
                 "versionCode": "150",
                 "description": "Fixed Overlay for Samsung Galaxy A70. This is only for Android 12! Supports Pixel 6 Pro spoof.",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": null,
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
-            }
-        },
-        {
-            "id": "xhhttp",
-            "last_update": 1672016359000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/xh/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Repo/xh/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/xh/master/README.md",
-            "props": {
-                "id": "xhhttp",
-                "name": "xh for Android",
-                "author": "ducaale & Der_Googler",
-                "version": "v0.16.1",
-                "versionCode": "0161",
-                "description": "Friendly and fast tool for sending HTTP requests",
                 "foxprops": {
                     "minApi": null,
                     "maxApi": null,
