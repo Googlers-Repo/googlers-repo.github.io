@@ -28,7 +28,7 @@ jobs:
       - name: Commit Changes
         run: |
           git config --global user.email "jimmyboehm@dergoogler.com"
-          git config --global user.name "DG-Repo-Service"
+          git config --global user.name "Googlers Repo Service"
           git add modules.json
           git commit -sm "Update modules.json" || true
           git push || true
