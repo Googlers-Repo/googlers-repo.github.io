@@ -7,31 +7,6 @@
     "submitModule": null,
     "modules": [
         {
-            "id": "samsung_a70_raven_prop_overlay",
-            "last_update": 1654181061000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/a70_overlay_pixel_props/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Repo/a70_overlay_pixel_props/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/a70_overlay_pixel_props/master/README.md",
-            "props": {
-                "id": "samsung_a70_raven_prop_overlay",
-                "name": "Samsung Galaxy A70 Overlay",
-                "author": "Der_Googler",
-                "version": "2022-05-22",
-                "versionCode": "2205-22",
-                "description": "Spoof your device to RAVEN pixel prop (April 2022) with an generared overlay for Samsung Galaxy A70 (GSI's only). Prop original made by Tesla",
-                "foxprops": {
-                    "minApi": "31",
-                    "maxApi": "31",
-                    "minMagisk": "18000",
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
-            }
-        },
-        {
             "id": "amtsmagisk",
             "last_update": 1650811837000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/AntiAMTS-Magisk/master/module.prop",
@@ -73,31 +48,6 @@
                     "minApi": "21",
                     "maxApi": null,
                     "minMagisk": "12000",
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
-            }
-        },
-        {
-            "id": "samsung_a70_overlay",
-            "last_update": 1653249678000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Repo/samsung_a70_overlay/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/README.md",
-            "props": {
-                "id": "samsung_a70_overlay",
-                "name": "Samsung Galaxy A70 Overlay",
-                "author": "Der_Googler",
-                "version": "15",
-                "versionCode": "150",
-                "description": "Fixed Overlay for Samsung Galaxy A70. This is only for Android 12! Supports Pixel 6 Pro spoof.",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": null,
                     "needRamdisk": null,
                     "support": null,
                     "donate": null,
