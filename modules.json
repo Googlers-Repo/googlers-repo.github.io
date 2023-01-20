@@ -41,8 +41,8 @@
                 "id": "fake-shell-android-charger",
                 "name": "Fake Shell Charger",
                 "author": "Der_Googler",
-                "version": "1.7.0",
-                "versionCode": "170",
+                "version": "1.7.1",
+                "versionCode": "171",
                 "description": "Battery view from 1 to 100 in under one minute (Fun tool)",
                 "foxprops": {
                     "minApi": "21",
