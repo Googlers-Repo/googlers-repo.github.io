@@ -57,13 +57,13 @@
             }
         },
         {
-            "id": "gcc_on_amdroid",
+            "id": "gcc_on_android",
             "last_update": 1674737070000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/gcc/archive/main.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/README.md",
             "props": {
-                "id": "gcc_on_amdroid",
+                "id": "gcc_on_android",
                 "name": "GCC Toolchain",
                 "author": "Der_Googler",
                 "version": "1.0.0",
