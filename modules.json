@@ -55,6 +55,31 @@
                     "changeBoot": null
                 }
             }
+        },
+        {
+            "id": "gcc_on_amdroid",
+            "last_update": 1674737070000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/gcc/archive/main.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/README.md",
+            "props": {
+                "id": "gcc_on_amdroid",
+                "name": "GCC Toolchain",
+                "author": "Der_Googler",
+                "version": "1.0.0",
+                "versionCode": "100",
+                "description": "GCC Toolchain is usable to build many things, such as native modules for Node.js",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         }
     ]
 }
