@@ -80,6 +80,31 @@
                     "changeBoot": null
                 }
             }
+        },
+        {
+            "id": "java_on_amdroid",
+            "last_update": 1674759567000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/java/main/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/java/archive/main.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/java/main/README.md",
+            "props": {
+                "id": "java_on_amdroid",
+                "name": "Java",
+                "author": "Der_Googler",
+                "version": "1.0.0",
+                "versionCode": "100",
+                "description": "Running Java on Android",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
         }
     ]
 }
