@@ -32,6 +32,31 @@
             }
         },
         {
+            "id": "code_server",
+            "last_update": 1674908085000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/code-server/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/code-server/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/code-server/master/README.md",
+            "props": {
+                "id": "code_server",
+                "name": "Code Server",
+                "author": "coder, vhqtvn & Der_Googler",
+                "version": "1.0.0",
+                "versionCode": "100",
+                "description": "VS Code in the browser",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": null,
+                    "support": null,
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": null
+                }
+            }
+        },
+        {
             "id": "fake-shell-android-charger",
             "last_update": 1660089056000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/module.prop",
