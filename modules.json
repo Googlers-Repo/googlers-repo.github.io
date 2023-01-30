@@ -58,7 +58,7 @@
         },
         {
             "id": "fake-shell-android-charger",
-            "last_update": 1660089056000,
+            "last_update": 1675097167000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/fake-shell-charger/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/README.md",
