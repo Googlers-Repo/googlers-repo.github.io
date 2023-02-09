@@ -57,31 +57,6 @@
             }
         },
         {
-            "id": "fake-shell-android-charger",
-            "last_update": 1675097167000,
-            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/module.prop",
-            "zip_url": "https://github.com/Googlers-Repo/fake-shell-charger/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/README.md",
-            "props": {
-                "id": "fake-shell-android-charger",
-                "name": "Fake Shell Charger",
-                "author": "Der_Googler",
-                "version": "1.7.3",
-                "versionCode": "173",
-                "description": "Battery view from 1 to 100 in under one minute (Fun tool)",
-                "foxprops": {
-                    "minApi": "21",
-                    "maxApi": null,
-                    "minMagisk": "12000",
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
-            }
-        },
-        {
             "id": "gcc_on_android",
             "last_update": 1674737070000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/module.prop",
