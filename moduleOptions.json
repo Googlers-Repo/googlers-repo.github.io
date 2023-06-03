@@ -29,9 +29,28 @@
   "samsung_a70_overlay": {
     "verified": true
   },
-  "fdgbvfdthgbdytjhdvhtbdtyh": {
-    "verified": true,
-    "display": "none",
-    "low": true
+  "mkshrc": {
+    "verified": true
+  },
+  "node_on_android": {
+    "verified": true
+  },
+  "NoStorageRestrict": {
+    "verified": true
+  },
+  "xhhttp": {
+    "verified": true
+  },
+  "magiskhide": {
+    "verified": true
+  },
+  "magisk_proc_monitor": {
+    "verified": true
+  },
+  "data_isolation_support": {
+    "verified": true
+  },
+  "gcc_on_android": {
+    "verified": true
   }
 }
