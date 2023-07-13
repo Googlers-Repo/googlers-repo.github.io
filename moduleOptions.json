@@ -39,7 +39,8 @@
     "verified": true
   },
   "xhhttp": {
-    "verified": true
+    "verified": true,
+    "hidden": false
   },
   "magiskhide": {
     "verified": true
