@@ -33,7 +33,7 @@
         },
         {
             "id": "code_server",
-            "last_update": 1674908085000,
+            "last_update": 1686840366000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/code-server/master/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/code-server/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/code-server/master/README.md",
@@ -58,7 +58,7 @@
         },
         {
             "id": "gcc_on_android",
-            "last_update": 1674737070000,
+            "last_update": 1686840483000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/gcc/archive/main.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/README.md",
@@ -78,6 +78,31 @@
                     "donate": null,
                     "config": null,
                     "changeBoot": null
+                }
+            }
+        },
+        {
+            "id": "mmrl_test_module",
+            "last_update": 1689334899000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/test-module/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/test-module/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/test-module/master/README.md",
+            "props": {
+                "id": "mmrl_test_module",
+                "name": "MMRL Test Module",
+                "author": "Der_Googler",
+                "version": "1.0.0",
+                "versionCode": "100",
+                "description": "This module is for testing purpose only",
+                "foxprops": {
+                    "minApi": null,
+                    "maxApi": null,
+                    "minMagisk": null,
+                    "needRamdisk": "false",
+                    "support": "https://github.com/Googlers-Repo/test-module",
+                    "donate": null,
+                    "config": null,
+                    "changeBoot": "false"
                 }
             }
         }
