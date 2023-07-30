@@ -8,7 +8,7 @@
     "modules": [
         {
             "id": "amtsmagisk",
-            "last_update": 1689338118000,
+            "last_update": 1690718211000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/AntiAMTS-Magisk/master/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/AntiAMTS-Magisk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/AntiAMTS-Magisk/master/README.md",
