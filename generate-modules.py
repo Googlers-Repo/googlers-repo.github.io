@@ -8,6 +8,7 @@ REPO_NAME = "Googlers-Repo"
 REPO_TITLE = "Googlers Magisk Repo"
 REPO_WEBSITE = "https://dergoogler.com/repo"
 REPO_SUPPORT = "https://t.me/The_Googler"
+REPO_MMRL_OWNER = "FGPqXIzgATOwXrThZ7duE3AJnet2"
 REPO_DONATE = None
 REPO_SUBMIT_MODULE = None
 
@@ -15,6 +16,7 @@ REPO_SUBMIT_MODULE = None
 meta = {
     "last_update": "",
     "name": REPO_TITLE,
+    "mmrlOwner": REPO_MMRL_OWNER,
     "website": REPO_WEBSITE,
     "support": REPO_SUPPORT,
     "donate": REPO_DONATE,
