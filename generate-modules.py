@@ -49,26 +49,6 @@ for repo in repos:
                 lhs: rhs
             })
 
-        # Isn't that way better?
-        details = {
-            "id": moduleprop.get("id"),
-            "name": moduleprop.get("name"),
-            "author": moduleprop.get("author"),
-            "version": moduleprop.get("version"),
-            "versionCode": moduleprop.get("versionCode"),
-            "description": moduleprop.get("description"),
-            "foxprops": {
-                "minApi": moduleprop.get("minApi"),
-                "maxApi": moduleprop.get("maxApi"),
-                "minMagisk": moduleprop.get("minMagisk"),
-                "needRamdisk": moduleprop.get("needRamdisk"),
-                "support": moduleprop.get("support"),
-                "donate": moduleprop.get("donate"),
-                "config": moduleprop.get("config"),
-                "changeBoot": moduleprop.get("changeBoot")
-            }
-        }
-
         module = {
             "id": moduleprop.get("id"),
             "last_update": int(repo.updated_at.timestamp() * 1000),
@@ -76,7 +56,7 @@ for repo in repos:
             "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
             # "stars": int(repo.stargazers_count),
-            "props": details,
+            "props": moduleprop,
         }
 
         # Handle file to ignore the index process for the current module
