@@ -16,20 +16,13 @@
             "props": {
                 "id": "amtsmagisk",
                 "name": "AntiAMTS for Magisk",
-                "author": "Der_Googler & Sierra Community",
                 "version": "1.2.3",
                 "versionCode": "123",
+                "author": "Der_Googler & Sierra Community",
                 "description": "AntiAMTS ist ein kostenloser AdBlocker, der von SierraDevoplers bereitgestellt wird.",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": null,
-                    "needRamdisk": null,
-                    "support": "https://github.com/DerGoogler/AntiAMTS-Magisk",
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
+                "support": "https://github.com/DerGoogler/AntiAMTS-Magisk",
+                "mmrlAuthor": "FGPqXIzgATOwXrThZ7duE3AJnet2",
+                "mmrlCover": "https://github.com/DerGoogler/cdn/blob/master/images/AMTS-Blocker-Website-Vorlage-1%20Image.png?raw=true"
             }
         },
         {
@@ -41,20 +34,11 @@
             "props": {
                 "id": "code_server",
                 "name": "Code Server",
-                "author": "coder, vhqtvn & Der_Googler",
                 "version": "1.0.0",
                 "versionCode": "100",
+                "author": "coder, vhqtvn & Der_Googler",
                 "description": "VS Code in the browser",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": null,
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
+                "mmrlAuthor": "FGPqXIzgATOwXrThZ7duE3AJnet2"
             }
         },
         {
@@ -66,20 +50,11 @@
             "props": {
                 "id": "gcc_on_android",
                 "name": "GCC Toolchain",
-                "author": "Der_Googler",
                 "version": "1.0.0",
                 "versionCode": "100",
+                "author": "Der_Googler",
                 "description": "GCC Toolchain is usable to build many things, such as native modules for Node.js",
-                "foxprops": {
-                    "minApi": null,
-                    "maxApi": null,
-                    "minMagisk": null,
-                    "needRamdisk": null,
-                    "support": null,
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": null
-                }
+                "mmrlAuthor": "FGPqXIzgATOwXrThZ7duE3AJnet2"
             }
         },
         {
@@ -92,19 +67,17 @@
                 "id": "mmrl_test_module",
                 "name": "MMRL Test Module",
                 "author": "Der_Googler",
-                "version": null,
-                "versionCode": null,
                 "description": "This module is for testing purpose only",
-                "foxprops": {
-                    "minApi": "2000",
-                    "maxApi": null,
-                    "minMagisk": null,
-                    "needRamdisk": "false",
-                    "support": "https://github.com/Googlers-Repo/test-module",
-                    "donate": null,
-                    "config": null,
-                    "changeBoot": "false"
-                }
+                "changeBoot": "false",
+                "needRamdisk": "false",
+                "support": "https://github.com/Googlers-Repo/test-module",
+                "minApi": "2000",
+                "mmrlAuthor": "ok",
+                "mmrlCategory": "Other,Tools",
+                "mmrlNoComments": "true",
+                "mmrlNoDownload": "true",
+                "mmrlCover": "https://www.microtool.de/wp-content/uploads/2017/07/Test.png",
+                "mmrlScreenshots": "https://play-lh.googleusercontent.com/O11TlvK2ZcIagYbr7whOSJCaZW84ywez_Vi5-kLO9092ZKCEKNOeQNvZh7vB9Rwi_g=w1052-h592-rw,https://play-lh.googleusercontent.com/O4n3ikDxttWxkd7udl9xapEasCIUS_Ak0-sbTnNVaO7zDhcmwJa9H8NZPtnCuzQbdw=w1052-h592-rw,https://play-lh.googleusercontent.com/sXiFMfkPqfjVY_Dy3ts3u4WsnQ-qcOLK0pRLsDaL26kgqGk7gBK610S6gBWwl_psSA=w1052-h592-rw,https://play-lh.googleusercontent.com/hQjrBle8jq1IlOMRhViuKpZBk4Edi0pJHwesR60m9fGMnLDYeyIkzgDKcwdZdAYE_tI=w1052-h592-rw"
             }
         }
     ]
