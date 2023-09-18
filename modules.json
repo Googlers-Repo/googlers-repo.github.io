@@ -5,5 +5,69 @@
     "support": "https://t.me/The_Googler",
     "donate": null,
     "submitModule": null,
-    "modules": []
+    "modules": [
+        {
+            "id": null,
+            "last_update": 1674125274000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/a70_overlay_pixel_props/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/a70_overlay_pixel_props/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/a70_overlay_pixel_props/master/README.md",
+            "stars": 0,
+            "props": {}
+        },
+        {
+            "id": null,
+            "last_update": 1692109821000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/code-server/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/code-server/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/code-server/master/README.md",
+            "stars": 1,
+            "props": {}
+        },
+        {
+            "id": null,
+            "last_update": 1675969999000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/fake-shell-charger/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/fake-shell-charger/master/README.md",
+            "stars": 2,
+            "props": {}
+        },
+        {
+            "id": null,
+            "last_update": 1692474289000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/gcc/archive/main.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/README.md",
+            "stars": 1,
+            "props": {}
+        },
+        {
+            "id": null,
+            "last_update": 1672690038000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/mkshrc/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/mkshrc/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/mkshrc/master/README.md",
+            "stars": 4,
+            "props": {}
+        },
+        {
+            "id": null,
+            "last_update": 1674125357000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/samsung_a70_overlay/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/samsung_a70_overlay/master/README.md",
+            "stars": 0,
+            "props": {}
+        },
+        {
+            "id": null,
+            "last_update": 1672690190000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/xh/master/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/xh/archive/master.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/xh/master/README.md",
+            "stars": 2,
+            "props": {}
+        }
+    ]
 }
