@@ -5,12 +5,12 @@ from github import Github
 from datetime import datetime
 
 # Configuration
-REPO_NAME = os.environ['NAME'] 
-REPO_TITLE = os.environ['TITLE']
-REPO_WEBSITE = os.environ['WEBSITE']
-REPO_SUPPORT = os.environ['SUPPORT']
-REPO_DONATE = os.environ['DONATE']
-REPO_SUBMIT_MODULE = os.environ['SUBMIT_MODULE']
+REPO_NAME = os.environ['REPO_NAME'] 
+REPO_TITLE = os.environ['REPO_TITLE']
+REPO_WEBSITE = os.environ['REPO_WEBSITE']
+REPO_SUPPORT = os.environ['REPO_SUPPORT']
+REPO_DONATE = os.environ['REPO_DONATE']
+REPO_SUBMIT_MODULE = os.environ['REPO_SUBMIT_MODULE']
 
 # Initialize the GitHub objects
 g = Github(os.environ['GIT_TOKEN'])
