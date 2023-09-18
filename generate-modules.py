@@ -2,6 +2,7 @@ import sys
 import json
 import os
 from github import Github
+from github.Repository import Repository
 from datetime import datetime
 
 # Configuration
@@ -46,6 +47,13 @@ def convert_value(value):
             # Keep string values as is
             return value
 
+def does_object_exists(repo: Repository, object_path: str) -> bool:
+    try:
+        repo.get_contents(object_path)
+        return True
+    except github.UnknownObjectException:
+        return False
+
 # Iterate over all public repositories
 for repo in repos:
     # It is possible that module.prop does not exist (meta repo)
@@ -82,7 +90,7 @@ for repo in repos:
         }
 
         # Handle file to ignore the index process for the current module
-        if properties.get("noIndex"):
+        if not does_object_exists(repo, "META-INF") or properties.get("noIndex"):
             continue
         else:
             # Append to skeleton
