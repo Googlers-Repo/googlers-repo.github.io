@@ -808,23 +808,6 @@
             }
         },
         {
-            "id": "KTSR",
-            "last_update": 1659136922000,
-            "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/King-Tweaks/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/King-Tweaks/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/King-Tweaks/master/README.md",
-            "stars": 23,
-            "props": {
-                "id": "KTSR",
-                "name": "King Tweaks Reborn\u2122",
-                "version": "2.1.0-r1-(h4rm4nd3r",
-                "versionCode": 250,
-                "author": "pedro (pedrozzz0 @ GitHub)",
-                "description": "null",
-                "build_date": "Fri Jul 29 20:10:26 -03 2022"
-            }
-        },
-        {
             "id": "lhroot",
             "last_update": 1676718135000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/lhroot/master/module.prop",
