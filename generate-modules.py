@@ -8,15 +8,19 @@ REPO_NAME = "Googlers-Repo"
 REPO_TITLE = "Googlers Magisk Repo"
 REPO_WEBSITE = "https://dergoogler.com/repo"
 REPO_SUPPORT = "https://t.me/The_Googler"
-REPO_MMRL_OWNER = "FGPqXIzgATOwXrThZ7duE3AJnet2"
 REPO_DONATE = None
 REPO_SUBMIT_MODULE = None
 
+# Initialize the GitHub objects
+g = Github(os.environ['GIT_TOKEN'])
+user = g.get_user(REPO_NAME)
+repos = user.get_repos()
+
 # Skeleton for the repository
 meta = {
-    "last_update": "",
+    # Fetch the last repository update
+    "last_update": int(user.updated_at.timestamp() * 1000),
     "name": REPO_TITLE,
-    "mmrlOwner": REPO_MMRL_OWNER,
     "website": REPO_WEBSITE,
     "support": REPO_SUPPORT,
     "donate": REPO_DONATE,
@@ -24,43 +28,54 @@ meta = {
     "modules": []
 }
 
-# Initialize the GitHub objects
-g = Github(os.environ['GIT_TOKEN'])
-user = g.get_user(REPO_NAME)
-repos = user.get_repos()
-
-# Fetch the last repository update
-meta["last_update"] = int(user.updated_at.timestamp() * 1000)
+def convert_value(value):
+    # Convert boolean values
+    if value.lower() == 'true':
+        return True
+    elif value.lower() == 'false':
+        return False
+    # Convert integer values
+    try:
+        return int(value)
+    except ValueError:
+        # Convert float values
+        try:
+            return float(value)
+        except ValueError:
+            # Convert array values
+            if ',' in value:
+                return [convert_value(v.strip()) for v in value.split(',')]
+            else:
+                # Keep string values as is
+                return value
 
 # Iterate over all public repositories
 for repo in repos:
     # It is possible that module.prop does not exist (meta repo)
     try:
-        # Parse module.prop into a python object
-        moduleprop_raw = repo.get_contents(
-            "module.prop").decoded_content.decode("UTF-8")
+        moduleprop = repo.get_contents("module.prop")
+        moduleprop_raw = moduleprop.decoded_content.decode("UTF-8")
 
-        moduleprop = {}
-        for line in moduleprop_raw.splitlines():
-            if "=" not in line:
-                continue
-            lhs, rhs = line.split("=", 1)
-            moduleprop.update({
-                lhs: rhs
-            })
+        properties = {}
+        for line in moduleprop_raw:
+            if line.strip() and not line.startswith('#'):
+                key, value = line.split('=')
+                properties.update({
+                   key.strip(): convert_value(value.strip())
+                })
 
         module = {
-            "id": moduleprop.get("id"),
+            "id": properties.get("id"),
             "last_update": int(repo.updated_at.timestamp() * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
             "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
-            # "stars": int(repo.stargazers_count),
-            "props": moduleprop,
+            "stars": int(repo.stargazers_count),
+            "props": properties,
         }
 
         # Handle file to ignore the index process for the current module
-        if moduleprop.get("gr_ignore") == "yes":
+        if properties.get("noIndex"):
             continue
         else:
             # Append to skeleton
