@@ -2,6 +2,7 @@ import sys
 import json
 import os
 from github import Github
+from datetime import datetime
 
 # Configuration
 REPO_NAME = "Googlers-Repo"
@@ -57,14 +58,23 @@ for repo in repos:
         moduleprop_raw = moduleprop.decoded_content.decode("UTF-8")
 
         properties = {}
-        for line in moduleprop_raw:
+        for line in moduleprop_raw.splitlines():
             if line.strip() and not line.startswith('#'):
                 key, value = line.split('=')
-                properties[key.strip()] = convert_value(value.strip())
+                properties[key.strip()]: convert_value(value.strip())
+
+        # Get the last update timestamp of the module.prop file
+        last_update_timestamp = moduleprop.last_modified
+
+        # Convert the string to a datetime object
+        last_update_datetime = datetime.strptime(last_update_timestamp, '%a, %d %b %Y %H:%M:%S %Z')
+
+        # Get the timestamp of the last update
+        last_update_timestamp = datetime.timestamp(last_update_datetime)
 
         module = {
             "id": properties.get("id"),
-            "last_update": int(repo.updated_at.timestamp() * 1000),
+            "last_update": int(last_update_timestamp * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
             "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
