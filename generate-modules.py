@@ -58,7 +58,7 @@ for repo in repos:
         moduleprop_raw = moduleprop.decoded_content.decode("UTF-8")
 
         properties = {}
-.       for line in moduleprop_raw.splitlines():
+        for line in moduleprop_raw.splitlines():
             if "=" not in line:
                 continue
             lhs, rhs = line.split("=", 1)
@@ -90,7 +90,7 @@ for repo in repos:
             continue
         else:
             # Append to skeleton
-            meta["modules"].append(module)
+            meta.get("modules").append(module)
 
     except:
         continue
