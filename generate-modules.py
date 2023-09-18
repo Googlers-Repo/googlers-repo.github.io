@@ -43,12 +43,8 @@ def convert_value(value):
         try:
             return float(value)
         except ValueError:
-            # Convert array values
-            if ',' in value:
-                return [convert_value(v.strip()) for v in value.split(',')]
-            else:
-                # Keep string values as is
-                return value
+            # Keep string values as is
+            return value
 
 # Iterate over all public repositories
 for repo in repos:
