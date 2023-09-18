@@ -20,10 +20,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install PyGithub
       
-      - name: Generate JSON
+      - name: Generate GMR JSON
         run: |
+          export REPO_NAME="Googlers-Repo"
+          export REPO_TITLE="Googlers Magisk Repo"
+          export REPO_WEBSITE="https://dergoogler.com/repo"
+          export REPO_SUPPORT="https://t.me/The_Googler"
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}" > modules.json
+          python generate-modules.py "${{ secrets.TOKEN }}" > gmr.json
           
       - name: Commit Changes
         run: |
