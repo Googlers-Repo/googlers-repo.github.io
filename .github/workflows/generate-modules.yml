@@ -31,11 +31,17 @@ jobs:
 
       - name: Generate MMAR JSON
         run: |
-          export REPO_NAME="Magisk-Modules-Alt-Repo"
+          export REPO_NAME="Magisk-Modules-Alt-Repo" 
           export REPO_TITLE="Magisk Modules Alt Repo"
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
           python generate-modules.py "${{ secrets.TOKEN }}" > mmar.json
-          
+
+      - name: Generate MMR JSON
+        run: |
+          export REPO_NAME="Magisk-Modules-Repo"
+          export REPO_TITLE="Magisk Modules Repo (Official)"
+          export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
+          python generate-modules.py "${{ secrets.TOKEN }}" > mmr.json
           
       - name: Commit Changes
         run: |
