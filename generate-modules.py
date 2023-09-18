@@ -58,10 +58,13 @@ for repo in repos:
         moduleprop_raw = moduleprop.decoded_content.decode("UTF-8")
 
         properties = {}
-        for line in moduleprop_raw.splitlines():
-            if line and not line.startswith('#'):
-                key, value = line.split('=')
-                properties[key]: convert_value(value)
+.       for line in moduleprop_raw.splitlines():
+            if "=" not in line:
+                continue
+            lhs, rhs = line.split("=", 1)
+            properties.update({
+               lhs: convert_value(rhs)
+            })
 
         # Get the last update timestamp of the module.prop file
         last_update_timestamp = moduleprop.last_modified
