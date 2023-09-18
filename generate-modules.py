@@ -59,9 +59,9 @@ for repo in repos:
 
         properties = {}
         for line in moduleprop_raw.splitlines():
-            if line.strip() and not line.startswith('#'):
+            if line and not line.startswith('#'):
                 key, value = line.split('=')
-                properties[key.strip()]: convert_value(value.strip())
+                properties[key]: convert_value(value)
 
         # Get the last update timestamp of the module.prop file
         last_update_timestamp = moduleprop.last_modified
