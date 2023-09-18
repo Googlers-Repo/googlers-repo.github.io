@@ -60,9 +60,7 @@ for repo in repos:
         for line in moduleprop_raw:
             if line.strip() and not line.startswith('#'):
                 key, value = line.split('=')
-                properties.update({
-                   key.strip(): convert_value(value.strip())
-                })
+                properties[key.strip()] = convert_value(value.strip())
 
         module = {
             "id": properties.get("id"),
