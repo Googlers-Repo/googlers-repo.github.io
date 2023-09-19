@@ -12,7 +12,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/acc/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/acc/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/acc/master/README.md",
-            "stars": 278,
+            "stars": 279,
             "props": {
                 "id": "acc",
                 "domain": "vr25",
@@ -64,7 +64,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/adb-ndk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/adb-ndk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/adb-ndk/master/README.md",
-            "stars": 318,
+            "stars": 319,
             "props": {
                 "id": "adb-ndk",
                 "name": "ADB & Fastboot for Android NDK",
@@ -807,7 +807,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/MagiskHidePropsConf/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/MagiskHidePropsConf/master/README.md",
-            "stars": 1767,
+            "stars": 1768,
             "props": {
                 "id": "MagiskHidePropsConf",
                 "name": "MagiskHide Props Config",
@@ -1543,7 +1543,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/wifi-bonding/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/wifi-bonding/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/wifi-bonding/master/README.md",
-            "stars": 428,
+            "stars": 429,
             "props": {
                 "id": "wifi-bonding",
                 "name": "Wifi Bonding (Qcom)",
