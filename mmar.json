@@ -8,6 +8,7 @@
     "modules": [
         {
             "id": "acc",
+            "valid": true,
             "last_update": 1692431280000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/acc/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/acc/archive/master.zip",
@@ -26,6 +27,7 @@
         },
         {
             "id": "AdGuardDNS4Magisk",
+            "valid": true,
             "last_update": 1683124699000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk/archive/main.zip",
@@ -45,6 +47,7 @@
         },
         {
             "id": "AdGuardDNS4Magisk-IPv6",
+            "valid": true,
             "last_update": 1683124751000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk-IPv6/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk-IPv6/archive/main.zip",
@@ -64,6 +67,7 @@
         },
         {
             "id": "AFWall-Boot-AntiLeak",
+            "valid": true,
             "last_update": 1640525162000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/archive/main.zip",
@@ -80,6 +84,7 @@
         },
         {
             "id": "audio-jitter-silencer",
+            "valid": true,
             "last_update": 1693302157000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/archive/main.zip",
@@ -96,6 +101,7 @@
         },
         {
             "id": "audio-misc-settings",
+            "valid": true,
             "last_update": 1691936900000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-misc-settings/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings/archive/master.zip",
@@ -112,6 +118,7 @@
         },
         {
             "id": "backup",
+            "valid": true,
             "last_update": 1599015487000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/backup/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/backup/archive/master.zip",
@@ -128,6 +135,7 @@
         },
         {
             "id": "Better-MIUI-Icons",
+            "valid": true,
             "last_update": 1615045465000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Better-MIUI-Icons/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Better-MIUI-Icons/archive/master.zip",
@@ -145,6 +153,7 @@
         },
         {
             "id": "BraviaEngine",
+            "valid": true,
             "last_update": 1644775126000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BraviaEngine/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/BraviaEngine/archive/master.zip",
@@ -161,6 +170,7 @@
         },
         {
             "id": "BuiltIn-BusyBox",
+            "valid": true,
             "last_update": 1691528864000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/archive/main.zip",
@@ -178,6 +188,7 @@
         },
         {
             "id": "charch",
+            "valid": true,
             "last_update": 1638831717000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch/archive/master.zip",
@@ -194,6 +205,7 @@
         },
         {
             "id": "charch_dinit",
+            "valid": true,
             "last_update": 1648456059000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_dinit/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch_dinit/archive/master.zip",
@@ -210,6 +222,7 @@
         },
         {
             "id": "charch_openrc",
+            "valid": true,
             "last_update": 1600642258000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_openrc/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch_openrc/archive/master.zip",
@@ -226,6 +239,7 @@
         },
         {
             "id": "charch_sshd",
+            "valid": true,
             "last_update": 1600642223000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_sshd/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch_sshd/archive/master.zip",
@@ -242,6 +256,7 @@
         },
         {
             "id": "Clash4Magisk",
+            "valid": true,
             "last_update": 1663803256000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Clash4Magisk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Clash4Magisk/archive/master.zip",
@@ -260,6 +275,7 @@
         },
         {
             "id": "CloudflareDNS4Magisk",
+            "valid": true,
             "last_update": 1673388959000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk/archive/master.zip",
@@ -279,6 +295,7 @@
         },
         {
             "id": "CloudflareDNS4Magisk-IPv6",
+            "valid": true,
             "last_update": 1673388915000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk-IPv6/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk-IPv6/archive/master.zip",
@@ -298,6 +315,7 @@
         },
         {
             "id": "cmdpatch",
+            "valid": true,
             "last_update": 1598574218000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/cmdpatch/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/cmdpatch/archive/master.zip",
@@ -314,6 +332,7 @@
         },
         {
             "id": "com.omergoktas.Foundation",
+            "valid": true,
             "last_update": 1673549110000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/com.omergoktas.Foundation/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/com.omergoktas.Foundation/archive/master.zip",
@@ -331,6 +350,7 @@
         },
         {
             "id": "custom-certificate-authorities",
+            "valid": true,
             "last_update": 1644751003000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/archive/master.zip",
@@ -348,6 +368,7 @@
         },
         {
             "id": "CustomizedNavbar",
+            "valid": true,
             "last_update": 1680734245000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CustomizedNavbar/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/CustomizedNavbar/archive/main.zip",
@@ -365,6 +386,7 @@
         },
         {
             "id": "DalvikHyperthreading",
+            "valid": true,
             "last_update": 1673728563000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/archive/main.zip",
@@ -382,6 +404,7 @@
         },
         {
             "id": "data_backup",
+            "valid": true,
             "last_update": 1686425610000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_backup/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/data_backup/archive/main.zip",
@@ -399,6 +422,7 @@
         },
         {
             "id": "data_isolation_support",
+            "valid": true,
             "last_update": 1670983400000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_isolation_support/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/data_isolation_support/archive/main.zip",
@@ -415,6 +439,7 @@
         },
         {
             "id": "data_restore_Courier",
+            "valid": true,
             "last_update": 1686221785000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_restore_Courier/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/data_restore_Courier/archive/main.zip",
@@ -432,6 +457,7 @@
         },
         {
             "id": "Detach",
+            "valid": true,
             "last_update": 1645534294000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Detach/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Detach/archive/master.zip",
@@ -449,6 +475,7 @@
         },
         {
             "id": "Disable_high_volume_warning",
+            "valid": true,
             "last_update": 1690446974000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Disable_high_volume_warning/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Disable_high_volume_warning/archive/main.zip",
@@ -466,6 +493,7 @@
         },
         {
             "id": "djs",
+            "valid": true,
             "last_update": 1639484648000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/djs/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/djs/archive/master.zip",
@@ -482,6 +510,7 @@
         },
         {
             "id": "drc-remover",
+            "valid": true,
             "last_update": 1683473028000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/drc-remover/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/drc-remover/archive/master.zip",
@@ -498,6 +527,7 @@
         },
         {
             "id": "Evolve-Evo",
+            "valid": true,
             "last_update": 1685699521000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Evolve-Evo/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Evolve-Evo/archive/master.zip",
@@ -514,6 +544,7 @@
         },
         {
             "id": "ezme-dex-space",
+            "valid": true,
             "last_update": 1662814335000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-dex-space/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ezme-dex-space/archive/main.zip",
@@ -530,6 +561,7 @@
         },
         {
             "id": "ezme-nodebug",
+            "valid": true,
             "last_update": 1663012287000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-nodebug/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ezme-nodebug/archive/main.zip",
@@ -546,6 +578,7 @@
         },
         {
             "id": "vr25.fbind",
+            "valid": true,
             "last_update": 1638809703000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/fbind/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/fbind/archive/master.zip",
@@ -562,6 +595,7 @@
         },
         {
             "id": "Fdroid-Priv",
+            "valid": true,
             "last_update": 1669116222000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/archive/main.zip",
@@ -579,6 +613,7 @@
         },
         {
             "id": "FluentEmojiMagisk",
+            "valid": true,
             "last_update": 1691803419000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/archive/main.zip",
@@ -596,6 +631,7 @@
         },
         {
             "id": "FOSSAPPS",
+            "valid": true,
             "last_update": 1605409356000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FOSSAPPS/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/FOSSAPPS/archive/main.zip",
@@ -612,6 +648,7 @@
         },
         {
             "id": "frozen_magisk_app",
+            "valid": true,
             "last_update": 1673245267000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/archive/main.zip",
@@ -628,6 +665,7 @@
         },
         {
             "id": "gaming",
+            "valid": true,
             "last_update": 1603068712000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gaming/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/gaming/archive/master.zip",
@@ -645,6 +683,7 @@
         },
         {
             "id": "gboard-dict-3",
+            "valid": true,
             "last_update": 1652865058000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gboard-dict-3/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/gboard-dict-3/archive/master.zip",
@@ -662,6 +701,7 @@
         },
         {
             "id": "GlitchedCyberBoot",
+            "valid": true,
             "last_update": 1681338219000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GlitchedCyberBoot/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/GlitchedCyberBoot/archive/main.zip",
@@ -678,6 +718,7 @@
         },
         {
             "id": "GMSDozeBlockFind",
+            "valid": true,
             "last_update": 1683468481000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/archive/main.zip",
@@ -694,6 +735,7 @@
         },
         {
             "id": "GMSDoze",
+            "valid": true,
             "last_update": 1683468397000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMSDoze/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/GMSDoze/archive/main.zip",
@@ -710,6 +752,7 @@
         },
         {
             "id": "Google-Sans",
+            "valid": true,
             "last_update": 1598228686000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans/archive/master.zip",
@@ -726,6 +769,7 @@
         },
         {
             "id": "Google-Sans-Plus",
+            "valid": true,
             "last_update": 1598227265000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/archive/master.zip",
@@ -742,6 +786,7 @@
         },
         {
             "id": "Google_Product_Sans_Font",
+            "valid": true,
             "last_update": 1646152481000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google_Product_Sans_Font/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google_Product_Sans_Font/archive/main.zip",
@@ -759,6 +804,7 @@
         },
         {
             "id": "heimdall-ndk",
+            "valid": true,
             "last_update": 1659743807000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/heimdall-ndk/heimdall-v2.x/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/heimdall-ndk/archive/heimdall-v2.x.zip",
@@ -775,6 +821,7 @@
         },
         {
             "id": "HideNavBar",
+            "valid": true,
             "last_update": 1691819224000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/HideNavBar/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/HideNavBar/archive/master.zip",
@@ -793,6 +840,7 @@
         },
         {
             "id": "isodrive",
+            "valid": true,
             "last_update": 1693645620000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/isodrive/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/isodrive/archive/main.zip",
@@ -809,6 +857,7 @@
         },
         {
             "id": "lhroot",
+            "valid": true,
             "last_update": 1676718135000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/lhroot/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/lhroot/archive/master.zip",
@@ -825,6 +874,7 @@
         },
         {
             "id": "Luz-Nocturna_Modded",
+            "valid": true,
             "last_update": 1665327252000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/archive/main.zip",
@@ -841,6 +891,7 @@
         },
         {
             "id": "MacRandomizationEnabler",
+            "valid": true,
             "last_update": 1598109398000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/archive/master.zip",
@@ -857,6 +908,7 @@
         },
         {
             "id": "magic-flash",
+            "valid": true,
             "last_update": 1652933875000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magic-flash/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magic-flash/archive/main.zip",
@@ -873,6 +925,7 @@
         },
         {
             "id": "magisk-captive-control",
+            "valid": true,
             "last_update": 1604596410000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/archive/master.zip",
@@ -891,6 +944,7 @@
         },
         {
             "id": "magisk-drm-disabler",
+            "valid": true,
             "last_update": 1612778235000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/archive/master.zip",
@@ -909,6 +963,7 @@
         },
         {
             "id": "font-koruri-n",
+            "valid": true,
             "last_update": 1677543418000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/archive/master.zip",
@@ -927,6 +982,7 @@
         },
         {
             "id": "font-mejiro-oshi",
+            "valid": true,
             "last_update": 1677543206000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/archive/master.zip",
@@ -945,6 +1001,7 @@
         },
         {
             "id": "magiskhide",
+            "valid": true,
             "last_update": 1677950994000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MagiskHide/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/MagiskHide/archive/main.zip",
@@ -962,6 +1019,7 @@
         },
         {
             "id": "magisk_overlayfs",
+            "valid": true,
             "last_update": 1686805349000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/archive/main.zip",
@@ -979,6 +1037,7 @@
         },
         {
             "id": "magisk_proc_monitor",
+            "valid": true,
             "last_update": 1694360679000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/archive/main.zip",
@@ -995,6 +1054,7 @@
         },
         {
             "id": "Malwack",
+            "valid": true,
             "last_update": 1694807392000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Malwack/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Malwack/archive/main.zip",
@@ -1012,6 +1072,7 @@
         },
         {
             "id": "microG-GApps",
+            "valid": true,
             "last_update": 1690613826000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/microG-GApps/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/microG-GApps/archive/master.zip",
@@ -1028,6 +1089,7 @@
         },
         {
             "id": "microg_installer",
+            "valid": true,
             "last_update": 1685780343000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/microg_installer/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/microg_installer/archive/master.zip",
@@ -1047,6 +1109,7 @@
         },
         {
             "id": "MiXplorer",
+            "valid": true,
             "last_update": 1694329738000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MiXplorer/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/MiXplorer/archive/main.zip",
@@ -1063,6 +1126,7 @@
         },
         {
             "id": "mkshrc",
+            "valid": true,
             "last_update": 1694987080000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/mkshrc/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/mkshrc/archive/master.zip",
@@ -1082,6 +1146,7 @@
         },
         {
             "id": "NavBar_Resize",
+            "valid": true,
             "last_update": 1661028252000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/archive/main.zip",
@@ -1098,6 +1163,7 @@
         },
         {
             "id": "NavBar_Resize_Miui10-11-12-13",
+            "valid": true,
             "last_update": 1665059184000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/archive/main.zip",
@@ -1114,6 +1180,7 @@
         },
         {
             "id": "node_on_android",
+            "valid": true,
             "last_update": 1694987130000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/node/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/node/archive/master.zip",
@@ -1138,6 +1205,7 @@
         },
         {
             "id": "NoProcStatRestriction",
+            "valid": true,
             "last_update": 1673519742000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/archive/master.zip",
@@ -1155,6 +1223,7 @@
         },
         {
             "id": "NoStorageRestrict",
+            "valid": true,
             "last_update": 1679266482000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/archive/main.zip",
@@ -1171,6 +1240,7 @@
         },
         {
             "id": "NotchBarKiller",
+            "valid": true,
             "last_update": 1598910235000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NotchBarKiller/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NotchBarKiller/archive/master.zip",
@@ -1187,6 +1257,7 @@
         },
         {
             "id": "OneController",
+            "valid": true,
             "last_update": 1624492127000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/OneController/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/OneController/archive/master.zip",
@@ -1203,6 +1274,7 @@
         },
         {
             "id": "oneplus-8series-9r-camera-unlocker",
+            "valid": true,
             "last_update": 1668837315000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/archive/master.zip",
@@ -1220,6 +1292,7 @@
         },
         {
             "id": "oneplus-9-9pro-camera-unlocker",
+            "valid": true,
             "last_update": 1677499297000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/archive/master.zip",
@@ -1237,6 +1310,7 @@
         },
         {
             "id": "oneplusdotfix",
+            "valid": true,
             "last_update": 1673864527000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplusdotfix/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplusdotfix/archive/master.zip",
@@ -1254,6 +1328,7 @@
         },
         {
             "id": "open_fonts",
+            "valid": true,
             "last_update": 1682263432000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_fonts/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/open_fonts/archive/master.zip",
@@ -1274,6 +1349,7 @@
         },
         {
             "id": "open_webview",
+            "valid": true,
             "last_update": 1682461623000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/open_webview/archive/master.zip",
@@ -1294,6 +1370,7 @@
         },
         {
             "id": "pdx213_assistant_camera_remap",
+            "valid": true,
             "last_update": 1661242317000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/archive/main.zip",
@@ -1310,6 +1387,7 @@
         },
         {
             "id": "perf-limit-xiaomi-12",
+            "valid": true,
             "last_update": 1693840007000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/archive/main.zip",
@@ -1327,6 +1405,7 @@
         },
         {
             "id": "pixel-tensor-audio-decompressor",
+            "valid": true,
             "last_update": 1691055436000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor/dev/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor/archive/dev.zip",
@@ -1343,6 +1422,7 @@
         },
         {
             "id": "PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX",
+            "valid": true,
             "last_update": 1645367235000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/archive/main.zip",
@@ -1359,6 +1439,7 @@
         },
         {
             "id": "qdl-ndk",
+            "valid": true,
             "last_update": 1659744733000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/qdl-ndk/qdl-master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/qdl-ndk/archive/qdl-master.zip",
@@ -1375,6 +1456,7 @@
         },
         {
             "id": "QS_Rectangulares",
+            "valid": true,
             "last_update": 1661166618000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/QS_Rectangulares/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/QS_Rectangulares/archive/main.zip",
@@ -1391,6 +1473,7 @@
         },
         {
             "id": "RTKS",
+            "valid": true,
             "last_update": 1669914042000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/RTKS/stable/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/RTKS/archive/stable.zip",
@@ -1410,6 +1493,7 @@
         },
         {
             "id": "saturation",
+            "valid": true,
             "last_update": 1598478612000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/saturation/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/saturation/archive/master.zip",
@@ -1426,6 +1510,7 @@
         },
         {
             "id": "selinux_mode",
+            "valid": true,
             "last_update": 1657442190000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/selinux_mode/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/selinux_mode/archive/main.zip",
@@ -1445,6 +1530,7 @@
         },
         {
             "id": "sensitive_props",
+            "valid": true,
             "last_update": 1678093152000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/sensitive_props/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/sensitive_props/archive/master.zip",
@@ -1461,6 +1547,7 @@
         },
         {
             "id": "simple_bootloopsaver",
+            "valid": true,
             "last_update": 1690305811000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Simple_BootloopSaver/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Simple_BootloopSaver/archive/master.zip",
@@ -1479,6 +1566,7 @@
         },
         {
             "id": "smallbattery",
+            "valid": true,
             "last_update": 1692753832000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/smallbattery/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/smallbattery/archive/main.zip",
@@ -1495,6 +1583,7 @@
         },
         {
             "id": "SomcGameEnhancer-Upgrade",
+            "valid": true,
             "last_update": 1663296850000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SomcGameEnhancer-Upgrade/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/SomcGameEnhancer-Upgrade/archive/main.zip",
@@ -1512,6 +1601,7 @@
         },
         {
             "id": "supl-replacer",
+            "valid": true,
             "last_update": 1679340266000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/supl-replacer/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/supl-replacer/archive/master.zip",
@@ -1529,6 +1619,7 @@
         },
         {
             "id": "SystemlessDebloater",
+            "valid": true,
             "last_update": 1694378519000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/archive/main.zip",
@@ -1547,6 +1638,7 @@
         },
         {
             "id": "systemui-bootloop",
+            "valid": true,
             "last_update": 1643775613000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/systemui-bootloop/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/systemui-bootloop/archive/main.zip",
@@ -1566,6 +1658,7 @@
         },
         {
             "id": "ThemedProject",
+            "valid": true,
             "last_update": 1694974205000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ThemedProject/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ThemedProject/archive/main.zip",
@@ -1583,6 +1676,7 @@
         },
         {
             "id": "ToyBox-Ext",
+            "valid": true,
             "last_update": 1691442121000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ToyBox-Ext/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ToyBox-Ext/archive/main.zip",
@@ -1600,6 +1694,7 @@
         },
         {
             "id": "trichromelibrary-squoosh",
+            "valid": true,
             "last_update": 1655967933000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/trichromelibrary-squoosh/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/trichromelibrary-squoosh/archive/master.zip",
@@ -1618,6 +1713,7 @@
         },
         {
             "id": "ttf-twemoji",
+            "valid": true,
             "last_update": 1662816153000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ttf-twemoji/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ttf-twemoji/archive/main.zip",
@@ -1634,6 +1730,7 @@
         },
         {
             "id": "UbuntuFontVinaooo",
+            "valid": true,
             "last_update": 1683467033000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/UbuntuFontVinaooo/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/UbuntuFontVinaooo/archive/main.zip",
@@ -1650,6 +1747,7 @@
         },
         {
             "id": "unityfix",
+            "valid": true,
             "last_update": 1673557361000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/unityfix/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/unityfix/archive/main.zip",
@@ -1667,6 +1765,7 @@
         },
         {
             "id": "upx-ndk",
+            "valid": true,
             "last_update": 1659745041000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/upx-ndk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/upx-ndk/archive/master.zip",
@@ -1683,6 +1782,7 @@
         },
         {
             "id": "usb-samplerate-unlocker",
+            "valid": true,
             "last_update": 1691936757000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/archive/master.zip",
@@ -1699,6 +1799,7 @@
         },
         {
             "id": "vintf-bypass",
+            "valid": true,
             "last_update": 1598025275000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/vintf-bypass/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/vintf-bypass/archive/master.zip",
@@ -1715,6 +1816,7 @@
         },
         {
             "id": "wifi-bonding-nolog",
+            "valid": true,
             "last_update": 1692631701000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/wifi-bonding-nolog/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/wifi-bonding-nolog/archive/master.zip",
@@ -1731,6 +1833,7 @@
         },
         {
             "id": "xhhttp",
+            "valid": true,
             "last_update": 1692090860000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/xhhttp/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/xhhttp/archive/master.zip",
@@ -1751,6 +1854,7 @@
         },
         {
             "id": "xmlpak-RE",
+            "valid": true,
             "last_update": 1690999116000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/xmlpak-RE/RE/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/xmlpak-RE/archive/RE.zip",
@@ -1768,6 +1872,7 @@
         },
         {
             "id": "YAKT",
+            "valid": true,
             "last_update": 1693126069000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/YAKT/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/YAKT/archive/main.zip",
@@ -1784,6 +1889,7 @@
         },
         {
             "id": "ytmusic_revancedinject",
+            "valid": true,
             "last_update": 1673338863000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ytmusic_revancedinject/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ytmusic_revancedinject/archive/main.zip",
@@ -1801,6 +1907,7 @@
         },
         {
             "id": "ytrevancedinject",
+            "valid": true,
             "last_update": 1673704299000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ytrevancedinject/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ytrevancedinject/archive/main.zip",
@@ -1818,6 +1925,7 @@
         },
         {
             "id": "zram-swap-manager",
+            "valid": true,
             "last_update": 1641720621000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/zram-swap-manager/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/zram-swap-manager/archive/master.zip",
