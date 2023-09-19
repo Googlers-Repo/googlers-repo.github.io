@@ -81,6 +81,8 @@ for repo in repos:
 
         module = {
             "id": properties.get("id"),
+            # Check if META-INF folder exists, which is required to install modules
+            "valid": does_object_exists(repo, "META-INF"),
             "last_update": int(last_update_timestamp * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
             "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
@@ -90,7 +92,7 @@ for repo in repos:
         }
 
         # Handle file to ignore the index process for the current module
-        if not does_object_exists(repo, "META-INF") or properties.get("noIndex"):
+        if properties.get("noIndex") or properties.get("gr_ignore") :
             continue
         else:
             # Append to skeleton
