@@ -959,7 +959,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/movecert/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/movecert/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/movecert/master/README.md",
-            "stars": 493,
+            "stars": 494,
             "props": {
                 "id": "movecert",
                 "name": "Move Certificates",
@@ -1368,7 +1368,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/sqlite3/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/sqlite3/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/sqlite3/master/README.md",
-            "stars": 18,
+            "stars": 19,
             "props": {
                 "id": "sqlite3",
                 "name": "SQLite for ARM aarch64 devices",
