@@ -391,7 +391,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/archive/main.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/main/README.md",
-            "stars": 16,
+            "stars": 17,
             "props": {
                 "id": "DalvikHyperthreading",
                 "name": "DalvikHyperthreading",
