@@ -321,7 +321,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/busybox-ndk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/README.md",
-            "stars": 733,
+            "stars": 734,
             "props": {
                 "id": "busybox-ndk",
                 "name": "Busybox for Android NDK",
@@ -714,7 +714,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/HideNavBar/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/HideNavBar/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/HideNavBar/master/README.md",
-            "stars": 453,
+            "stars": 452,
             "props": {
                 "id": "HideNavBar",
                 "name": "Fullscreen/Immersive Gestures (Q-T)",
