@@ -566,7 +566,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-nodebug/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ezme-nodebug/archive/main.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-nodebug/main/README.md",
-            "stars": 13,
+            "stars": 14,
             "props": {
                 "id": "ezme-nodebug",
                 "name": "Hide UserDebug, Test-Keys and LineageOS",
@@ -774,7 +774,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/master/README.md",
-            "stars": 14,
+            "stars": 13,
             "props": {
                 "id": "Google-Sans-Plus",
                 "name": "Google Sans Plus",
@@ -1535,7 +1535,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/sensitive_props/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/sensitive_props/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/sensitive_props/master/README.md",
-            "stars": 72,
+            "stars": 73,
             "props": {
                 "id": "sensitive_props",
                 "name": "SafetyNet sensitive props",
