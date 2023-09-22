@@ -1059,7 +1059,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Malwack/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Malwack/archive/main.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Malwack/main/README.md",
-            "stars": 13,
+            "stars": 15,
             "props": {
                 "id": "Malwack",
                 "name": "Malwack | Anti-Malware & Ad Blocker",
@@ -1293,7 +1293,7 @@
         {
             "id": "oneplus-9-9pro-camera-unlocker",
             "valid": true,
-            "last_update": 1677499297000,
+            "last_update": 1695378642000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/master/README.md",
