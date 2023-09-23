@@ -377,7 +377,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/ccbins/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/ccbins/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/ccbins/master/README.md",
-            "stars": 88,
+            "stars": 89,
             "props": {
                 "id": "ccbins",
                 "name": "Cross Compiled Binaries",
@@ -627,7 +627,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/G-VisualMod/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/G-VisualMod/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/G-VisualMod/master/README.md",
-            "stars": 310,
+            "stars": 311,
             "props": {
                 "id": "gvisualmod",
                 "name": "G-Visual Mod",
