@@ -1073,7 +1073,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/OneController/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/OneController/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/OneController/master/README.md",
-            "stars": 187,
+            "stars": 188,
             "props": {
                 "id": "OneController",
                 "name": "1Controller - 1 Module to support all Controllers.",
