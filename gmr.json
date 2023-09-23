@@ -45,6 +45,24 @@
             }
         },
         {
+            "id": "gcc_on_android",
+            "valid": true,
+            "last_update": 1695475908000,
+            "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/module.prop",
+            "zip_url": "https://github.com/Googlers-Repo/gcc/archive/main.zip",
+            "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/gcc/main/README.md",
+            "stars": 1,
+            "props": {
+                "id": "gcc_on_android",
+                "name": "GCC Toolchain",
+                "version": "1.0.0",
+                "versionCode": 100,
+                "author": "Der_Googler",
+                "description": "GCC Toolchain is usable to build many things, such as native modules for Node.js",
+                "mmrlAuthor": "FGPqXIzgATOwXrThZ7duE3AJnet2"
+            }
+        },
+        {
             "id": "mmrl_test_module",
             "valid": true,
             "last_update": 1694357468000,

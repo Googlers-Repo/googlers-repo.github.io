@@ -1350,7 +1350,7 @@
         {
             "id": "open_webview",
             "valid": true,
-            "last_update": 1682461623000,
+            "last_update": 1695476488000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/open_webview/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/master/README.md",
