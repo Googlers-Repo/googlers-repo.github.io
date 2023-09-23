@@ -65,7 +65,7 @@
         {
             "id": "mmrl_install_tools",
             "valid": true,
-            "last_update": 1695501671000,
+            "last_update": 1695508600000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/mmrl_install_tools/master/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/mmrl_install_tools/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/mmrl_install_tools/master/README.md",
