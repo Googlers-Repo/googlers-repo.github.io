@@ -855,7 +855,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/MagiskHidePropsConf/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/MagiskHidePropsConf/master/README.md",
-            "stars": 1773,
+            "stars": 1774,
             "props": {
                 "id": "MagiskHidePropsConf",
                 "name": "MagiskHide Props Config",
@@ -1635,7 +1635,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/wifi-bonding/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/wifi-bonding/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/wifi-bonding/master/README.md",
-            "stars": 430,
+            "stars": 429,
             "props": {
                 "id": "wifi-bonding",
                 "name": "Wifi Bonding (Qcom)",
