@@ -321,7 +321,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/busybox-ndk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/README.md",
-            "stars": 736,
+            "stars": 737,
             "props": {
                 "id": "busybox-ndk",
                 "name": "Busybox for Android NDK",
