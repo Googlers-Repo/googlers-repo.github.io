@@ -802,7 +802,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/libsecure_storage/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/libsecure_storage/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/libsecure_storage/master/README.md",
-            "stars": 7,
+            "stars": 8,
             "props": {
                 "id": "libsecure_storage",
                 "name": "libsecure_storage companion for rooted Samsung devices",
