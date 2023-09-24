@@ -1506,7 +1506,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/twrp-keep/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/twrp-keep/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/twrp-keep/master/README.md",
-            "stars": 163,
+            "stars": 164,
             "props": {
                 "id": "twrp-keep",
                 "name": "TWRP A/B Retention Script",
