@@ -65,7 +65,7 @@
         {
             "id": "mmrl_install_tools",
             "valid": true,
-            "last_update": 1695508600000,
+            "last_update": 1695512448000,
             "prop_url": "https://raw.githubusercontent.com/Googlers-Repo/mmrl_install_tools/master/module.prop",
             "zip_url": "https://github.com/Googlers-Repo/mmrl_install_tools/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Googlers-Repo/mmrl_install_tools/master/README.md",
@@ -73,8 +73,8 @@
             "props": {
                 "id": "mmrl_install_tools",
                 "name": "MMRL Install Tools",
-                "version": "1.0.0",
-                "versionCode": 100,
+                "version": "1.0.2",
+                "versionCode": 102,
                 "author": "Der_Googler",
                 "description": "Required module if you want to install modules from Explore",
                 "mmrlCategories": "Tools,System"
