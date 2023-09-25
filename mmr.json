@@ -1687,7 +1687,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/xmlpak/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/xmlpak/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/xmlpak/master/README.md",
-            "stars": 135,
+            "stars": 136,
             "props": {
                 "id": "xmlpak",
                 "name": "xmlpak \u2013 a road to vendor apps",
