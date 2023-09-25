@@ -1300,7 +1300,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/riru_storage_redirect/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/riru_storage_redirect/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/riru_storage_redirect/master/README.md",
-            "stars": 54,
+            "stars": 55,
             "props": {
                 "id": "riru_storage_redirect",
                 "name": "Riru - Enhanced mode for Storage Isolation",
