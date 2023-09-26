@@ -1,7 +1,8 @@
-import sys
-import json
-import os
+import os, shutil, sys, json
+from git import Repo
+from random import random
 from github import Github
+import github
 from github.Repository import Repository
 from datetime import datetime
 
@@ -61,6 +62,9 @@ for repo in repos:
         moduleprop = repo.get_contents("module.prop")
         moduleprop_raw = moduleprop.decoded_content.decode("UTF-8")
 
+        if not does_object_exists(repo, "module.prop"):
+            continue
+
         properties = {}
         for line in moduleprop_raw.splitlines():
             if "=" not in line:
@@ -84,17 +88,21 @@ for repo in repos:
             # Check if META-INF folder exists, which is required to install modules
             "valid": does_object_exists(repo, "META-INF"),
             "last_update": int(last_update_timestamp * 1000),
-            "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
-            "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
+            # "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
+            "zip_url": f"https://api.mmrl.dergoogler.com/modules/{repo.name}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
             "stars": int(repo.stargazers_count),
             "props": properties,
         }
 
         # Handle file to ignore the index process for the current module
-        if properties.get("noIndex") or properties.get("gr_ignore") :
+        if properties.get("noIndex") or properties.get("gr_ignore"):
             continue
         else:
+            repo_dir = f"module/{repo.name}"
+            Repo.clone_from(repo.clone_url, repo_dir)
+            shutil.make_archive(f"modules/{repo.name}", 'zip', repo_dir)
+
             # Append to skeleton
             meta.get("modules").append(module)
 
@@ -102,4 +110,7 @@ for repo in repos:
         continue
 
 # Return our final skeleton
-print(json.dumps(meta, indent=4))
+os.makedirs("repos", exist_ok = True)
+f = open(f"repos/{os.getenv('REPO_FILE')}", "w")
+f.write(json.dumps(meta, indent=4))
+f.close()

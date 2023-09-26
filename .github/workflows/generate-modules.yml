@@ -19,6 +19,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install PyGithub
+          pip install gitpython
       
       - name: Generate GMR JSON
         run: |
@@ -26,22 +27,26 @@ jobs:
           export REPO_TITLE="Googlers Magisk Repo"
           export REPO_WEBSITE="https://dergoogler.com/repo"
           export REPO_SUPPORT="https://t.me/The_Googler"
+          export REPO_FILE="gmr.json"
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}" > gmr.json
+          python generate-modules.py "${{ secrets.TOKEN }}"
 
       - name: Generate MMAR JSON
         run: |
           export REPO_NAME="Magisk-Modules-Alt-Repo" 
           export REPO_TITLE="Magisk Modules Alt Repo"
+          export REPO_SUBMIT_MODULE="https://github.com/Magisk-Modules-Alt-Repo/submission"
+          export REPO_FILE="mmar.json"
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}" > mmar.json
+          python generate-modules.py "${{ secrets.TOKEN }}"
 
       - name: Generate MMR JSON
         run: |
           export REPO_NAME="Magisk-Modules-Repo"
           export REPO_TITLE="Magisk Modules Repo (Official)"
+          export REPO_FILE="mmr.json"
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}" > mmr.json
+          python generate-modules.py "${{ secrets.TOKEN }}"
           
       - name: Commit Changes
         run: |
