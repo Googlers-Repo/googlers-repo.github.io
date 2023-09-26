@@ -35,6 +35,7 @@ jobs:
         run: |
           git config --global user.email "jimmyboehm@dergoogler.com"
           git config --global user.name "Googlers Repo Service"
+          git lfs install
           git add .
           git commit -sm "Update GMR mirrors" || true
           git push || true
