@@ -90,7 +90,7 @@ for repo in repos:
             "valid": does_object_exists(repo, "META-INF"),
             "last_update": int(last_update_timestamp * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
-            "zip_url": f"https://raw.githubusercontent.com/Googlers-Repo/googlers-repo.github.io/master/zips/{repo.name}.zip",
+            "zip_url": f"https://github.com/{repo.full_name}/archive/{repo.default_branch}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
             "stars": int(repo.stargazers_count),
             "props": properties,
@@ -100,9 +100,9 @@ for repo in repos:
         if properties.get("noIndex") or properties.get("gr_ignore"):
             continue
         else:
-            repo_dir = f"module/{repo.name}"
-            Repo.clone_from(repo.clone_url, repo_dir)
-            shutil.make_archive(f"zips/{repo.name}", 'zip', repo_dir)
+            # repo_dir = f"module/{repo.name}"
+            # Repo.clone_from(repo.clone_url, repo_dir)
+            # shutil.make_archive(f"zips/{repo.name}", 'zip', repo_dir)
 
             # Append to skeleton
             meta.get("modules").append(module)
