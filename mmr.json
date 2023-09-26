@@ -359,7 +359,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/callrecorder-skvalex/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/callrecorder-skvalex/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/callrecorder-skvalex/master/README.md",
-            "stars": 269,
+            "stars": 270,
             "props": {
                 "id": "callrecorder-skvalex",
                 "name": "Call Recorder - SKVALEX",
@@ -645,7 +645,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/GoogleDialerFramework/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/GoogleDialerFramework/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/GoogleDialerFramework/master/README.md",
-            "stars": 60,
+            "stars": 61,
             "props": {
                 "id": "GoogleDialerFramework",
                 "name": "Dialer Framework for Google Phone",
@@ -855,7 +855,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/MagiskHidePropsConf/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/MagiskHidePropsConf/master/README.md",
-            "stars": 1775,
+            "stars": 1776,
             "props": {
                 "id": "MagiskHidePropsConf",
                 "name": "MagiskHide Props Config",
@@ -873,7 +873,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/microG_installer/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/microG_installer/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/microG_installer/master/README.md",
-            "stars": 67,
+            "stars": 68,
             "props": {
                 "id": "microg_installer",
                 "name": "microG Installer Revived",
@@ -1158,7 +1158,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/Pix3lify/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/Pix3lify/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/Pix3lify/master/README.md",
-            "stars": 101,
+            "stars": 102,
             "props": {
                 "id": "Pix3lify",
                 "name": "Pix3lify",
@@ -1228,7 +1228,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/riru-core/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/riru-core/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/riru-core/master/README.md",
-            "stars": 143,
+            "stars": 144,
             "props": {
                 "id": "riru-core",
                 "name": "Riru",
@@ -1283,7 +1283,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/riru_lsposed/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/riru_lsposed/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/riru_lsposed/master/README.md",
-            "stars": 193,
+            "stars": 194,
             "props": {
                 "id": "riru_lsposed",
                 "name": "Riru - LSPosed",
@@ -1506,7 +1506,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/twrp-keep/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/twrp-keep/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/twrp-keep/master/README.md",
-            "stars": 164,
+            "stars": 165,
             "props": {
                 "id": "twrp-keep",
                 "name": "TWRP A/B Retention Script",
@@ -1544,7 +1544,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/ViPER4Android-FX/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/ViPER4Android-FX/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/ViPER4Android-FX/master/README.md",
-            "stars": 363,
+            "stars": 364,
             "props": {
                 "id": "ViPER4AndroidFX",
                 "name": "ViPER4Android FX ",
