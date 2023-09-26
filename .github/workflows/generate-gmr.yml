@@ -1,0 +1,40 @@
+name: Generate GMR Modules Meta JSON
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+      
+      - name: Setup Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub
+          pip install gitpython
+      
+      - name: Generate GMR JSON
+        run: |
+          export REPO_NAME="Googlers-Repo"
+          export REPO_TITLE="Googlers Magisk Repo"
+          export REPO_WEBSITE="https://dergoogler.com/repo"
+          export REPO_SUPPORT="https://t.me/The_Googler"
+          export REPO_FILE="gmr.json"
+          export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
+          python generate-modules.py "${{ secrets.TOKEN }}"
+
+      - name: Commit Changes
+        run: |
+          git config --global user.email "jimmyboehm@dergoogler.com"
+          git config --global user.name "Googlers Repo Service"
+          git add .
+          git commit -sm "Update GMR mirrors" || true
+          git push || true

@@ -1,0 +1,38 @@
+name: Generate MMR Modules Meta JSON
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+      
+      - name: Setup Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub
+          pip install gitpython
+      
+      - name: Generate JSON
+        run: |
+          export REPO_NAME="Magisk-Modules-Repo"
+          export REPO_TITLE="Magisk Modules Repo (Official)"
+          export REPO_FILE="mmr.json"
+          export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
+          python generate-modules.py "${{ secrets.TOKEN }}"
+          
+      - name: Commit Changes
+        run: |
+          git config --global user.email "jimmyboehm@dergoogler.com"
+          git config --global user.name "Googlers Repo Service"
+          git add .
+          git commit -sm "Update MMR mirrors" || true
+          git push || true

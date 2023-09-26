@@ -1,4 +1,4 @@
-name: Generate Modules Meta JSON
+name: Generate MMAR Modules Meta JSON
 on:
   push:
   workflow_dispatch:
@@ -21,17 +21,7 @@ jobs:
           pip install PyGithub
           pip install gitpython
       
-      - name: Generate GMR JSON
-        run: |
-          export REPO_NAME="Googlers-Repo"
-          export REPO_TITLE="Googlers Magisk Repo"
-          export REPO_WEBSITE="https://dergoogler.com/repo"
-          export REPO_SUPPORT="https://t.me/The_Googler"
-          export REPO_FILE="gmr.json"
-          export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}"
-
-      - name: Generate MMAR JSON
+      - name: Generate JSON
         run: |
           export REPO_NAME="Magisk-Modules-Alt-Repo" 
           export REPO_TITLE="Magisk Modules Alt Repo"
@@ -40,18 +30,10 @@ jobs:
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
           python generate-modules.py "${{ secrets.TOKEN }}"
 
-      - name: Generate MMR JSON
-        run: |
-          export REPO_NAME="Magisk-Modules-Repo"
-          export REPO_TITLE="Magisk Modules Repo (Official)"
-          export REPO_FILE="mmr.json"
-          export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}"
-          
       - name: Commit Changes
         run: |
           git config --global user.email "jimmyboehm@dergoogler.com"
           git config --global user.name "Googlers Repo Service"
           git add .
-          git commit -sm "Update mirrors" || true
+          git commit -sm "Update MMAR mirrors" || true
           git push || true
