@@ -111,7 +111,6 @@ for repo in repos:
         continue
 
 # Return our final skeleton
-os.makedirs("repos", exist_ok = True)
-f = open(f"repos/{REPO_SCOPE}", "w")
+f = open(f"{REPO_SCOPE}.json", "w")
 f.write(json.dumps(meta, indent=4))
 f.close()

@@ -42,13 +42,11 @@ jobs:
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
           python generate-modules.py "${{ secrets.TOKEN }}"
 
-      - name: Commit Changes
-        run: |
-          git config --global user.email "jimmyboehm@dergoogler.com"
-          git config --global user.name "Googlers Repo Service"
-          git add .
-          git commit -sm "Update MMAR mirrors" || true
-          git push || true
+      - name: Update release
+        uses: johnwbyrd/update-release@v1
+        with:
+          token: ${{ secrets.TOKEN }}
+          files: zips/*.zip
 
   build:
     runs-on: ubuntu-latest
