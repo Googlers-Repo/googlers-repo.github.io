@@ -88,7 +88,7 @@ for repo in repos:
             # Check if META-INF folder exists, which is required to install modules
             "valid": does_object_exists(repo, "META-INF"),
             "last_update": int(last_update_timestamp * 1000),
-            # "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
+            "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
             "zip_url": f"https://api.mmrl.dergoogler.com/modules/{repo.name}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
             "stars": int(repo.stargazers_count),

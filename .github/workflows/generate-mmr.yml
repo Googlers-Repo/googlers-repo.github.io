@@ -4,8 +4,20 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 * * * *'
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,12 +39,46 @@ jobs:
           export REPO_TITLE="Magisk Modules Repo (Official)"
           export REPO_FILE="mmr.json"
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
-          python generate-modules.py "${{ secrets.TOKEN }}"
-          
+          python generate-modules.py "${{ secrets.TOKEN }}" 
+
       - name: Commit Changes
         run: |
           git config --global user.email "jimmyboehm@dergoogler.com"
           git config --global user.name "Googlers Repo Service"
+          git lfs install
           git add .
-          git commit -sm "Update MMR mirrors" || true
+          git commit -sm "Update MMAR mirrors" || true
+          git lfs migrate import --include="*.zip" -y
           git push || true
+
+  build:
+    runs-on: ubuntu-latest
+    needs: generate
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+        
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
