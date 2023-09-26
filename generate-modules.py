@@ -13,6 +13,7 @@ REPO_WEBSITE = os.getenv('REPO_WEBSITE')
 REPO_SUPPORT = os.getenv('REPO_SUPPORT')
 REPO_DONATE = os.getenv('REPO_DONATE')
 REPO_SUBMIT_MODULE = os.getenv('REPO_SUBMIT_MODULE')
+REPO_SCOPE = os.getenv('REPO_SCOPE')
 
 # Initialize the GitHub objects
 g = Github(os.environ['GIT_TOKEN'])
@@ -89,7 +90,7 @@ for repo in repos:
             "valid": does_object_exists(repo, "META-INF"),
             "last_update": int(last_update_timestamp * 1000),
             "prop_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/module.prop",
-            "zip_url": f"https://api.mmrl.dergoogler.com/modules/{repo.name}.zip",
+            "zip_url": f"https://raw.githubusercontent.com/Googlers-Repo/googlers-repo.github.io/master/zips/{repo.name}.zip",
             "notes_url": f"https://raw.githubusercontent.com/{repo.full_name}/{repo.default_branch}/README.md",
             "stars": int(repo.stargazers_count),
             "props": properties,
@@ -101,7 +102,7 @@ for repo in repos:
         else:
             repo_dir = f"module/{repo.name}"
             Repo.clone_from(repo.clone_url, repo_dir)
-            shutil.make_archive(f"modules/{repo.name}", 'zip', repo_dir)
+            shutil.make_archive(f"zips/{repo.name}", 'zip', repo_dir)
 
             # Append to skeleton
             meta.get("modules").append(module)
@@ -111,6 +112,6 @@ for repo in repos:
 
 # Return our final skeleton
 os.makedirs("repos", exist_ok = True)
-f = open(f"repos/{os.getenv('REPO_FILE')}", "w")
+f = open(f"repos/{REPO_SCOPE}", "w")
 f.write(json.dumps(meta, indent=4))
 f.close()
