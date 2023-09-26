@@ -47,6 +47,8 @@ jobs:
         run: |
           git config --global user.email "jimmyboehm@dergoogler.com"
           git config --global user.name "Googlers Repo Service"
+          git lfs install
+          git lfs migrate import --include="*.zip"
           git add .
           git commit -sm "Update MMAR mirrors" || true
           git push || true
