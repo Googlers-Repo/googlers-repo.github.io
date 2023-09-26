@@ -451,7 +451,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/com.piyushgarg.rclone/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/com.piyushgarg.rclone/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/com.piyushgarg.rclone/master/README.md",
-            "stars": 235,
+            "stars": 236,
             "props": {
                 "id": "com.piyushgarg.rclone",
                 "name": "rclone-mount",
