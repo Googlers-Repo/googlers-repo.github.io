@@ -100,9 +100,9 @@ for repo in repos:
         if properties.get("noIndex") or properties.get("gr_ignore"):
             continue
         else:
-            repo_dir = f"module/{repo.name}"
-            Repo.clone_from(repo.clone_url, repo_dir)
-            shutil.make_archive(f"zips/{repo.name}", 'zip', repo_dir)
+            # repo_dir = f"module/{repo.name}"
+            # Repo.clone_from(repo.clone_url, repo_dir)
+            # shutil.make_archive(f"zips/{repo.name}", 'zip', repo_dir)
 
             # Append to skeleton
             meta.get("modules").append(module)
