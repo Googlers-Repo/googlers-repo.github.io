@@ -43,7 +43,7 @@ jobs:
           python generate-modules.py "${{ secrets.TOKEN }}"
 
       - name: Update release
-        uses: johnwbyrd/update-release@v1
+        uses: johnwbyrd/update-release@v1.0.0
         with:
           token: ${{ secrets.TOKEN }}
           files: zips/*.zip
