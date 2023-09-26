@@ -42,10 +42,12 @@ jobs:
           export GIT_TOKEN="${{ secrets.AUTH_KEY }}"
           python generate-modules.py "${{ secrets.TOKEN }}"
 
-      - name: Update release
-        uses: johnwbyrd/update-release@v1.0.0
+      - uses: IsaacShelton/update-existing-release@v1.3.3
         with:
           token: ${{ secrets.TOKEN }}
+          release: "Nightly"
+          tag: "nightly"
+          replace: true
           files: zips/*.zip
 
   build:
