@@ -4,6 +4,18 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 * * * *'
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
