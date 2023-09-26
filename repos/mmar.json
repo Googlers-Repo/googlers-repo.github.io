@@ -4,14 +4,14 @@
     "website": null,
     "support": null,
     "donate": null,
-    "submitModule": null,
+    "submitModule": "https://github.com/Magisk-Modules-Alt-Repo/submission",
     "modules": [
         {
             "id": "acc",
             "valid": true,
             "last_update": 1692431280000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/acc/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/acc/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/acc.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/acc/master/README.md",
             "stars": 9,
             "props": {
@@ -30,7 +30,7 @@
             "valid": true,
             "last_update": 1683124699000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/AdGuardDNS4Magisk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk/main/README.md",
             "stars": 11,
             "props": {
@@ -50,7 +50,7 @@
             "valid": true,
             "last_update": 1683124751000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk-IPv6/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk-IPv6/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/AdGuardDNS4Magisk-IPv6.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AdGuardDNS4Magisk-IPv6/main/README.md",
             "stars": 6,
             "props": {
@@ -70,7 +70,7 @@
             "valid": true,
             "last_update": 1640525162000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/AFWall-Boot-AntiLeak.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/main/README.md",
             "stars": 23,
             "props": {
@@ -87,7 +87,7 @@
             "valid": true,
             "last_update": 1693302157000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/audio-jitter-silencer.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/main/README.md",
             "stars": 39,
             "props": {
@@ -104,7 +104,7 @@
             "valid": true,
             "last_update": 1691936900000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-misc-settings/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/audio-misc-settings.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-misc-settings/master/README.md",
             "stars": 108,
             "props": {
@@ -121,7 +121,7 @@
             "valid": true,
             "last_update": 1599015487000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/backup/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/backup/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/backup.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/backup/master/README.md",
             "stars": 33,
             "props": {
@@ -138,7 +138,7 @@
             "valid": true,
             "last_update": 1615045465000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Better-MIUI-Icons/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Better-MIUI-Icons/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Better-MIUI-Icons.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Better-MIUI-Icons/master/README.md",
             "stars": 6,
             "props": {
@@ -156,7 +156,7 @@
             "valid": true,
             "last_update": 1644775126000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BraviaEngine/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/BraviaEngine/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/BraviaEngine.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BraviaEngine/master/README.md",
             "stars": 3,
             "props": {
@@ -173,7 +173,7 @@
             "valid": true,
             "last_update": 1691528864000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/BuiltIn-BusyBox.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/main/README.md",
             "stars": 103,
             "props": {
@@ -191,7 +191,7 @@
             "valid": true,
             "last_update": 1638831717000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/charch.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch/master/README.md",
             "stars": 9,
             "props": {
@@ -208,7 +208,7 @@
             "valid": true,
             "last_update": 1648456059000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_dinit/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch_dinit/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/charch_dinit.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_dinit/master/README.md",
             "stars": 3,
             "props": {
@@ -225,7 +225,7 @@
             "valid": true,
             "last_update": 1600642258000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_openrc/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch_openrc/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/charch_openrc.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_openrc/master/README.md",
             "stars": 2,
             "props": {
@@ -242,7 +242,7 @@
             "valid": true,
             "last_update": 1600642223000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_sshd/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/charch_sshd/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/charch_sshd.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_sshd/master/README.md",
             "stars": 3,
             "props": {
@@ -259,7 +259,7 @@
             "valid": true,
             "last_update": 1663803256000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Clash4Magisk/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Clash4Magisk/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Clash4Magisk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Clash4Magisk/master/README.md",
             "stars": 4,
             "props": {
@@ -278,7 +278,7 @@
             "valid": true,
             "last_update": 1673388959000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/CloudflareDNS4Magisk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk/master/README.md",
             "stars": 5,
             "props": {
@@ -298,7 +298,7 @@
             "valid": true,
             "last_update": 1673388915000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk-IPv6/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk-IPv6/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/CloudflareDNS4Magisk-IPv6.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CloudflareDNS4Magisk-IPv6/master/README.md",
             "stars": 6,
             "props": {
@@ -318,7 +318,7 @@
             "valid": true,
             "last_update": 1598574218000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/cmdpatch/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/cmdpatch/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/cmdpatch.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/cmdpatch/master/README.md",
             "stars": 14,
             "props": {
@@ -331,29 +331,11 @@
             }
         },
         {
-            "id": "com.omergoktas.Foundation",
-            "valid": true,
-            "last_update": 1673549110000,
-            "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/com.omergoktas.Foundation/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/com.omergoktas.Foundation/archive/master.zip",
-            "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/com.omergoktas.Foundation/master/README.md",
-            "stars": 14,
-            "props": {
-                "id": "com.omergoktas.Foundation",
-                "name": "Foundation",
-                "version": "v1.2",
-                "versionCode": 102,
-                "author": "omergoktas",
-                "description": "Magisk module comprising essential apps (including a patched version of Google Play Store compatible with microG) and convenient settings for vanilla Android builds.",
-                "updateJson": "https://github.com/Magisk-Modules-Alt-Repo/com.omergoktas.Foundation/raw/master/update.json"
-            }
-        },
-        {
             "id": "custom-certificate-authorities",
             "valid": true,
             "last_update": 1644751003000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/custom-certificate-authorities.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/master/README.md",
             "stars": 37,
             "props": {
@@ -371,7 +353,7 @@
             "valid": true,
             "last_update": 1680734245000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CustomizedNavbar/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/CustomizedNavbar/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/CustomizedNavbar.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/CustomizedNavbar/main/README.md",
             "stars": 25,
             "props": {
@@ -389,7 +371,7 @@
             "valid": true,
             "last_update": 1673728563000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/DalvikHyperthreading.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/main/README.md",
             "stars": 17,
             "props": {
@@ -407,7 +389,7 @@
             "valid": true,
             "last_update": 1686425610000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_backup/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/data_backup/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/data_backup.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_backup/main/README.md",
             "stars": 34,
             "props": {
@@ -425,7 +407,7 @@
             "valid": true,
             "last_update": 1670983400000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_isolation_support/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/data_isolation_support/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/data_isolation_support.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_isolation_support/main/README.md",
             "stars": 13,
             "props": {
@@ -442,7 +424,7 @@
             "valid": true,
             "last_update": 1686221785000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_restore_Courier/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/data_restore_Courier/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/data_restore_Courier.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_restore_Courier/main/README.md",
             "stars": 5,
             "props": {
@@ -460,7 +442,7 @@
             "valid": true,
             "last_update": 1645534294000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Detach/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Detach/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Detach.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Detach/master/README.md",
             "stars": 6,
             "props": {
@@ -478,7 +460,7 @@
             "valid": true,
             "last_update": 1690446974000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Disable_high_volume_warning/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Disable_high_volume_warning/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Disable_high_volume_warning.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Disable_high_volume_warning/main/README.md",
             "stars": 3,
             "props": {
@@ -496,7 +478,7 @@
             "valid": true,
             "last_update": 1639484648000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/djs/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/djs/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/djs.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/djs/master/README.md",
             "stars": 4,
             "props": {
@@ -513,7 +495,7 @@
             "valid": true,
             "last_update": 1683473028000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/drc-remover/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/drc-remover/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/drc-remover.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/drc-remover/master/README.md",
             "stars": 47,
             "props": {
@@ -530,7 +512,7 @@
             "valid": true,
             "last_update": 1685699521000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Evolve-Evo/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Evolve-Evo/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Evolve-Evo.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Evolve-Evo/master/README.md",
             "stars": 6,
             "props": {
@@ -547,7 +529,7 @@
             "valid": true,
             "last_update": 1662814335000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-dex-space/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ezme-dex-space/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ezme-dex-space.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-dex-space/main/README.md",
             "stars": 2,
             "props": {
@@ -564,7 +546,7 @@
             "valid": true,
             "last_update": 1663012287000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-nodebug/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ezme-nodebug/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ezme-nodebug.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-nodebug/main/README.md",
             "stars": 15,
             "props": {
@@ -581,7 +563,7 @@
             "valid": true,
             "last_update": 1638809703000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/fbind/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/fbind/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/fbind.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/fbind/master/README.md",
             "stars": 7,
             "props": {
@@ -598,7 +580,7 @@
             "valid": true,
             "last_update": 1669116222000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Fdroid-Priv.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/main/README.md",
             "stars": 7,
             "props": {
@@ -616,7 +598,7 @@
             "valid": true,
             "last_update": 1691803419000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/FluentEmojiMagisk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/main/README.md",
             "stars": 4,
             "props": {
@@ -634,7 +616,7 @@
             "valid": true,
             "last_update": 1605409356000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FOSSAPPS/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/FOSSAPPS/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/FOSSAPPS.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FOSSAPPS/main/README.md",
             "stars": 12,
             "props": {
@@ -651,7 +633,7 @@
             "valid": true,
             "last_update": 1673245267000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/frozen_magisk_app.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/main/README.md",
             "stars": 8,
             "props": {
@@ -668,7 +650,7 @@
             "valid": true,
             "last_update": 1603068712000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gaming/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/gaming/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/gaming.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gaming/master/README.md",
             "stars": 59,
             "props": {
@@ -686,7 +668,7 @@
             "valid": true,
             "last_update": 1652865058000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gboard-dict-3/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/gboard-dict-3/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/gboard-dict-3.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gboard-dict-3/master/README.md",
             "stars": 40,
             "props": {
@@ -704,7 +686,7 @@
             "valid": true,
             "last_update": 1681338219000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GlitchedCyberBoot/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/GlitchedCyberBoot/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/GlitchedCyberBoot.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GlitchedCyberBoot/main/README.md",
             "stars": 4,
             "props": {
@@ -721,7 +703,7 @@
             "valid": true,
             "last_update": 1683468481000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/GMS-Doze_Block_FindMyDevice.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/main/README.md",
             "stars": 10,
             "props": {
@@ -738,7 +720,7 @@
             "valid": true,
             "last_update": 1683468397000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMSDoze/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/GMSDoze/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/GMSDoze.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMSDoze/main/README.md",
             "stars": 52,
             "props": {
@@ -755,7 +737,7 @@
             "valid": true,
             "last_update": 1598228686000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Google-Sans.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans/master/README.md",
             "stars": 4,
             "props": {
@@ -772,7 +754,7 @@
             "valid": true,
             "last_update": 1598227265000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Google-Sans-Plus.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans-Plus/master/README.md",
             "stars": 13,
             "props": {
@@ -789,7 +771,7 @@
             "valid": true,
             "last_update": 1646152481000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google_Product_Sans_Font/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Google_Product_Sans_Font/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Google_Product_Sans_Font.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google_Product_Sans_Font/main/README.md",
             "stars": 10,
             "props": {
@@ -807,7 +789,7 @@
             "valid": true,
             "last_update": 1659743807000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/heimdall-ndk/heimdall-v2.x/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/heimdall-ndk/archive/heimdall-v2.x.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/heimdall-ndk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/heimdall-ndk/heimdall-v2.x/README.md",
             "stars": 17,
             "props": {
@@ -824,7 +806,7 @@
             "valid": true,
             "last_update": 1691819224000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/HideNavBar/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/HideNavBar/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/HideNavBar.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/HideNavBar/master/README.md",
             "stars": 215,
             "props": {
@@ -843,7 +825,7 @@
             "valid": true,
             "last_update": 1693645620000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/isodrive/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/isodrive/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/isodrive.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/isodrive/main/README.md",
             "stars": 20,
             "props": {
@@ -856,11 +838,29 @@
             }
         },
         {
+            "id": "KTSR",
+            "valid": false,
+            "last_update": 1659136922000,
+            "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/King-Tweaks/master/module.prop",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/King-Tweaks.zip",
+            "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/King-Tweaks/master/README.md",
+            "stars": 23,
+            "props": {
+                "id": "KTSR",
+                "name": "King Tweaks Reborn\u2122",
+                "version": "2.1.0-r1-(h4rm4nd3r",
+                "versionCode": 250,
+                "author": "pedro (pedrozzz0 @ GitHub)",
+                "description": "null",
+                "build_date": "Fri Jul 29 20:10:26 -03 2022"
+            }
+        },
+        {
             "id": "lhroot",
             "valid": true,
             "last_update": 1676718135000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/lhroot/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/lhroot/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/lhroot.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/lhroot/master/README.md",
             "stars": 28,
             "props": {
@@ -877,7 +877,7 @@
             "valid": true,
             "last_update": 1665327252000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Luz-Nocturna_Modded.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/main/README.md",
             "stars": 3,
             "props": {
@@ -894,7 +894,7 @@
             "valid": true,
             "last_update": 1598109398000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/MacRandomizationEnabler.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/master/README.md",
             "stars": 9,
             "props": {
@@ -911,7 +911,7 @@
             "valid": true,
             "last_update": 1652933875000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magic-flash/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magic-flash/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/magic-flash.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magic-flash/main/README.md",
             "stars": 117,
             "props": {
@@ -928,7 +928,7 @@
             "valid": true,
             "last_update": 1604596410000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Magisk-Captive-Control.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/master/README.md",
             "stars": 12,
             "props": {
@@ -947,7 +947,7 @@
             "valid": true,
             "last_update": 1612778235000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Magisk-DRM-Disabler.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/master/README.md",
             "stars": 8,
             "props": {
@@ -966,7 +966,7 @@
             "valid": true,
             "last_update": 1677543418000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/magisk-module-koruri-font.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/master/README.md",
             "stars": 3,
             "props": {
@@ -985,7 +985,7 @@
             "valid": true,
             "last_update": 1677543206000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/magisk-module-mejiro-font.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/master/README.md",
             "stars": 5,
             "props": {
@@ -1004,7 +1004,7 @@
             "valid": true,
             "last_update": 1677950994000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MagiskHide/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/MagiskHide/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/MagiskHide.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MagiskHide/main/README.md",
             "stars": 19,
             "props": {
@@ -1022,7 +1022,7 @@
             "valid": true,
             "last_update": 1686805349000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/magisk_overlayfs.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/main/README.md",
             "stars": 36,
             "props": {
@@ -1040,7 +1040,7 @@
             "valid": true,
             "last_update": 1694360679000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/magisk_proc_monitor.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/main/README.md",
             "stars": 15,
             "props": {
@@ -1057,7 +1057,7 @@
             "valid": true,
             "last_update": 1695705121000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Malwack/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Malwack/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Malwack.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Malwack/main/README.md",
             "stars": 15,
             "props": {
@@ -1075,7 +1075,7 @@
             "valid": true,
             "last_update": 1690613826000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/microG-GApps/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/microG-GApps/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/microG-GApps.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/microG-GApps/master/README.md",
             "stars": 56,
             "props": {
@@ -1092,7 +1092,7 @@
             "valid": true,
             "last_update": 1685780343000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/microg_installer/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/microg_installer/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/microg_installer.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/microg_installer/master/README.md",
             "stars": 53,
             "props": {
@@ -1112,7 +1112,7 @@
             "valid": true,
             "last_update": 1694329738000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MiXplorer/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/MiXplorer/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/MiXplorer.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MiXplorer/main/README.md",
             "stars": 157,
             "props": {
@@ -1129,7 +1129,7 @@
             "valid": true,
             "last_update": 1694987080000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/mkshrc/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/mkshrc/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/mkshrc.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/mkshrc/master/README.md",
             "stars": 22,
             "props": {
@@ -1149,7 +1149,7 @@
             "valid": true,
             "last_update": 1661028252000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/NavBar_Resize_AOSP.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/main/README.md",
             "stars": 1,
             "props": {
@@ -1166,7 +1166,7 @@
             "valid": true,
             "last_update": 1665059184000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/NavBar_Resize_MIUI.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/main/README.md",
             "stars": 3,
             "props": {
@@ -1183,7 +1183,7 @@
             "valid": true,
             "last_update": 1694987130000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/node/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/node/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/node.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/node/master/README.md",
             "stars": 32,
             "props": {
@@ -1208,7 +1208,7 @@
             "valid": true,
             "last_update": 1673519742000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/NoProcStatRestriction.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/master/README.md",
             "stars": 4,
             "props": {
@@ -1226,7 +1226,7 @@
             "valid": true,
             "last_update": 1679266482000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/NoStorageRestrict.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/main/README.md",
             "stars": 141,
             "props": {
@@ -1243,7 +1243,7 @@
             "valid": true,
             "last_update": 1598910235000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NotchBarKiller/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/NotchBarKiller/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/NotchBarKiller.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NotchBarKiller/master/README.md",
             "stars": 9,
             "props": {
@@ -1260,7 +1260,7 @@
             "valid": true,
             "last_update": 1624492127000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/OneController/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/OneController/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/OneController.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/OneController/master/README.md",
             "stars": 7,
             "props": {
@@ -1277,7 +1277,7 @@
             "valid": true,
             "last_update": 1668837315000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/oneplus-8series-9r-camera-unlocker.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/master/README.md",
             "stars": 8,
             "props": {
@@ -1295,7 +1295,7 @@
             "valid": true,
             "last_update": 1695378642000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/oneplus-9-9pro-camera-unlocker.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-9-9pro-camera-unlocker/master/README.md",
             "stars": 4,
             "props": {
@@ -1313,7 +1313,7 @@
             "valid": true,
             "last_update": 1673864527000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplusdotfix/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/oneplusdotfix/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/oneplusdotfix.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplusdotfix/master/README.md",
             "stars": 0,
             "props": {
@@ -1331,7 +1331,7 @@
             "valid": true,
             "last_update": 1682263432000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_fonts/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/open_fonts/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/open_fonts.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_fonts/master/README.md",
             "stars": 51,
             "props": {
@@ -1352,7 +1352,7 @@
             "valid": true,
             "last_update": 1695548624000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/open_webview/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/open_webview.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/master/README.md",
             "stars": 85,
             "props": {
@@ -1373,7 +1373,7 @@
             "valid": true,
             "last_update": 1661242317000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/pdx213_assistant_camera_remap.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/main/README.md",
             "stars": 1,
             "props": {
@@ -1390,7 +1390,7 @@
             "valid": true,
             "last_update": 1693840007000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/perf-limit-xiaomi-12.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/main/README.md",
             "stars": 1,
             "props": {
@@ -1408,7 +1408,7 @@
             "valid": true,
             "last_update": 1691055436000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor/dev/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor/archive/dev.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/pixel-tensor-audio-decompressor.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor/dev/README.md",
             "stars": 1,
             "props": {
@@ -1425,7 +1425,7 @@
             "valid": true,
             "last_update": 1645367235000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/main/README.md",
             "stars": 2,
             "props": {
@@ -1442,7 +1442,7 @@
             "valid": true,
             "last_update": 1659744733000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/qdl-ndk/qdl-master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/qdl-ndk/archive/qdl-master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/qdl-ndk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/qdl-ndk/qdl-master/README.md",
             "stars": 2,
             "props": {
@@ -1459,7 +1459,7 @@
             "valid": true,
             "last_update": 1661166618000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/QS_Rectangulares/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/QS_Rectangulares/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/QS_Rectangulares.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/QS_Rectangulares/main/README.md",
             "stars": 1,
             "props": {
@@ -1476,7 +1476,7 @@
             "valid": true,
             "last_update": 1669914042000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/RTKS/stable/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/RTKS/archive/stable.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/RTKS.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/RTKS/stable/README.md",
             "stars": 5,
             "props": {
@@ -1496,7 +1496,7 @@
             "valid": true,
             "last_update": 1598478612000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/saturation/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/saturation/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/saturation.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/saturation/master/README.md",
             "stars": 12,
             "props": {
@@ -1513,7 +1513,7 @@
             "valid": true,
             "last_update": 1657442190000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/selinux_mode/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/selinux_mode/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/selinux_mode.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/selinux_mode/main/README.md",
             "stars": 7,
             "props": {
@@ -1533,7 +1533,7 @@
             "valid": true,
             "last_update": 1678093152000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/sensitive_props/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/sensitive_props/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/sensitive_props.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/sensitive_props/master/README.md",
             "stars": 73,
             "props": {
@@ -1550,7 +1550,7 @@
             "valid": true,
             "last_update": 1690305811000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Simple_BootloopSaver/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/Simple_BootloopSaver/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/Simple_BootloopSaver.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Simple_BootloopSaver/master/README.md",
             "stars": 8,
             "props": {
@@ -1569,7 +1569,7 @@
             "valid": true,
             "last_update": 1692753832000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/smallbattery/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/smallbattery/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/smallbattery.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/smallbattery/main/README.md",
             "stars": 1,
             "props": {
@@ -1586,7 +1586,7 @@
             "valid": true,
             "last_update": 1663296850000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SomcGameEnhancer-Upgrade/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/SomcGameEnhancer-Upgrade/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/SomcGameEnhancer-Upgrade.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SomcGameEnhancer-Upgrade/main/README.md",
             "stars": 2,
             "props": {
@@ -1604,7 +1604,7 @@
             "valid": true,
             "last_update": 1679340266000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/supl-replacer/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/supl-replacer/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/supl-replacer.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/supl-replacer/master/README.md",
             "stars": 24,
             "props": {
@@ -1622,7 +1622,7 @@
             "valid": true,
             "last_update": 1694378519000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/SystemlessDebloater.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/main/README.md",
             "stars": 43,
             "props": {
@@ -1641,7 +1641,7 @@
             "valid": true,
             "last_update": 1643775613000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/systemui-bootloop/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/systemui-bootloop/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/systemui-bootloop.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/systemui-bootloop/main/README.md",
             "stars": 22,
             "props": {
@@ -1661,7 +1661,7 @@
             "valid": true,
             "last_update": 1694974205000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ThemedProject/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ThemedProject/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ThemedProject.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ThemedProject/main/README.md",
             "stars": 16,
             "props": {
@@ -1679,7 +1679,7 @@
             "valid": true,
             "last_update": 1691442121000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ToyBox-Ext/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ToyBox-Ext/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ToyBox-Ext.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ToyBox-Ext/main/README.md",
             "stars": 56,
             "props": {
@@ -1697,7 +1697,7 @@
             "valid": true,
             "last_update": 1655967933000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/trichromelibrary-squoosh/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/trichromelibrary-squoosh/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/trichromelibrary-squoosh.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/trichromelibrary-squoosh/master/README.md",
             "stars": 17,
             "props": {
@@ -1716,7 +1716,7 @@
             "valid": true,
             "last_update": 1662816153000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ttf-twemoji/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ttf-twemoji/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ttf-twemoji.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ttf-twemoji/main/README.md",
             "stars": 8,
             "props": {
@@ -1733,7 +1733,7 @@
             "valid": true,
             "last_update": 1683467033000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/UbuntuFontVinaooo/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/UbuntuFontVinaooo/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/UbuntuFontVinaooo.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/UbuntuFontVinaooo/main/README.md",
             "stars": 3,
             "props": {
@@ -1750,7 +1750,7 @@
             "valid": true,
             "last_update": 1673557361000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/unityfix/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/unityfix/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/unityfix.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/unityfix/main/README.md",
             "stars": 3,
             "props": {
@@ -1768,7 +1768,7 @@
             "valid": true,
             "last_update": 1659745041000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/upx-ndk/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/upx-ndk/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/upx-ndk.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/upx-ndk/master/README.md",
             "stars": 1,
             "props": {
@@ -1785,7 +1785,7 @@
             "valid": true,
             "last_update": 1691936757000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/usb-samplerate-unlocker.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/master/README.md",
             "stars": 53,
             "props": {
@@ -1802,7 +1802,7 @@
             "valid": true,
             "last_update": 1598025275000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/vintf-bypass/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/vintf-bypass/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/vintf-bypass.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/vintf-bypass/master/README.md",
             "stars": 7,
             "props": {
@@ -1819,7 +1819,7 @@
             "valid": true,
             "last_update": 1692631701000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/wifi-bonding-nolog/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/wifi-bonding-nolog/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/wifi-bonding-nolog.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/wifi-bonding-nolog/master/README.md",
             "stars": 4,
             "props": {
@@ -1836,7 +1836,7 @@
             "valid": true,
             "last_update": 1692090860000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/xhhttp/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/xhhttp/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/xhhttp.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/xhhttp/master/README.md",
             "stars": 11,
             "props": {
@@ -1857,7 +1857,7 @@
             "valid": true,
             "last_update": 1690999116000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/xmlpak-RE/RE/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/xmlpak-RE/archive/RE.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/xmlpak-RE.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/xmlpak-RE/RE/README.md",
             "stars": 10,
             "props": {
@@ -1875,7 +1875,7 @@
             "valid": true,
             "last_update": 1693126069000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/YAKT/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/YAKT/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/YAKT.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/YAKT/main/README.md",
             "stars": 26,
             "props": {
@@ -1892,7 +1892,7 @@
             "valid": true,
             "last_update": 1673338863000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ytmusic_revancedinject/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ytmusic_revancedinject/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ytmusic_revancedinject.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ytmusic_revancedinject/main/README.md",
             "stars": 7,
             "props": {
@@ -1910,7 +1910,7 @@
             "valid": true,
             "last_update": 1673704299000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ytrevancedinject/main/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/ytrevancedinject/archive/main.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/ytrevancedinject.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ytrevancedinject/main/README.md",
             "stars": 28,
             "props": {
@@ -1928,7 +1928,7 @@
             "valid": true,
             "last_update": 1641720621000,
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/zram-swap-manager/master/module.prop",
-            "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/zram-swap-manager/archive/master.zip",
+            "zip_url": "https://api.mmrl.dergoogler.com/modules/zram-swap-manager.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/zram-swap-manager/master/README.md",
             "stars": 18,
             "props": {
