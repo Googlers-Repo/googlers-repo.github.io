@@ -1624,7 +1624,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/main/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/archive/main.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/main/README.md",
-            "stars": 42,
+            "stars": 43,
             "props": {
                 "id": "SystemlessDebloater",
                 "name": "Systemless Debloater",

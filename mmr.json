@@ -321,7 +321,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/busybox-ndk/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/README.md",
-            "stars": 738,
+            "stars": 739,
             "props": {
                 "id": "busybox-ndk",
                 "name": "Busybox for Android NDK",
@@ -1039,7 +1039,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/NfcScreenOff/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/NfcScreenOff/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/NfcScreenOff/master/README.md",
-            "stars": 42,
+            "stars": 43,
             "props": {
                 "id": "NFCScreenOff",
                 "name": "NFC Screen Off",
@@ -1687,7 +1687,7 @@
             "prop_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/xmlpak/master/module.prop",
             "zip_url": "https://github.com/Magisk-Modules-Repo/xmlpak/archive/master.zip",
             "notes_url": "https://raw.githubusercontent.com/Magisk-Modules-Repo/xmlpak/master/README.md",
-            "stars": 136,
+            "stars": 137,
             "props": {
                 "id": "xmlpak",
                 "name": "xmlpak \u2013 a road to vendor apps",
