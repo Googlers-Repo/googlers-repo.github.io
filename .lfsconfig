@@ -1,2 +1,2 @@
 [lfs]
-	fetchinclude = zips/**
+	fetchinclude = modules/**

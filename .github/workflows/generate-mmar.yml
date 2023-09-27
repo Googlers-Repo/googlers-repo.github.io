@@ -50,7 +50,7 @@ jobs:
           git add .
           git commit -sm "Update MMAR mirrors" || true
           git lfs migrate import --include="*.zip" -y
-          git push || true
+          git push --force || true
 
   build:
     runs-on: ubuntu-latest
