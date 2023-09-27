@@ -102,7 +102,7 @@ for repo in repos:
         else:
             repo_dir = f"module/{repo.name}"
             Repo.clone_from(repo.clone_url, repo_dir)
-            shutil.make_archive(f"modules/{REPO_SCOPE}/{repo.name}", 'zip', repo_dir)
+            shutil.make_archive(f"modules/{repo.name}", 'zip', repo_dir)
 
             # Append to skeleton
             meta.get("modules").append(module)
