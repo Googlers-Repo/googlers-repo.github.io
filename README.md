@@ -10,6 +10,4 @@ Your module `last_updated` will be updated when you change something in the `mod
 - [Googlers Repo](https://api-mmrl.dergoogler.com/gmr.json)
 - [Magisk Modules Official Repo](https://api-mmrl.dergoogler.com/mmr.json)
 
-## Usage of modules in others repos
 
-Modules that are managed by **Googlers Repo**, **Der_Googler (DerGoogler)** etc are not allowed to show up in other repos. A exemption for this rule is **Magisk Modules Alt Repo**, other repos are not allowed to host our modules.
