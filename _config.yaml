@@ -1,0 +1,20 @@
+exclude:
+  - node_modules
+  - script
+
+sass:
+  style: :compressed
+
+theme: jekyll-theme-primer
+
+github:
+  private: false
+  license:
+    name: GPL-3.0
+  source:
+    branch: null
+    path: null
+  repository_url: null
+  
+title: Googlers Repo
+description: Welcome to the private repository of Der_Googler (also known as DerGoogler)!
